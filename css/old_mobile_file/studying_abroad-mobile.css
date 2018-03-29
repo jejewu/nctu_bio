@@ -1,0 +1,202 @@
+
+.page-sa{
+    background-color:white;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:170vh;
+    width: 100vw;
+    overflow: hidden;
+    border: 0px green solid;
+
+}
+
+        .container{
+                height: 170vh;
+                /*overflow-y: scroll;*/
+        }
+
+.sa-container{
+    position: absolute;
+    top: 20vh;
+    width: 100vw;
+    height: 150vh;
+    overflow-y: visible;
+    border: 0px orange solid;
+}
+
+.v-menu-btn {
+    background-color: #FFFFFF;
+    opacity: 0;
+    position: absolute;
+    top: 50px;
+    width: 100vw;
+    height: 60px;
+    cursor: pointer;
+    z-index: 12;
+}
+
+
+.bottom-v-menu-btn {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    opacity: 1;
+    background-color: #f1f1f1;
+    width: 100vw;
+    height: 60px;
+    text-align: center;
+    z-index: 10;
+}
+
+
+/* Dropdown button on hover & focus */
+.v-menu-btn:hover, .v-menu-btn:focus {
+    background-color: #FFFFFF;
+    opacity: 0.2;
+}
+/* The container <div> - needed to position the dropdown content */
+.v-menu {
+    width: 100vw;
+    position: absolute;
+    top: 50px;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.v-menu-content {
+    font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+    display: none;
+    position: absolute;
+    top: 110px;
+    min-width: 100vw;
+    background-color: #FFFFFF;
+    box-shadow: 0px 16px 16px 0px rgba(0,0,0,0.2);
+    z-index: 11;
+}
+
+.v-menu-icon{
+    z-index: 11;
+    background: url(../image/Mobile_500x600/btn_down_arrow_500x600.svg);
+    margin-left: 47%;
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+}
+/* Links inside the dropdown */
+.v-menu-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.v-menu-content a:hover {background-color: #f1f1f1}
+.v-show{display: block;}
+.v-menu-container {
+    display: inline-block;
+    cursor: pointer;
+    z-index: 11;
+
+}
+    .v-menu-title{
+        font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+        color: #000000;
+        font-size: 16px;
+        line-height: 2.2em;
+        z-index: 11;
+    }
+    .v-menu-change .v-menu-title{
+    }
+    .menu-list{
+        font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+        font-size: 1em;
+        color: #000000;
+        line-height: 1em;
+        text-align: center;
+    }
+
+
+.sa-img{
+    position: absolute;
+    top: 20vh;
+    width: 100vw;
+    height: 35vh;
+    background-image: url(../image/banner_01.jpg);
+    background-size: cover;
+
+}
+.sa-img_block{
+    width:100vw;
+    height: 35vh;
+}
+.sa-littleTitle{
+    color: white; /*white*/
+    padding-top: 5vh;
+    margin-left: 37px;
+}
+.sa-btn{
+    float: left;
+    width: 27px;
+    height: 27px;
+    margin-top: 2vh;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.sa-btn_prev{
+    margin-left:37px;
+    background-image: url(../image/btn/btn_left.png);
+    background-size: cover;
+}.sa-btn_prev:hover{ background-image: url(../image/btn/btn_left_rv.png);}
+.sa-btn_next{
+    background-image: url(../image/btn/btn_right.png);
+    background-size: cover;
+}.sa-btn_next:hover{ background-image: url(../image/btn/btn_right_rv.png);}
+.sa-btn_download{
+    background-image: url(../image/btn/btn_download.png);
+    background-size: cover;
+}.sa-btn_download:hover{ background-image: url(../image/btn/btn_download_rv.png);}
+
+.sa-collegename{
+    clear: both;
+    color: white;
+    padding-top: 1vh;
+    margin-left: 37px;
+    line-height: 20px;
+}
+.sa-title{
+    color: white;
+    padding-top: 1vh;
+    margin-left: 37px;
+    font-size: 2em;
+    line-height: 30px;
+}
+.sa-engtitle{
+    color: white;
+    padding-top: 0.7vh;
+    margin-left: 37px;
+    letter-spacing: 0px;
+}
+.sa-applicant{
+    margin-top: 5vh;
+    margin-left: 37px;
+    width: 90vw;
+}
+.sa-documents{
+    margin-top: 5vh;
+    margin-left: 37px;
+    width: 90vw;
+}
+.sa-due_date{
+    margin-top: 5vh;
+    margin-left: 37px;
+    width: 90vw;
+}
+.sa-hand_in_loc{
+    margin-top: 5vh;
+    margin-left: 37px;
+    margin-bottom: 10vh;
+    width: 90vw;
+}
+
+

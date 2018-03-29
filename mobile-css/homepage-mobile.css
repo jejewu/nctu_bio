@@ -1,0 +1,563 @@
+.mobile-hidden{
+	display: none;
+}
+/************footer***********/
+/*
+.mobile-foot{
+        z-index: 11;
+        position: absolute;
+        top: 82vh;
+        width: 100vw;
+        height: 18vh;
+	border-radius: 3px 3px 0px 0px;
+        background-color: rgba(0,0,0,0.7);
+ 	overflow: hidden;
+}
+.foot-top{
+        position: absolute;
+        margin-top: 1.5vh;
+	right: -10px;
+        width: 190px;
+        border: 0px orange solid;
+}
+.foot-font-top{
+  	font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+	font-weight: 350;
+	-webkit-transform:scale(0.75);
+	font-size: 0.67em;
+	color: rgba(255, 255, 255, 1);
+}
+.foot-line{
+	position: absolute;
+	left: 5vw;
+	width: 90vw;
+ 	margin-top: 69px;
+        margin-bottom: 8px;
+	height: 1px;
+	background: white;
+	border: 0px orange solid;
+}
+.foot-bottom{
+   	width: 320px;
+   	height: 11px;
+	right: -35px;
+   	position: absolute;
+   	margin-top: 78px;
+   	overflow: hidden;
+    	border: solid 0px red;
+}
+.foot-font-bottom{
+	font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+        font-weight: 350;
+        -webkit-transform: scale(0.75);
+        font-size: 0.67em;
+        color: rgba(255, 255, 255, 1);
+	line-height: 11px;
+	border: 0px orange solid;
+}
+*/
+.icon{
+	display: none;
+}
+
+/************homepage***********/
+.hp-p01{/*
+    background-image:url(image/bg/01.jpg),url(image/p4.png);
+    background-size:cover,auto;
+    background-repeat: no-repeat,repeat;
+    height:100vh;
+    transition: all 1.5s ease-in-out;
+    */
+    display: none;
+}
+/*
+.hp-p01_0{ background-image:url(image/bg/index_bg01.jpg); }
+.hp-p01_1{ background-image:url(image/bg/index_bg02.jpg); }
+.hp-p01_2{ background-image:url(image/bg/index_bg03.jpg); }
+.hp-p01_3{ background-image:url(image/bg/index_bg04.jpg); }
+.hp-p01_4{ background-image:url(image/bg/index_bg05.jpg); }
+*/
+.hp{
+    width: 100vw;
+    overflow-x: hidden;
+}
+.hp-p02{
+    background-image:url(../image/Mobile_500x600/02_500x600.png);/*,url(../image/p4.png);*/
+    background-size:cover,auto;
+    background-repeat: repeat;
+    height:100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.hp-p03, .hp-p04, .hp-p05{
+/*    background-image:url(image/bg/03.png),url(image/p4.png);
+    background-size:cover,auto;
+    background-repeat: no-repeat,repeat;
+    height:100vh;
+*/
+    display: none;
+}
+	.container{
+		position: absolute;
+		width: 100vw;
+		height: 100vh;
+                overflow-x: hidden;
+		/*overflow-y: visible;*/
+ 		/*border: 1px black solid;*/
+	}
+	/*page1*/
+	.language-opt{
+		position:absolute;
+		top: 140px;
+		left: 40%;
+		font-size:0.8em;
+	}
+	.choose-left{
+		float: left;
+		width: 60px;
+		height: 24px;	
+		border:solid 2px #000000;
+		-moz-border-radius-topleft: 15px;
+		-moz-border-radius-bottomleft:15px;
+		-webkit-border-top-left-radius:15px;
+		-webkit-border-bottom-left-radius:15px;
+		border-top-left-radius:15px;
+		border-bottom-left-radius:15px;
+		z-index: 11;
+	    text-align:center;
+	    line-height:25px;
+	}
+	.normal-left{
+		float:left;
+		width: 60px;
+		height: 24px;
+		border:solid 2px #646464;
+		border-right-style: none;
+		-moz-border-radius-topleft: 15px;
+		-moz-border-radius-bottomleft:15px;
+		-webkit-border-top-left-radius:15px;
+		-webkit-border-bottom-left-radius:15px;
+		border-top-left-radius:15px;
+		border-bottom-left-radius:15px;
+		z-index: 10;
+		text-align:center;
+	    line-height:25px;
+	}
+	.choose-right{
+		float:left;
+		width: 60px;
+		height: 24px;
+		border:solid 2px #000000;
+		-moz-border-radius-topright:15px;
+		-moz-border-radius-bottomright:15px;
+		-webkit-border-top-right-radius:15px;
+		-webkit-border-bottom-right-radius:15px;
+		border-top-right-radius:15px;
+		border-bottom-right-radius:15px;
+		z-index: 11;
+	    text-align:center;
+	}
+	.normal-right{
+		float:left;
+		width: 60px;
+		height: 24px;
+		border:solid 2px #646464;
+		border-left-style: none;
+		-moz-border-radius-topright:15px;
+		-moz-border-radius-bottomright:15px;
+		-webkit-border-top-right-radius:15px;
+		-webkit-border-bottom-right-radius:15px;
+		border-top-right-radius:15px;
+		border-bottom-right-radius:15px;
+		z-index: 10;
+	    text-align:center;
+	    line-height:25px;
+	}
+	/*page2*/
+    .bgcontainer{
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        background: rgba(255,255,255,0.4);
+    }
+    .hp-container{
+        position: absolute;
+	top: 14.5vh;
+	/*left: 15vw;*/
+        width: 100vw;
+        height: 85.5vh;
+	overflow-y: hidden;
+        /*background: rgba(255,255,255,0.8);*/
+    }
+/*
+    #hp-wrapper{
+        width: 1800px;
+ 	border: 1px white solid;
+        transform: translate3d(0, 0, 0);
+        transition: opacity .5s ease-in-out, transform .1s ease-in-out .5s;
+    }
+*/
+    .hp-wrapper-fade{
+        opacity: 1;
+        transition: opacity .5s ease-in-out;
+    }
+    .hp-news{
+        float: left;
+        position: relative;
+        width: 100vw;
+        height: 85.5vh;
+        overflow: hidden;
+        border: 0px green solid;
+    }
+    .hidden_news{
+	display: none;
+    }
+    /*the content of the latest news*/
+    .hp-newsheader{
+	margin-left: 15vw;
+        width: 70vw;
+	height: 20px;
+	overflow: hidden;
+	border: 0px orange solid;
+    }
+    .mobile-nl-header{
+	margin-left: 0px;
+  	height:4vh;
+        margin-bottom: 8px;
+        width: 80vw;
+        border: 0px orange solid;
+     }
+    .hp-newstitle{
+        float: left;
+	margin-left: 3vw;
+	margin-right: 3vw;
+        font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+    	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.1em;
+	color: #002D5A;
+    }
+    .hp-moreinfo{
+        float:left;
+        width: 16px;
+        height: 16px;
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-top: 3px;
+        cursor: pointer;
+        background-image: url(../image/Mobile_500x600/btn_more2.svg);
+	background-size: contain;
+  	background-repeat: no-repeat;
+    }
+
+    .icon_down, .icon_up{
+	position: absolute;
+	top: 0vh;
+	height: 100%;
+    }
+    .right_icon, .left_icon{
+	position: absolute;
+    }
+
+/*
+    .hp-pre_news{
+	position: absolute;
+	left: 0px;
+	top: 0vh;
+	height: 100%;
+	width: 10vmin;
+	cursor: pointer;
+    }
+    .hp-next_news{
+	position: absolute;
+        right: 0px;
+        top: 0vh;
+        height: 100%;
+        width: 10vmin;
+        cursor: pointer;
+    }
+    .hp-left_icon{
+    	position: absolute;
+	top: 35vh;
+	left: 3vw;
+        width: 5vmin;
+        height: 5vmin;
+        cursor: pointer;
+        background-image: url(../image/Mobile_500x600/btn_left_arrow_k_500x600.svg);
+        background-size: contain;
+	background-repeat: no-repeat;
+    }
+    .hp-left_icon:hover { background-image: url(../image/Mobile_500x600/btn_left_arrow_w_500x600.svg); }
+    .hp-right_icon{
+	position: absolute;
+        top: 35vh;
+        right: 3vw;
+        width: 5vmin;
+        height: 5vmin;
+        cursor: pointer;
+        background-image: url(../image/Mobile_500x600/btn_right_arrow_k_500x600.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .hp-right_icon:hover { background-image: url(../image/Mobile_500x600/btn_right_arrow_w_500x600.svg); }
+*/
+    .hp-news-icon{
+	/*display: none;*/
+        float: left;
+        margin: 1px;
+        height: 20px;
+        width: 20px;
+    }
+
+    #hp-news-icon1{
+        background-image: url(../image/icon/icon_07.svg);
+        background-size: contain;
+    }
+    #hp-news-icon2{
+        background-image: url(../image/icon/icon_08.svg);
+        background-size: contain;
+    }
+    #hp-news-icon3{
+        background-image: url(../image/icon/icon_09.svg);
+        background-size: contain;
+    }
+    #hp-news-icon4{
+        background-image: url(../image/icon/icon_10.svg);
+        background-size: contain;
+    }
+
+    .hp-newsbody{
+        height: 85.5vh;
+        margin-left: 15vw;
+        width: 72vw;
+     	overflow-y: hidden;
+        /*border: 2px green solid;*/
+	font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+	overflow: hidden;
+	color: rgba(80, 80, 80, 1);
+    }
+    .hp-news_item_date{
+        font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+        font-weight: 300;
+        font-size: 11px;
+        line-height:16px;
+ 	margin-top: 18px;
+	letter-spacing: 0.05em;
+	font-style: italic;
+    }
+    .hp-news_item_title{
+	font-size: 14px;
+	font-weight: 300;
+        font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+        letter-spacing: 0.1em;
+  	line-height: 20px;
+        color: #505050;
+    }
+    hr.news_line{
+        border: 0;
+        width: 70vw;
+	height: 0px;
+	background: rgba(120, 120, 120, 1);
+	margin-top: 7px;
+	margin-bottom: 17px;
+    }
+    /**/
+
+	/*page3*/
+	.hp-field-link-before{
+		display: none;
+	}
+        /*page4*/
+        .hp-gallery-link-before{
+                display: none;
+        }
+
+	/*page5*/
+
+	#p5-left{
+		display: none;
+	}
+	#p5-right{
+		display: none;
+	}
+	#p5-left-button{
+		display: none;
+	}
+	#p5-right-button{
+		display: none;
+	}
+
+
+#p5-left-button{display: none;}
+#p5-right-button{display: none;}
+/*    插入導覽列     */
+.hp-nav{
+    display: none;
+}
+.hp li{
+    display: none;
+}
+.hp h1{
+    display: none;
+}
+
+/*     news list     */
+.nl-page{
+    background-image:url(../image/p4.png);
+    background-size:auto;
+    background-repeat: repeat;
+    width: 100vw;
+    height:100vh;
+}
+.nl-container{
+    position: absolute;
+    top: 14.5vh;
+    left: 15vw;
+    width: 70vw;
+    height: 70vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    border: solid 0px blue;
+}
+.nl-list_item{
+    float: none;
+   
+    border: solid 0px green;
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.nl-news_item_date{
+    margin-top: 8px;
+    margin-bottom: 5px;
+    line-height: 16px;
+    font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+    font-weight: 300;
+    font-size: 11px;
+    text-align: justify;
+    color: rgba(80,80,80,1);
+    float: none;
+    letter-spacing: 0.05em;
+    font-style: italic;
+}
+.nl-news_item_title{
+    border: 0px solid blue;
+    width: 70vw;
+    line-height: 20px;
+    font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: justify;
+    letter-spacing: 0.1em;
+    color: rgba(80,80,80,1);
+}
+hr.newlist_line{
+    border: 0;
+    height: 1px;
+    width: 12px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background: #505050;
+}
+.newslist_nav{
+    position: absolute;
+    left: calc( 50vw - 122px );
+    /*left 10%*/
+    bottom: 5%;
+    width: auto;
+    border: solid 0px black;
+    height: 28px;
+    overflow: hidden;
+}
+.nl-first_page{
+    float:left;
+    width: 22px;
+    height:22px;
+    margin-right: 9px;
+    background-image: url(../image/btn/btn_leftest.svg);
+    background-size: cover;
+}
+.nl-first_page:hover{ background-image: url(../image/btn/btn_leftest_rv.svg); }
+.nl-prev_page{
+    float:left;
+    width: 22px;
+    height:22px;
+    margin-right: 9px;
+    background-image: url(../image/btn/btn_left.svg);
+    background-size: cover;
+}
+.nl-prev_page:hover{  background-image: url(../image/btn/btn_left_rv.svg); }
+.nl-next_page{
+    float:left;
+    width: 22px;
+    height:22px;
+    margin-right: 9px;
+    background-image: url(../image/btn/btn_right.svg);
+    background-size: cover;
+}
+.nl-next_page:hover{ background-image: url(../image/btn/btn_right_rv.svg); }
+.nl-last_page{
+    float:left;
+    width: 22px;
+    height:22px;
+    margin-right: 9px;
+    background-image: url(../image/btn/btn_rightest.svg);
+    background-size: cover;
+}
+.nl-last_page:hover{  background-image: url(../image/btn/btn_rightest_rv.svg); }
+.nl-page_num{
+    float:left;
+    width: 22px;
+    height:22px;
+    margin-right: 9px;
+    border-radius: 50%;
+    background: #323232;
+    color: white;
+    text-align: center;
+    line-height: 22px;
+    font-size: 0.4em;
+}
+.nl-page_max_num{
+    float:left;
+    width: 22px;
+    height:22px;
+    margin-right: 9px;
+    border-radius: 50%;
+    background: #969696;
+    color: white;
+    text-align: center;
+    line-height: 22px;
+    font-size: 0.4em;
+}
+hr.nl-vertical_line{
+    float: left;
+    border: 0;
+    height: 20px;
+    width: 1px;
+    margin-right: 9px;
+    margin-top: 4px;
+    background: #505050;
+}
+#jump_to{
+    float: left;
+    border: solid 1px #323232;
+    border-radius: 4px;
+    padding-left: 5px;
+    width: 48px;
+    height: 20px;
+    background: rgba(1,1,1,0);
+}
+.nl-go{
+    float: left;
+    margin-top: 3px;
+    margin-left: -20px;
+    width: 14px;
+    height:14px;
+    background-image: url(../image/btn/btn_ok.svg);
+    background-size: cover;
+}
+.nl-go:hover{  background-image: url(../image/btn/btn_ok_rv.svg); }
+

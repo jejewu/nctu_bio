@@ -1,0 +1,437 @@
+.intro-mobile-container {
+    height: 100vh;
+    border: 0px orange solid;
+    overflow: hidden;
+}
+.page-intro{
+    background-image:url(../image/Mobile_500x600/15_500x600.jpg);
+    /*,url(image/p4.png);*/
+    background-size:cover,auto;
+    background-repeat: no-repeat,repeat;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+#intro-container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /*overflow-y: visible;*/
+    overflow: hidden;
+    border: 0px white solid;
+
+}
+#intro-wrapper{
+
+}
+.intro-wrapper-fade{
+/*    opacity: 1;
+    transition: opacity .5s ease-in-out;
+*/
+    display: none;
+}
+.intro-subpage-1{
+    float: left;
+    width: 70%;
+    left: 15%;
+    height: 70%;
+    top: 14.5%;
+    border: 0px green solid;
+    white-space: normal;
+    position: absolute;
+}
+
+.intro-subpage{
+    display: none;
+}
+.intro-littleTitle{
+    line-height: 20px;
+    font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    color: rgba(0, 0, 0, 1);
+    z-index: 2;
+}
+.intro-bigTitle{
+    font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0,0,0,1);
+    letter-spacing: 0.2em;
+    z-index: 2;
+}
+.intro-button{
+    display: none;
+}
+hr.intro-title{
+    border: 0;
+    width: 100%;
+    margin-top: 9px;
+    margin-bottom: 15px;
+    height: 1px;
+    background: rgba(50, 50, 50, 1);
+}
+/**1st page**/
+.intro-first-page-text{
+    border: 0px red solid;
+    font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgba(50, 50, 50, 1);
+    text-align: justify;
+}
+
+
+.intro-second-page-left{
+    display: none;
+}
+.intro-second-page-right{
+    display: none;
+}
+.intro-p2-block1{
+    display: none;
+}
+.intro-p2-text1{
+    display: none;
+}
+.intro-p2-space{
+    display: none;
+}
+.intro-p2-text2{
+    display: none;
+}
+
+
+/**3rd page**/
+.intro-p3-block{
+    display: none;
+}
+.intro-p3-block1{
+    display: none;
+}
+.intro-p3-block2{
+    display: none;
+}
+.intro-p3-text{
+    display: none;
+}
+.intro-p3-text-E{
+    display: none;
+}
+
+.intro-fourth-page-left{
+    display: none;
+}
+.intro-fourth-page-middle{
+    display: none;
+}
+.intro-fourth-page-right{
+    display: none;
+}
+.intro-p4-text1{
+    display: none;
+}
+.intro-p4-block1{
+    display: none;
+}
+.intro-p4-block2{
+    display: none;
+}
+.intro-p4-block3{
+    display: none;
+}
+.intro-p4-text2{
+    display: none;
+}
+.intro-p4-text3{
+    display: none;
+}
+/*end of page intro*/
+/* page: dean */
+.page-dean{
+    background-image:url(../image/Mobile_500x600/dean2_500x600.jpg);
+    background-size:cover, auto;
+    background-repeat: repeat;
+    /*height: 200vh;*/
+    height: 100vh;
+    overflow: hidden;
+    width: 100vw;
+}
+.mobile-dean{
+	height: auto;
+  	margin-top: 65vh;
+ 	margin-left: 15vw;
+        width: 55vw;
+	height: 20vh;
+	overflow: hidden;
+	border: 1px orange solid;
+    	z-index: 2;
+}
+.dean-triangle{
+    position: absolute;
+    z-index: 0;
+    left: 0vw;
+    bottom: 10vh;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 0 100vw 100vw 0;
+    border-color: transparent transparent rgba(255,255,255,0.75) transparent;
+}
+.dean-rectangle{
+    position: absolute;
+    bottom: 0vh;
+    left: 0vw;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgba(255,255,255,0.75);
+}
+.dean-bigTitle{
+    font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+    float: left;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.2em;
+    color: #000000;
+    margin-top: 16px;
+    z-index: 2;
+}
+.dean-littleTitle{
+    float: left;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    color: #000000;
+    margin-top: 20px;
+    margin-left: 2px;
+    z-index: 2;
+}
+.dean-cv_icon{
+/*
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    height: 150px;
+    width: 150px;
+    background: url(../image/Mobile_500x600/dean_500x600.jpg);
+    border-radius: 50%;
+    box-shadow: 0px 0px 4px rgba(0%, 0%, 0%, 0.4);
+*/
+    display: none;
+}
+.dean-option-wrapper{
+    position: relative;
+    margin-top: 7px;
+    width: 55vw;
+    margin-top: 65vh;
+    margin-left: 15vw;
+    height: 10vh;
+    overflow: hidden;
+    border: 0px orange solid;
+}
+.dean-width3{ margin-top: 45px;}
+.dean-height3{ height: auto; z-index: 2;}
+
+.dean-block{
+    display: none;
+}
+.dean-block-text{
+    display: none;
+}
+
+
+/*.dean-option-container:hover .dean-block{
+    display: none;
+}*/
+
+/* page: vice-dean */
+.page-vice_dean{
+    /*background-image:url(../image/Mobile_500x600/17_500x600.jpg);
+    background-size:cover, auto;
+    background-repeat: no-repeat, repeat;
+    */
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.mobile-vice_dean{
+ 	border: 0px green solid;
+  	margin-top: 14.5vh;
+	height: 85.5vh;
+        width: 100vw;
+ 	overflow: hidden;
+}
+#vice_dean-container{
+/*
+    position: absolute;
+    top: 14.5%;
+    left: 15%;
+    width: 85%;
+    height: 70%;
+    border: 0px black solid;
+    overflow-y: auto;
+    overflow-x: hidden;
+*/
+    /*overflow-y: scroll;*/
+}
+.vd-block{
+    width: 100vw;
+    height: 35vh;
+    border: solid 0px orange;
+/*
+    height: 150px;
+    margin-top: 20px;
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 4px rgba(0%, 0%, 0%, 0.4);
+*/
+}
+.vd-chen{
+    margin-top: 3.5vh;
+    background-image: url(../image/Mobile_500x600/assistant_dean_01_500x600.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vd-yang{
+    background-image: url(../image/Mobile_500x600/assistant_dean_02_500x600.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vd-left_icon{
+    background-image: url(../image/Mobile_500x600/btn_left_arrow_w_500x600.svg);
+    position: fixed;
+    top: 40vh;
+    left: 3vw;
+    width: 5vmin;
+    height: 5vmin;
+    cursor: pointer;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.vd-left_icon :hover{
+    background-image: url(../image/Mobile_500x600/btn_left_arrow_k_500x600.svg);
+}
+.vd-text_block{
+    position: absolute;
+    height: auto;
+    border: solid 0px blue;
+}
+.vd-m1{
+    right: 10vw;
+    top: 33vh;
+}
+.vd-m2{	
+    left: 10vw;
+    top: 75vh;
+}
+.vd-bigTitle{ /* 3 文本規範-副標題 */
+    float: left;
+}
+.vd-littleTitle{/* 2  文本規範-小標題 */
+    margin-left: 2px;
+    margin-top: 5px;
+}
+.vd-cv_icon{
+    display: none;
+}
+
+/*
+.icon_down_vice_dean{
+	bottom: 5%;
+	overflow: hidden;
+}
+*/
+/* page: staff */
+.page-staff{
+    background-image:url(../image/Mobile_500x600/18_500x600.jpg);
+    background-size:cover,auto;
+    background-repeat: no-repeat,repeat;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.mobile-staff{
+	height: 100%;
+        width: 100%;
+        overflow: hidden;
+}
+#staff-container{
+    position: absolute;
+    top: 14.5%;
+    left: 15%;
+    width: 85%;
+    height: 70%;
+    overflow: hidden;
+}
+.staff-block{
+    width: 60vw;
+    border: 0px black solid; 
+}
+.staff-mobile-space{
+	height: 50px;
+}
+.staff-text1{
+	position: relative;
+	float: left;
+	height: 12vh;
+	width: 22vw;
+	border: solid 0px red;
+}
+.staff-text2{
+        position: relative;
+        height: 12vh;
+        width: 70vw;
+        border: solid 0px blue;
+}
+/*
+.staff-photo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 4px rgba(0%, 0%, 0%, 0.4);
+}
+.staff-wu{
+    background-image: url(../image/Mobile_500x600/staff_01_500x600.jpg);
+    background-size:cover;
+}
+.staff-liu{
+    background-image: url(../image/Mobile_500x600/staff_02_500x600.jpg);
+    background-size:cover;
+}
+.staff-hsieh{
+    background-image: url(../image/Mobile_500x600/staff_03_500x600.jpg);
+    background-size:cover;
+}
+*/
+.staff-mobile-line{
+    height: 1px;
+    width: 25px;
+    margin-bottom: 4vh;
+    background-color: black;
+}
+.staff-littleTitle{
+    font-family:'Noto Sans TC', '微軟正黑體', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    color: #000000;
+    letter-spacing: 0.05em;
+}
+.staff-bigTitle{
+    font-family:'Noto Sans TC', '微軟正黑體', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.2em;
+    color: #000000;
+}
+.staff-text{
+    padding-top: 2px;
+}
+/*
+.icon_down_staff{
+        bottom: 5vh;
+	left: 45vw;
+	overflow: hidden;
+}
+*/

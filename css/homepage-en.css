@@ -1,0 +1,47 @@
+/*footer*/
+#foot-font-1 {
+    padding-top: 4vh;
+    font-size: 1.1em;
+    font-weight: 350; 
+    letter-spacing: 0.1em;
+}
+#foot-font-2 {
+    display: none;
+}
+#foot-font-3 {
+    font-size:0.7em;
+}
+/**/
+/*the content of the latest news*/
+.hp-newstitle{
+    font-size: 1.6em;
+    letter-spacing: 0.05em;
+}
+.hp-moreinfo, .hp-nextnews{
+    padding-top: 1.5vh;
+}
+.hp-news_item_title{
+    letter-spacing: 0.05em;
+}
+/**/
+#hp-gallery-link{
+    width: 25vw;
+}
+#hp-gallery-font{
+    font-weight: 200;
+    font-size: 1.3em;
+    letter-spacing:0.02em;
+}
+/**/
+#p5-right-button, #p5-left-button {
+    width: 18vw;
+    font-size: 1.2em; 
+    letter-spacing: 0.02em;
+    font-weight: 200;
+}
+#p5-left-button {
+    left: 40%;
+}
+#p5-right-button {
+    left: 73%;
+}

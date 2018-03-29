@@ -1,0 +1,240 @@
+.page-admissions{
+    height:140vh;
+    width: 100vw;
+    background-image: url(../image/bg/20.jpg);
+    background-size: cover;
+    border: solid 0px black;
+    overflow: hidden;
+}
+.container{
+    height: 140vh;
+}
+.ad-container{
+    position:absolute;
+    top: 20vh;
+    left: 10vw;
+    width: 90vw;
+    height: 120vh;
+    overflow-y: visible;
+}
+.ad-l_title{
+    line-height: 4vh;
+    border: solid 0px orange;
+}
+.ad-b_title{
+    font-size: 2em;
+    line-height: 10vh;
+    border: solid 0px orange;
+}
+.ad-btn{
+    float: left;
+    width: 28px;
+    height: 28px;
+    margin-top: 1vh;
+    margin-right: 10px;
+    margin-bottom: 1vh;
+    background-size: contain;
+    cursor: pointer;
+}
+.ad-btn_left{ background-image: url(../image/btn/btn_left.svg); }
+.ad-btn_left:hover{ background-image: url(../image/btn/btn_left_rv.svg); }
+.ad-btn_right{ background-image: url(../image/btn/btn_right.svg); }
+.ad-btn_right:hover{ background-image: url(../image/btn/btn_right_rv.svg); }
+.ad-rec_item{
+    width: 65vw;
+    height: 4vh;
+    text-align: center;
+    line-height: 5vh;
+    cursor: pointer;
+    border: solid 0px orange;
+}
+.ad-rec_item_w{
+    /*width: 11vw;*/
+}
+.ad-block1{
+    /*float: left;*/
+    height: 15vh;
+    width: 65vw;
+    margin-top: 5vh;
+    margin-right: 4vw;
+    opacity: 0.9;
+    border: solid 0px green;
+}
+.ad-block1_w{ 
+}
+.ad-block_r_extend{
+    height: 15vh;
+    color: white;
+    background: rgba(230, 50, 30, 0.7);
+    border: solid 0px red;
+}
+.ad-block_r{
+    height: 5vh;
+    border: solid 0px red;
+    overflow: hidden;
+}
+.ad-text_block1{
+    /*float: left;
+    width: 20vw;
+    padding: 1vh;
+    background: rgba(255,255,255,0.2);
+    border: solid 0px blue;
+    */
+    display: none;
+    opacity: 0;
+    height: 0vh;
+    overflow: hidden;
+}
+.ad-tb1, .ad-tb2, .ad-tb3, .ad-tb4{
+    display: none;
+    opacity: 0;
+    
+}
+.ad-text_block1_w{
+    /*float: right;*/
+}
+.ad-link{
+    float: left;
+    width: 65vw;
+    text-align: center;
+    height: 4vh;
+    font-size: 0.8em;
+    line-height: 4vh;
+    margin-bottom: 0vh;
+    border: 0px black solid;
+}
+.text{
+}
+
+.ad-link:hover{
+    background: rgba(255, 255, 255, 0.2);
+    transition: all .5s ease-in-out;
+}
+
+.ad-link_margin{
+    float: left;
+    margin-top: 1.5vh;
+    margin-bottom: 1vh;
+}
+.ad-bottom_info{
+    position: fixed;
+    bottom: 0px; /*-15vmin;*/
+    right: 0px; /*-19vmin;*/
+    width: 200px;
+    height: 100px;
+    border-top-right-radius: 200px;
+    border-top-left-radius: 200px;
+    background: rgba(0, 0, 0, 0.6);
+    transition: all 1s ease-in-out;
+    color: white;
+}
+/*
+.ad-bottom_info:hover{
+    bottom: 0vmin;
+    right: -5vmin;
+}*/
+.ad-bottom_title{
+    margin-top: 16px;
+    text-align: center;
+    font-size: 0.9em;
+    line-height: 25px;
+}
+.ad-bottom_text{
+    margin-top: 5px;
+    text-align: center;
+    line-height: 10px;
+    font-size: 0.7em;
+}
+.ad-container1{display:none;}
+.ad-master_item{
+    margin-top: 0.2vh;
+    padding-left: 0.8vw;
+    width: 23vw;
+    height: 5vh;
+    line-height: 5vh;
+    cursor: pointer;
+    border: solid 0px orange;
+    overflow: hidden;
+}
+.ad-master_item_active{
+    color: white;
+    background: rgba(255, 150, 45, 0.8);
+}
+.ad-block2{
+    position: absolute;
+    top: 15vh;
+    left: 36vw;
+    width: 34vw;
+    background: rgba(255,255,255,0.5);
+    border: solid 0px orange;
+    display: none;
+}
+.ad-block2-link{
+    float: left;
+    width: 6vw;
+    border: solid 0px orange;
+}
+.ad-link2{
+    width: 80%;
+    padding-left: 20%;
+    height: 3vh;
+    line-height: 3vh;
+    margin-bottom: 0.5vh;
+}
+.ad-link2:hover{
+    background: rgba(50, 50, 50, 0.8);
+    color: white;
+    transition: all .5s ease-in-out;
+}
+.ad-link2_margin{
+    margin-top: 2.4vh;
+}
+.ad-text_block2{
+    float: left;
+    width: 20vw;
+    margin-left: 3vw;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+    padding: 1vh;
+    border: solid 0px blue;
+}
+.ad-tri_block{
+    position: relative;
+    float: left;
+    width: 0;
+    height: 28vmin;
+    border-style: solid;
+    border-width: 28vmin 28vmin 0 0;
+    border-color: rgba(240, 190, 35, 0.8) transparent transparent transparent;
+    color: white;
+    margin-right: 8vmin;
+}
+.ad-tri_text_block{
+    position: relative;
+    float: left;
+    width: 18vw;
+    height: 20vh;
+    margin-left: 3vw;
+    border: solid 0px green;
+}
+.ad-tri_subtitled{
+    position: relative;
+    margin-left:2.2vmin;
+    margin-top: -26.5vmin;
+    width: 20vmin;
+}
+.ad-link3{
+    width: 10vmin;
+    padding-left: 2.2vmin;
+    height: 3vmin;
+    line-height: 3vmin;
+    margin-bottom: 0.5vmin;
+}
+.ad-link3:hover{
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    transition: all .5s ease-in-out;
+}
+.ad-link3_margin{
+    margin-top: 2.4vh;
+}

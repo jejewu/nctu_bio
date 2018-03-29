@@ -1,0 +1,623 @@
+/*
+Theme Name:nctu-soc
+Theme URI: http://wordpress.org/
+Description: 交大理學院佈景主題
+Version:1.0
+Author:TaiTC
+Author URI:http://wordpress.org
+Tags:Wordpress
+*/
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+
+li li, li p, li span, li p span, p span{font-size:12px;} /* 歸零 */
+*{font-family:'Noto Sans TC', '微軟正黑體', sans-serif;font-size:1em;margin:0;padding:0;-webkit-font-smoothing: antialiased;}
+body{overflow-x: hidden; font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;font-size:1em;margin:0;padding:0; -webkit-font-smoothing: antialiased;}
+img {border:none;}
+a{font-family:'Noto Sans TC', '微軟正黑體', sans-serif; text-decoration:none; color:#646464;}
+.clear_both{
+    clear: both;
+}
+
+/***font***/
+.title{
+    font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+    font-size: 16px; /*5em*/
+    font-weight: 400;
+    letter-spacing: 0.2em; /*0.1em*/
+}
+.subtitle{
+    font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+    font-size: 14px; /*3.166em*/
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.1em; /*0.1em*/ 
+}
+/*
+.subtitled{
+    font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+    font-weight: 350;
+    line-height: 34px;
+    letter-spacing: 1.2px; 
+}
+*/
+.text{
+    font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+    font-size: 12px; /*1em*/
+    font-weight: 300;
+    line-height: 20px; /*1.833em*/
+    letter-spacing: 0.05em;  /*0.05em*/
+}
+.notes{
+    font-family: "Noto Sans TC", '微軟正黑體', sans-serif;
+    font-size: 11px;
+    line-height: 16px;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    font-style: italic;
+}
+.mobile-space{
+    border: solid 0px black;
+    height: 10vh;
+}
+/************text***********/
+#nav_menu{
+	display: none;
+}
+#nav_menu_1{
+	display: none;
+}
+#nav_menu_2{
+	display: none;
+}
+#nav_menu_3{
+	display: none;
+}
+#nav_menu_4{
+        display: none;
+}
+#nav_menu_5{
+        display: none;
+}
+#nav_menu_6{
+        display: none;
+}
+/*
+#foot-font-1{
+	color:white;
+	font-family:'Noto Sans TC', '微軟正黑體', sans-serif;
+	font-size:0.6em; 
+	margin-top:10px;
+	margin-left:10px;
+	padding:0; 
+	font-weight: 350; 
+	letter-spacing: 0.1em;
+}
+#foot-font-2{
+	color:white;
+	font-family:'Noto Sans TC', '微軟正黑體', sans-serif;
+	font-size:1em;
+	margin-top:1px;
+	margin-left:10px;
+	padding:0;
+	font-weight: 350;
+	letter-spacing: 0.5em; 
+}
+#foot-font-3{
+	color:white;
+	font-family:'Noto Sans TC', '微軟正黑體', sans-serif;
+	font-size:0.5em;
+	margin-top:5px;
+	margin-left:10px;
+	padding:0;
+	font-weight: 350;
+}
+#foot-font-4{
+	color:white;
+	font-family:'Noto Sans TC', '微軟正黑體', sans-serif;
+	font-size:0.8em; 
+	margin-top:2vw;
+	margin-left:2vw;
+        margin-right: 5vw;
+	padding:0; 
+	font-weight: 350;
+	line-height: 20px; 
+	letter-spacing: 0.1em;
+}
+*/
+/************header***********/
+.mobilehidden{
+	display: none;
+        opacity: 0;
+}
+.mobile-header{ /*交通大學*/
+	position: fixed;
+	width: 10vw;
+	height: 5vh;
+	left: 20vw;
+	top: 2vh;
+	font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+	font-weight: 350;
+	font-size: 0.83em;
+	line-height: 3vh;
+	letter-spacing: 0.05em;
+	color: rgba(50, 50, 50, 1);
+}
+.mobile-header-line{
+	position: fixed;
+	height: 6vh;
+	width: 1px;
+	top: 2vh;
+	left: 32vw;
+	background:rgba(50, 50, 50, 1); 
+}
+.mobile_header{
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+    z-index: 20;
+    background-color: rgba(255,255,255,0.8);
+}
+#header{
+	position: fixed;
+	width: 100vw;
+	height: 10vh;
+	z-index: 14;
+	overflow-x: hidden;
+        overflow-y: visible;
+}
+.header-block-link{
+	position: absolute;
+	right: 0vw;
+        width: 85vw;
+        height: 10vh;
+	z-index: 21;
+	opacity: 0;
+  	background-color: black;
+}
+/*
+#header-block0{
+        position: fixed;
+        right: 0vw;
+        width: 100vw;
+        height: 10vh;
+        background: white;
+	opacity: 0.8;
+	z-index:14;
+}
+*/
+#header-block1{  /*藍色色塊*/
+	display: none;
+}
+#header-block2{   /*理*/
+	font-family:'Noto Sans TC', '微軟正黑體', sans-serif;
+	position:fixed;
+	top: 2vh;
+	left: 37vw;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.2em;
+	letter-spacing: 0.2em;
+	color: rgba(50, 50, 50, 1);
+}
+#header-block3{   /*學*/
+	font-family:'Noto Sans TC', '微軟正黑體', sans-serif;
+	position:fixed;
+	top: 2vh;
+	left: 46vw;
+        font-weight: 400;
+        font-size: 1em;
+        line-height: 1.2em;
+        letter-spacing: 0.2em;
+        color: rgba(50, 50, 50, 1);
+}
+#header-block4{   /*院*/
+	font-family:'Noto Sans TC', '微軟正黑體', sans-serif;
+	position:fixed;
+	top: 2vh;
+	left: 55vw;
+        font-weight: 400;
+        font-size: 1em;
+        line-height: 1.2em;
+        letter-spacing: 0.2em;
+        color: rgba(50, 50, 50, 1);
+}
+#header-block5{   /*國立交通大學*/
+	display: none;
+}
+#header-block6{   /*The College of Science*/
+	font-family:'Noto Sans TC', '微軟正黑體', sans-serif;
+	position:fixed;
+	top: 5.5vh;
+	left: 37vw;
+	letter-spacing: 0.2em; 
+	font-weight: 350;
+	font-size: 0.66em;
+	color: rgba(50, 50, 50, 1);
+}
+#header-block7{   /*The College of Science(直)*/
+	display: none;
+}
+
+#header-icon0 {
+	display: none;
+}
+
+.header__icon{
+}
+
+.header-icon0{background-image:url(image/Mobile_500x600/icon_sidebar_white_01.svg); background-repeat: no-repeat; background-size:contain;}
+.header-icon1{background-image:url(image/Mobile_500x600/icon_sidebar_white_02.svg); background-repeat: no-repeat; background-size:contain;}
+.header-icon2{background-image:url(image/Mobile_500x600/icon_sidebar_white_03.svg); background-repeat: no-repeat; background-size:contain;}
+.header-icon3{background-image:url(image/Mobile_500x600/icon_sidebar_white_04.svg); background-repeat: no-repeat; background-size:contain;}
+.header-icon4{background-image:url(image/Mobile_500x600/icon_sidebar_white_05.svg); background-repeat: no-repeat; background-size:contain;}
+.header-icon5{background-image:url(image/Mobile_500x600/icon_sidebar_white_06.svg); background-repeat: no-repeat; background-size:contain;}
+.header-icon6{background-image:url(image/Mobile_500x600/icon_sidebar_white_07.svg); background-repeat: no-repeat; background-size:contain;}
+
+.menutext{
+	margin-left: 40px;
+	border: solid 0px blue;
+	letter-spacing: 0.6em;
+	font-weight: 300;
+}
+.header-text{
+	display: none;
+}
+
+#header-foot{
+	display: none;
+}
+
+#header .box{
+	z-index: 11;
+	padding: 0px;
+	width: 100vw;
+	height: 10vh;
+	display: block;
+}
+#header .box-icon{
+	display: none;
+}
+#header .box-text{
+	display:none;
+}
+
+/************nav btn***********/
+.dropbtn {
+    background-color: rgba(100,100,100,1);
+    position: absolute;
+    width: 15vw;
+    height: 10vh;
+    font-size: 16px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 19;
+}
+.bottom-dropbtn {
+    background-color:#002D5A;
+    position: absolute;
+    left: 0vw;
+    top: 0vh;
+    width: 15vw;
+    height: 10vh;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    z-index: 11;
+}
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+.mymenubuttoncontainer {
+    display: block;
+    cursor: pointer;
+    transition: 3s;
+}
+.bar1{
+    width: 5vw;
+    height: 2px;
+    background-color: #FFFFFF;
+    margin-top: 3vh;
+    margin-left: 5vw;
+}
+.bar2, .bar3 {
+    width: 5vw;
+    height: 2px;
+    background-color: #FFFFFF;
+    margin-top: 1vh;
+    margin-left: 5vw;
+}
+.menu_block{
+    z-index: 19;
+    position: relative;
+    font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+    font-size: 0.9em;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    margin-left: 0vw;
+    line-height: 32px;
+    color: white;
+    height: 0;
+    margin-top: 0;
+    overflow: hidden;  
+    border: 0px solid orange;
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 0;
+    width: 100%;
+    position: fixed; 
+    z-index: 22;
+    top: 0;
+    left: 0;
+    background-color: rgba(20, 20, 20, 0.95);
+    overflow: hidden; 
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.sidenavlink{
+    margin-top: 10vh;
+    border: solid 0px orange;
+}
+/* The navigation menu links */
+.sidenav a {
+    padding: 0px 0px 0px 15vw;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+
+}
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: white;
+}
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    	position: absolute;
+    	border: solid 0px orange;
+	height: 10vh;
+	padding: 0 0 0 0;
+}
+.close_btn{
+	margin-left: calc(7.5vw - 10px);
+	margin-top: calc(5vh - 10px);
+        width: 20px;
+        height: 20px;
+        background-image: url(../nctu_cos/image/Mobile_500x600/btn_menu_close.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+}
+.mobile-foot{
+	border: solid 0px orange;
+	margin-left: 16vw;
+	margin-top: -5px;
+	font-weight: 300;
+	width: 68vw;
+  	border: solid 0px blue;
+	overflow: hidden;
+}
+.foot-font-top{
+        font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+        color: rgba(255, 255, 255, 1);
+	font-size: 11px;
+	line-height: 16px;
+	font-weight: 300;
+	letter-spacing: 0.05em;
+	font-style: italic;
+}
+.foot-line{
+        position: relative;
+        width: 7vw;
+ 	margin-top: 1vh;
+        margin-bottom: 12px;
+        height: 1px;
+        background: white;
+        border: 0px orange solid;
+}
+.foot-font-bottom{
+	margin-top: 7px;
+        font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+        color: rgba(255, 255, 255, 1);
+  	font-size: 11px;
+	line-height: 16px;
+	font-weight: 300;
+	letter-spacing: 0.05em;
+	font-style: italic;
+}
+/*
+.icon_down{
+	position: absolute;
+	bottom: 5%;
+	left: 45vw;
+	width: 28px;
+	height: 28px;
+        background-image: url(../nctu_cos/image/Mobile_500x600/btn_down_arrow_rv_500x600.svg);
+        background-position: center center;
+	background-repeat: no-repeat;
+	z-index: 10;
+	border-radius: 15px;
+ 	border: 2px solid rgba(255,255,255,1);	
+}
+.icon_down:hover{
+    background-image: url(../nctu_cos/image/Mobile_500x600/btn_down_arrow_500x600.svg);
+    border: 2px solid rgba(0,0,0,0.7);
+}
+*/
+    .icon_up{
+        position: absolute;
+        left: 0px;
+        top: 10vh;
+        height: 90vh;
+        width: 10vmin;
+        cursor: pointer;
+    }
+    .icon_down{
+        position: absolute;
+        right: 0px;
+        top: 10vh;
+        height: 90vh;
+        width: 10vmin;
+        cursor: pointer;
+    }
+
+.right_icon_w:hover {
+    background-image: url(../nctu_cos/image/Mobile_500x600/btn_right_arrow_k_500x600.svg);
+}
+.right_icon_w {
+    position: fixed;
+    top: 40vh;
+    right: 3vw;
+    width: 5vmin;
+    height: 5vmin;
+    cursor: pointer;
+    background-image: url(../nctu_cos/image/Mobile_500x600/btn_right_arrow_w_500x600.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.right_icon:hover {
+    background-image: url(../nctu_cos/image/Mobile_500x600/btn_right_arrow_w_500x600.svg);
+}
+.right_icon {
+    position: fixed;
+    top: 40vh;
+    right: 3vw;
+    width: 5vmin;
+    height: 5vmin;
+    cursor: pointer;
+    background-image: url(../nctu_cos/image/Mobile_500x600/btn_right_arrow_k_500x600.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.left_icon_w:hover {
+    background-image: url(../nctu_cos/image/Mobile_500x600/btn_left_arrow_k_500x600.svg);
+}
+.left_icon_w {
+    position: fixed;
+    top: 40vh;
+    left: 3vw;
+    width: 5vmin;
+    height: 5vmin;
+    cursor: pointer;
+    background-image: url(../nctu_cos/image/Mobile_500x600/btn_left_arrow_w_500x600.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.left_icon:hover {
+    background-image: url(../nctu_cos/image/Mobile_500x600/btn_left_arrow_w_500x600.svg);
+}
+.left_icon {
+    position: fixed;
+    top: 40vh;
+    left: 3vw;
+    width: 5vmin;
+    height: 5vmin;
+    cursor: pointer;
+    background-image: url(../nctu_cos/image/Mobile_500x600/btn_left_arrow_k_500x600.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon_down_slide{
+ 	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+ 	height: 0;
+	z-index: 24;
+	background-color: rgba(20,20,20,0.95);
+  	transition: 0.2s;
+   	-webkit-transition: 0.2s;
+    	-moz-transition: 0.2s;
+   	 -o-transition: 0.2s;
+
+}
+/*news-list*/
+.container{
+    width: 100vw;
+    overflow: hidden;
+}
+.news_text-container{
+    position: absolute;
+    top: 14.5vh;
+    left: 15%;
+    width: 85%;
+    height: 85.5vh;
+    overflow-y: visible;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+.nt-title{
+
+    width: calc(55vw - 10px);
+    /*height: 13vw;*/
+    margin-bottom: 12px;
+    text-align: justify;
+/*
+    border: solid 0px black;
+    font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+    font-weight: 350;
+    font-size: 1em;
+    line-height: 1.2em;
+    letter-spacing: 0.1em;
+    color: rgba(0, 0, 0, 1);
+*/
+}
+.nt-tag, .nt-tag_text{
+    display: none;
+}
+.nt-button_block{
+    float: right;
+    margin-top:5px;
+    margin-right:13%;
+}
+.nt-circle{
+    width: 14vw;
+    height: 14vw;
+    border-radius: 50%;
+    border: solid 1px black;
+    line-height: 14vw;
+    text-align: center;
+    cursor: pointer;
+}
+.nt-btn, .nt-a, .nt-plus, .nt-minus{
+    display: none;
+}
+.nt-content{
+    width: 70vw;
+    overflow: hidden;
+    border: solid 0px blue;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-align: justify;
+    font-size: 12px;
+    line-height:20px;
+    color: rgba(80, 80, 80, 1);
+}
+.nt-image_test{
+    position: relative;
+    width: 70vw;
+    height: 100vw;
+    margin-top: 5vh;
+    margin-left: 0vw;
+    background-image: url(../image/bg/index_bg05.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.nt-img{
+    width: 100%;   /*another wiay: max-width*/
+    height: auto;
+    margin-bottom: 10px;
+}
+

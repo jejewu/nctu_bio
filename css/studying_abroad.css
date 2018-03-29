@@ -1,0 +1,116 @@
+/* page studying_abroad */
+.page-sa{
+    height:100vh;
+}
+.sa-container{
+    position: absolute;
+    top: 22.5vh;
+    right: 0px;
+    width: 75vw;
+    height: 80vh;
+    overflow: visible;
+}
+
+.dropbtn { display: none;}
+.dropdown { display: none;}
+.dropdown-content { display: none;}
+.mymenubuttoncontainer { display: none;}
+.menu_text { display: none;}
+.v-menu-btn { display: none;}
+.v-menu { display: none;}
+.v-menu-content { display: none;}
+
+.sa-img{
+    position: absolute;
+    top: 22.5vh;
+    right: 0px;
+    width: 75vw;
+    height: 35vh;
+    background-image: url(../image/banner_01.jpg);
+    background-size: cover;
+}
+.sa-img_block{
+    width:100%;
+    height: 35vh;
+}
+.sa-littleTitle{
+    color: white;
+    line-height: 3vh;
+    padding-top: 3vh;
+    margin-left: 3vw;
+}
+.sa-btn{
+    float: left;
+    width: 3vh;
+    height: 3vh;
+    margin-top: 10vh;
+    margin-right: 1vh;
+    cursor: pointer;
+}
+.sa-btn_prev{
+    margin-left:3vw;
+    background-image: url(../image/btn/btn_left_light.svg);
+    background-size: cover;
+}.sa-btn_prev:hover{ background-image: url(../image/btn/btn_left_rv.svg);}
+.sa-btn_next{
+    background-image: url(../image/btn/btn_right_light.svg);
+    background-size: cover;
+}.sa-btn_next:hover{ background-image: url(../image/btn/btn_right_rv.svg);}
+.sa-btn_download{
+    background-image: url(../image/btn/btn_download_dark.svg);
+    background-size: cover;
+}.sa-btn_download:hover{ background-image: url(../image/btn/btn_download_rv.svg);}
+
+.sa-collegename{
+    clear: both;
+    color: white;
+    padding-top: 1.2vh;
+    margin-left: 3vw;
+    line-height: 3vh;
+}
+.sa-title{
+    color: white;
+    padding-top: 1vh;
+    margin-left: 3vw;
+    line-height: 4vh;
+}
+.sa-engtitle{
+    color: white;
+    padding-top: 1vh;
+    margin-left: 3vw;
+    letter-spacing: 0px;
+    line-height: 3vh
+}
+.sa-applicant{
+    float: left;
+    margin-left: 3vw;
+    margin-top: 2vh;
+    width: 12vw;
+    border: solid 0px orange;
+}
+.sa-documents{
+    float: left;
+    margin-top: 2vh;
+    width: 12vw;
+    border: solid 0px orange;
+}
+.sa-duration{
+    float: left;
+    margin-top: 2vh;
+    width: 12vw;
+    border: solid 0px orange;
+}
+.sa-due_date{
+    float: left;
+    margin-top: 2vh;
+    width: 14vw;
+    border: solid 0px orange;
+}
+.sa-note{
+    float: left;
+    margin-top: 2vh;
+    width: 12vw;
+    border: solid 0px orange;
+}
+
+

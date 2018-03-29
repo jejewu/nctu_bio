@@ -1,0 +1,183 @@
+
+.page-sa{
+    background-image: url(../image/Mobile_500x600/23_500x600.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    width: 100vw;
+    overflow: hidden;
+    border: 0px green solid;
+}
+.container{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255,255,255,0.5);
+}
+.sa-container{
+    position: absolute;
+    top: 14.5vh;
+    height: 85.5vh;
+    width: 100vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+.sa-container1{
+    position: absolute;
+    bottom: 0vh;
+    top: calc( 4vh + 85px );
+    border: 0px blue solid;
+}
+.sa-line{
+    background: rgba(50,50,50,1);
+    height: 1px;
+    width: 100%;
+    margin-top: 9px;
+    margin-bottom: 15px;
+}
+.sa-img{
+/*
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255,255,255,0.6);
+*/
+}
+.sa-img_block{
+    width:70vw;
+    height: 18vh;
+    overflow: hidden;
+    border: 0px orange solid;
+}
+.sa-littleTitle{
+    color: rgba(50,50,50,1); /*white*/
+    font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    margin-bottom: 2vh;
+}
+.sa-btn{
+/*
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 20vh;
+    right: 15vw;
+    cursor: pointer;
+*/
+}
+/*
+.sa-btn_prev{
+    margin-left:15vw;
+    background-image: url(../image/btn/btn_left.png);
+    background-size: cover;
+}.sa-btn_prev:hover{ background-image: url(../image/btn/btn_left_rv.png);}
+*/
+.sa-btn_next{
+    background-image: url(../image/Mobile_500x600/btn_next_dg.svg);
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: calc( 2vh + 60px);
+    left: calc( 85vw - 20px);
+    background-size: contain;
+    border: solid 0px green;
+    cursor: pointer;
+}
+.sa-btn_next:hover{ background-image: url(../image/Mobile_500x600/btn_next_wh.svg);}
+/*
+.sa-btn_download{
+    background-image: url(../image/btn/btn_download.png);
+    background-size: cover;
+}.sa-btn_download:hover{ background-image: url(../image/btn/btn_download_rv.png);}
+
+*/
+.subtitled{
+    font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    color: rgba(50,50,50,1);
+    height: 20px;
+}
+.sa-collegename-box{
+    height: 40px;
+    position: relative;
+    border: solid 0px black;
+}
+.sa-collegename{
+    font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    color: rgba(50,50,50,1);
+    position: absolute;
+    height: auto;
+    bottom: 0px;
+}
+.sa-title{
+    color: rgba(50,50,50,1);
+    font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+}
+.sa-engtitle{
+/*
+    color: white;
+    font-size: 0.5em;
+    padding-top: 0.7vh;
+    margin-left: 15vw;
+    line-height: 13px;
+    letter-spacing: 0px;
+*/
+    display: none;
+}
+.sa-applicant{
+    margin-top: 0vh;
+    width: 70vw;
+}
+.sa-documents{
+    margin-top: 2vh;
+    width: 70vw;
+}
+.sa-due_date{
+    margin-top: 2vh;
+    width: 70vw;
+}
+.sa-hand_in_loc{
+    margin-top: 2vh;
+    width: 70vw;
+}
+.sa-duration{
+    margin-top: 2vh;
+    width: 70vw;
+}
+.sa-note{
+    margin-top: 2vh;
+    margin-bottom: 10vh;
+    width: 70vw;
+}
+
+/*
+.icon_sa{
+        background-image: url(../image/Mobile_500x600/btn_down_arrow_500x600.svg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        z-index: 10;
+        border-radius: 15px;
+        border: 2px solid rgba(0,0,0,0.7);
+}
+.icon_sa:hover{
+    background-image: url(../image/Mobile_500x600/btn_down_arrow_rv_500x600.svg);
+    border: 2px solid rgba(255,255,255,1);
+}
+
+*/

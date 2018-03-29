@@ -1,0 +1,270 @@
+/*research - page1*/
+.page-research_achievements{
+    background-image:url(../image/Mobile_500x600/index_bg06_500x600.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    width: 100vw;
+}
+.ra-color_block{
+    position:absolute;
+    top: 14.5vh;
+    left: 10vw;
+    border: 0px black solid;
+    width: 80vw;
+    height: 60vh;
+    background: rgba(255, 255, 255, 0.7);
+}
+.ra-block{
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    top: 17.5%;
+    left: 15%;
+    overflow-y: auto;
+    border: black 0px solid;
+}
+.mp-mobile{
+    width: 85%;
+    height: 70%;
+    position: absolute;
+    top: 17.5%;
+    left: 15%;
+    overflow-y: scroll;
+    border: black 0px solid;
+}
+.ra-title1{
+    font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    color: rgba(50, 50, 50, 1);
+    line-height: 20px;
+}
+.ra-title2{
+    font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.2em;
+    color: rgba(50, 50, 50, 1);
+}
+.ra-btn{
+    display: none;
+}
+.ra-line{
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: rgba(50, 50, 50, 1); 
+    height: 1px;
+    width: 15px;
+}
+.ra-circle_block{
+    position: absolute;
+    margin-top: 15px;
+    right: 0vw;
+    width: 32px;
+    height: 120px;
+    border: 0px solid rgba(230, 50, 30, 1);
+}
+.ra-circle_b{
+    position: absolute;
+    left: 17.64vmin;
+    top: 7.56vmin;
+    width: 33.6vmin;
+    height: 33.6vmin;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.3);
+    color: white;
+    line-height: 33.6vmin;
+    text-align: center;
+}
+
+.ra-c1_mobile{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    line-height: 30px;
+    font-size: 0.83em;
+    margin-bottom: 13px;
+    text-align: center;
+    border: 1px solid rgba(100, 100, 100, 1);
+    color: rgba(100, 100, 100, 1);
+}
+.ra-c1_mobile:hover{
+    border: 1px solid rgba(230, 50, 30, 1);
+    color: rgba(230, 50, 30, 1);  
+}
+.ra-c2_mobile{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    line-height: 30px;
+    font-size: 0.83em;
+    margin-bottom: 13px;
+    text-align: center;
+    border: 1px solid rgba(100, 100, 100, 1);
+    color: rgba(100, 100, 100, 1);
+}
+.ra-c2_mobile:hover{
+    border: 1px solid rgba(255, 150, 45, 1);
+    color: rgba(255, 150, 45, 1);
+}
+
+.ra-c3_mobile{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    line-height: 30px;
+    font-size: 0.83em;
+    margin-bottom: 13px;
+    text-align: center;
+    border: 1px solid rgba(100, 100, 100, 1);
+    color: rgba(100, 100, 100, 1);
+}
+.ra-c3_mobile:hover{
+    border: 1px solid rgba(0, 170, 230, 1);
+    color: rgba(0, 170, 230, 1);
+}
+
+/*
+.ra-c1{
+    left: 0vmin;
+    top: 0vmin;
+}
+.ra-c2{
+    left: 43.68vmin;
+    top: 0vmin;
+}
+.ra-c3{
+    left: 21.84vmin;
+    top: 33.6vmin;
+}
+*/
+.ra-text_block{
+    position: absolute;
+    margin-top: 15px;
+    width: 50vw;
+    border: solid 0px blue;
+    display: none;
+}
+
+.ra-subtitled{
+    font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+    font-weight: 350;
+    font-size: 0.66em;
+    color: rgba(100, 100, 100, 1);
+}
+
+hr.ra-hr{
+    display: none;
+}
+.ra-text{
+    height: 22px;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    border: 0px solid black;
+}
+
+
+
+.page-most_projects{
+    height:100vh;
+    background-image: url(../image/p4.png);
+    background-size: auto;
+    background-repeat: repeat;
+}
+.mp-title1{
+    margin-top: 10px;
+    line-height: 10px;
+    color: black;
+    font-size: 0.83em;
+}
+.mp-title2{
+    margin-top: 10px;
+    line-height: 25px;
+    color: black;
+    font-size: 1.33em;
+    margin-bottom: 10px;
+}
+
+.mp-subtitle{
+    font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+    font-size: 0.83em; /*3.166em*/
+    font-weight: 350;
+    letter-spacing: 1.2px; /*0.1em*/
+}
+.mp-subtitled{
+    font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+    font-size: 0.66em; /*1.5em*/
+    font-weight: 350;
+    line-height: 30px; /*2.833em*/
+    letter-spacing: 1px; /*0.1em*/
+    text-align: left;
+}
+
+.icon_mp{
+        background-image: url(../image/Mobile_500x600/btn_down_arrow_500x600.svg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        z-index: 10;
+        border-radius: 15px;
+        border: 2px solid rgba(0,0,0,0.7);
+}
+.icon_mp:hover{
+    background-image: url(../image/Mobile_500x600/btn_down_arrow_rv_500x600.svg);
+    border: 2px solid rgba(255,255,255,1);
+}
+
+.mp-btn1{ background-image: url(../image/btn/btn_main_research_inactive.svg); }
+.mp-btn1:hover{ background-image: url(../image/btn/btn_main_research_active.svg); }
+.mp-btn2{ background-image: url(../image/btn/btn_plan_active.svg); }
+.mp-block-1{
+    position: absolute;
+    top:14vh;
+    float: left;
+    height: 40vh;
+    width: 20vw;
+    border: solid 0px blue;
+}
+.mp-block-2{
+    position: absolute;
+    top:14vh;
+    float: left;
+    left:40vw;
+    height: 40vh;
+    width: 20vw;
+    border: solid 0px blue;
+}
+.mp-item_title{
+    position: relative; 
+    height: 25px;
+    width: 100px;
+    margin-bottom: 3px;
+}
+.mp-item{
+    position: relative;
+    height: 30px;
+    width: 100px;
+    line-height: 30px;
+    border: solid 0px black;
+    overflow: hidden;
+    margin-bottom: 6px;
+}
+.mp-item_year{
+    float: left;
+}
+.mp-circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin-left: 60px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+.mp-circle_b{ background: #00AAE6; }
+.mp-circle_o{ background: #FF962D; }
+
+

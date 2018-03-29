@@ -1,0 +1,141 @@
+/*
+Theme Name: nctu-bio
+Theme URI: http://wordpress.org/
+Description: 交大生物科技學院佈景主題
+Version: 1.0
+Author: WeiWei Tseng
+Author URI: http://wordpress.org
+Tags: Wordpress
+*/
+
+/************header***********/
+
+#header{
+    width: 10vw;
+}
+#header:hover{
+    width: 30vw;
+}
+#header-block-link{
+    position: fixed;
+    top: 0px;
+    left:0px;
+    width: 12vw;
+    height: 22.5vh;
+    transition: width 2s;
+    -webkit-transition: width 2s;
+    border: solid 0px green;
+}
+#header:hover #header-block-link{
+    width: 20vw;
+}
+#header-block0{
+    position: fixed;
+    top: 0px;
+    left:0px;
+    width: 10vw;
+    height: 22.5vh;
+}
+#header-block1{  /*色塊*/
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+    width: 10vw;
+    height: 22.5vh;
+    background: #810C95;
+    transition:  width 1.5s, height 1s;
+    -webkit-transition:  width 1.5s, height 1s;
+}
+#header:hover #header-block1{
+    width: 28.5vw;
+    height: 3.3vh;
+}
+#header-block2, #header-block3, #header-block4{   /*生、科、院*/
+    left: -200px;
+    transition: left 0s;
+    transition-delay: 0s;
+}
+
+#header-block5{   /*NCTU*/
+    position:fixed;
+    top: 8vh;
+    line-height: 2vh;
+    left: -30vw;
+    font-size: 1.2em;
+    letter-spacing: 0.1em; 
+    color: rgba(0,0,0,0);
+}
+#header:hover #header-block5{
+    color: black;
+    left: 5vw;
+    top: 7vh;
+    transition: color 2s,left 0s;
+    transition-delay: 1s;
+    -webkit-transition: color 2s,left 0s;
+    -webkit-transition-delay: 1s;
+}
+#header-block6{   /*國立交通大學生物科技學院*/ 
+    position:fixed;
+    top: 19.2vh;
+    left: -30vw;
+    font-size:0.9em;
+    letter-spacing: 0.15em; 
+    line-height: 3.3vh;
+    color: #002D5A;
+}
+#header:hover #header-block6{
+    color: white;
+    left: 5vw;
+    transition: color 2s,left 0s;
+    transition-delay: 1s;
+    -webkit-transition: color 2s,left 0s;
+    -webkit-transition-delay: 0.8s;
+}
+#header-block7{   /*College of Biological Science and Technology(直)*/ 
+    position:fixed;
+    top: 2.7vh;
+    left: 1.5vw;
+    font-size: 1em;
+    line-height: 3.5vh;
+    color: white;
+    transition: left 0s;
+    transition-delay: 1.5s;
+}
+#header:hover #header-block7{
+    left: -200px;
+    transition: left 0s;
+    transition-delay: 0s;
+}
+#header-block8{   /*College of Biological Science and Technology*/
+    position:fixed;
+    top: 8vh;
+    line-height: 2vh;
+    left: -30vw;
+    font-size: 1.2em;
+    letter-spacing: 0.2em; 
+    color: rgba(0,0,0,0);
+}
+#header:hover #header-block8{
+    top: 11vh;
+    left: 5vw;
+    line-height: 3.5vh;
+    font-size: 1.3em;
+    font-weight: 500;
+    letter-spacing: 0.075em; 
+    color: black;
+    transition: color 2s,top 2s,left 2s,font-size 1.5s ease-in;
+    -webkit-transition: color 2s,top 2s,left 2s,font-size 1.5s ease-in;
+}
+
+.header-icon{
+    left: 3.35vw;
+}
+#header:hover .header-icon{
+    opacity: 1;
+    left: 5vw;
+}
+
+.header-text{
+    font-size: 1.6em;
+    letter-spacing: 0.02em;
+}

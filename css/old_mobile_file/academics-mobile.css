@@ -1,0 +1,304 @@
+.page-academics{
+    height:100vh;
+}
+.v-menu-btn {
+    background-color: #f1f1f1;
+    opacity: 0;
+    position: absolute;
+    top: 50px;
+    width: 100vw;
+    height: 60px;
+    cursor: pointer;
+    z-index: 12;
+    overflow-x: hidden;
+}
+
+
+.bottom-v-menu-btn {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    opacity: 1;
+    background-color: #FFFFFF;
+    width: 100vw;
+    height: 60px;
+    text-align: center;
+    z-index: 10;
+}
+
+
+/* Dropdown button on hover & focus */
+.v-menu-btn:hover, .v-menu-btn:focus {
+    background-color: #FFFFFF;
+    opacity: 0.2;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.v-menu {
+    width: 100vw;
+    position: absolute;
+    top: 50px;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.v-menu-content {
+    font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+    display: none;
+    position: absolute;
+    top: 110px;
+    min-width: 100vw;
+    background-color: #FFFFFF;
+    box-shadow: 0px 16px 16px 0px rgba(0,0,0,0.2);
+    z-index: 11;
+}
+
+.v-menu-icon{
+    z-index: 11;
+    background: url(../image/Mobile_500x600/btn_down_arrow_500x600.svg);
+    margin-left: 47%;
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+}
+
+.v-menu-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.v-menu-content a:hover {background-color: #f1f1f1}
+.v-show{display: block;}
+.v-menu-container {
+    display: inline-block;
+    cursor: pointer;
+    z-index: 11;
+
+}
+    .v-menu-title{
+        font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+        color: #000000;
+        font-size: 16px;
+        line-height: 2.2em;
+        z-index: 11;
+    }
+    .v-menu-change .v-menu-title{
+    }
+    .menu-list{
+        font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+        font-size: 1em;
+        color: #000000;
+        line-height: 1em;
+        text-align: center;
+    }
+
+
+        .container{
+                position: absolute;
+                margin-top: 0px;
+                left: 0px;
+                width: 100vw;
+                /*height: 100vh;*/
+                overflow-x: hidden;
+                /*overflow-y: scroll;*/
+        }
+
+#ac-container{
+    position: absolute;
+    left: 5vw;
+    top: 60px;
+    width: 90vw;
+    /*height: 800px;*/
+}
+.ac-title_block{
+    float: left;
+    width: 200px;
+    height: 150px;
+    border: solid 0px black;
+}
+hr.ac{
+    border:0;
+    height:8px;
+    width:110px;
+    background:black;
+}
+.ac-smalltitle{
+    margin-top: 16px;
+    line-height: 16px;
+}
+.ac-bigtitle{
+    margin-top: 16px;
+    line-height: 38px;
+}
+.ac-circle_block{
+    position: relative;
+    float: left;
+    width: 72vmin;
+    height: 72vmin;
+    border: solid 0px black;
+}
+.ac-big_circle_bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 72vmin;
+    height: 72vmin;
+    opacity: 0.7;
+    background-image: url(../image/equipment_02-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 48vmin 56vmin;
+    transition: all .5s ease-in-out;
+}
+.ac-big_circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70vmin;
+    height: 70vmin;
+    margin: 1vmin;
+    border-radius: 50%;
+    border: dashed 2px rgba(180,180,180,1);
+    transition: all .5s ease-in-out;
+}
+.ac-small_circle{
+    position: relative;
+    margin-top: -4vmin;
+    margin-left: -4vmin;
+    width: 9vmin;
+    height: 9vmin;
+    border-radius: 50%;
+    border: dashed 2px rgba(180,180,180,1);
+}
+.ac-text{
+/*    width: 220px;
+    padding-right: 15px;
+    margin-top: -1vmin;
+    margin-left: -235px;
+    line-height: 3vmin;
+    text-align: right;
+    border: solid 0px green;
+*/  opacity: 0;
+    display: none;
+}
+.ac-text1, .ac-text2, .ac-text3, .ac-text4, .ac-text5_1, .ac-text5_2, .ac-text5, .ac-text6, .ac-text7{
+    color: black; /*#EBAA1E;*/
+    opacity: 0;
+}
+.ac-dot{
+    position: absolute;
+    width: 2vmin;
+    height: 2vmin;
+    border-radius: 50%;
+    background: #B4B4B4;
+    display: none;
+}
+.ac-dot1{
+    top: 3.5vmin;
+    left: 21.3vmin;
+}
+.ac-dot2{
+    top: 13.5vmin;
+    left: 8.5vmin;
+}
+.ac-dot3{
+    top: 21.5vmin;
+    left: 3.5vmin;
+}
+.ac-dot4{
+    top: 34.5vmin;
+    left: 0.5vmin;
+}
+.ac-dot5{
+    top: 50vmin;
+    left: 3.5vmin;
+}
+.ac-dot6{
+    top: 59.5vmin;
+    left: 9.6vmin;
+}
+.ac-dot7{
+    top: 64vmin;
+    left: 15vmin;
+}
+.ac-small_dot{
+    position: absolute;
+    width: 2vmin;
+    height: 2vmin;
+    border-radius: 50%;
+    background: #B4B4B4;
+    display: none;
+}
+.ac-small_dot1{
+    top: 3.5vmin;
+    left: -3vmin;
+}
+.ac-small_dot2{
+    top: -3vmin;
+    left: -3vmin;
+}
+.ac-small_dot3{
+    top: 3.5vmin;
+    left: -3vmin;
+}
+
+.ac-descript_block{
+    position: fixed;
+    bottom: 10vw;
+    right: 0vw;
+    width: 55vw;
+    height: 230px;
+    background: rgba(0,0,0,0.7);
+    transition: right 1s ease-in-out;
+}
+.ac-block1{
+    right: -55vw;
+}
+.ac-block2{
+    right: -55vw;
+}
+.ac-block3{
+    right: -55vw;
+}
+.ac-block3_1{
+    right: -55vw;
+}
+.ac-block4{
+    right: -55vw;
+}
+.ac-block5{
+    right: -55vw;
+}
+.ac-block5_1{
+    right: -55vw;
+}
+.ac-block5_2{
+    right: -55vw;
+}
+.ac-block6{
+    right: -55vw;
+}
+.ac-block7{
+    right: -55vw;
+}
+
+.ac-title_y{ color: #EBAA1E; }
+.ac-title_b{ color: #00AAE6; }
+.ac-title_r{ color: #E6321E; }
+.ac-title_g{ color: rgba(200,200,200,1); }
+
+.ac-descript_title{
+    margin: 10px;
+    margin-bottom: 5px;
+    line-height: 35px;
+    font-size: 1.5em;
+    /*color: #EBAA1E;*/
+}
+.ac-descript_text{
+    margin: 30px;
+    margin-top: 10px;
+    color: white;
+}

@@ -1,0 +1,17 @@
+/* default */
+.page-default{
+    background-image:url(../image/bg/purpose.png);
+    background-size:cover,auto;
+    background-repeat: no-repeat,repeat;
+    height:100vh;
+    color: #CCCCCC;
+}
+
+.container{
+    width: 70vw;
+    right: 10vw;
+    height: 80vh;
+    position: fixed;
+    top: 10vh;
+    overflow: auto;
+}
