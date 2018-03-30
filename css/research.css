@@ -762,7 +762,6 @@ hr.rh-line{
     min-height: 350px;
     display: inline-block;
     margin-left: 20px;
-    padding-bottom: 15px;
 }
 
 .disapear{
@@ -885,7 +884,7 @@ hr.rh-line{
 	position: absolute;
 	left: 15%;
 	width: 35vw;
-    height: 40vh;
+    min-height: 40vh;
     bottom: -45vh;
 	border-top-left-radius: 1vh;
 	border-top-right-radius: 1vh;

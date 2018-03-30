@@ -414,8 +414,11 @@
             var instruction_name = $(this).attr('alt');
             var height = $(this).height();
             var width = $(this).width();
-            $(this).after('<div class="instruction_hover">'+ instruction_name + '</div>');
-            $(this).next().css({"width":width,"margin-left":-width,"top":height/2+32});
+            if (instruction_name){
+                $(this).after('<div class="instruction_hover">'+ instruction_name + '</div>');
+                $(this).next().css({"width":width,"margin-left":-width,"top":height/2+32});
+            }
+
         }, function() { 
             $( this ).next().remove();
         });
