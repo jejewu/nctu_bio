@@ -58,14 +58,43 @@
 	    </div>
         </div>
         <div class="rf-form_list_block mobilehidden">
-            <div id="rf1" class="rf-item rf-inactive rf-bdot-inactive" data-num="1" data-rel="rf_block1_0"><?php echo category_description(9); ?></div>
-            <div id="rf2" class="rf-item rf-inactive rf-bdot-inactive" data-num="2" data-rel="rf_block2_0"><?php echo category_description(10); ?></div>
-            <div id="rf3" class="rf-item rf-inactive rf-bdot-inactive" data-num="3" data-rel="rf_block3_0"><?php echo category_description(11); ?></div>
-            <div id="rf4" class="rf-item rf-inactive rf-bdot-inactive" data-num="4" data-rel="rf_block4_0"><?php echo category_description(12); ?></div>
+			
+			<?php 
+				$promotion = get_category_by_slug('promotion');
+				$promotion_desc = substr($promotion->description,5,-3);
+			?>
+            <div id="rf1" class="rf-item rf-inactive rf-bdot-inactive" data-num="1" data-rel="rf_block1_0"><?php echo $promotion_desc; ?></div>
+			<?php 
+				$evaluation = get_category_by_slug('evaluation');
+				$evaluation_desc = substr($evaluation->description,5,-3);
+			?>
+            <div id="rf2" class="rf-item rf-inactive rf-bdot-inactive" data-num="2" data-rel="rf_block2_0"><?php echo $evaluation_desc; ?></div>
+			<?php 
+				$employment_and_establishment = get_category_by_slug('employment_and_establishment');
+				$employment_and_establishment_desc = substr($employment_and_establishment->description,5,-3);
+			?>
+            <div id="rf3" class="rf-item rf-inactive rf-bdot-inactive" data-num="3" data-rel="rf_block3_0"><?php echo $employment_and_establishment_desc; ?></div>
+			<?php 
+				$others = get_category_by_slug('others');
+				$others_desc = substr($others->description,5,-3);
+			?>
+            <div id="rf4" class="rf-item rf-inactive rf-bdot-inactive" data-num="4" data-rel="rf_block4_0"><?php echo $others_desc; ?></div>
             <hr class="rf-ver_line">
-            <div id="rf5" class="rf-item rf-inactive rf-ydot-inactive" data-num="5" data-rel="rf_block5_0"><?php echo category_description(13); ?></div>
-            <div id="rf6" class="rf-item rf-inactive rf-ydot-inactive" data-num="6" data-rel="rf_block6_0"><?php echo category_description(14); ?></div>
-            <div id="rf7" class="rf-item rf-inactive rf-ydot-inactive" data-num="7" data-rel="rf_block7_0"><?php echo category_description(15); ?></div>
+			<?php 
+				$forms_for_promotion = get_category_by_slug('forms_for_promotion');
+				$forms_for_promotion_desc = substr($forms_for_promotion->description,5,-3);
+			?>
+            <div id="rf5" class="rf-item rf-inactive rf-ydot-inactive" data-num="5" data-rel="rf_block5_0"><?php echo $forms_for_promotion_desc; ?></div>
+			<?php 
+				$self_evaluation_form = get_category_by_slug('self-evaluation_form');
+				$self_evaluation_form_desc = substr($self_evaluation_form->description,5,-3);
+			?>
+            <div id="rf6" class="rf-item rf-inactive rf-ydot-inactive" data-num="6" data-rel="rf_block6_0"><?php echo $self_evaluation_form_desc; ?></div>
+			<?php 
+				$forms_for_external_review = get_category_by_slug('forms_for_external_review');
+				$forms_for_external_review_desc = substr($forms_for_external_review->description,5,-3);
+			?>
+            <div id="rf7" class="rf-item rf-inactive rf-ydot-inactive" data-num="7" data-rel="rf_block7_0"><?php echo $forms_for_external_review_desc; ?></div>
         </div>
         
         <!-- original example  升等辦法、評量辦法、外審審查表等為分類的內容說明
