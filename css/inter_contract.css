@@ -1,6 +1,6 @@
 /***page international (國際交流合作)***/
 .page-inter_contract{
-    background-image:url(../image/bg/11.png);
+    background-image:url(../image/bg/exchange_student.png);
     background-size:cover;
     background-repeat: no-repeat;
     height:100vh;
@@ -42,15 +42,15 @@ hr.ic{
     border-radius: 50%;
     transition: all .5s ease-in-out;
 }
-.ic-rdot{ border: solid 3px #9B0019; }
-.ic-bdot{ border: solid 3px #00AAE6; }
-.ic-ydot{ border: solid 3px #EBAA1E; }
-.ic-rdot_checked{ background: #9B0019; }
-.ic-bdot_checked{ background: #00AAE6; }
-.ic-ydot_checked{ background: #EBAA1E; }
-.ic-rdot:hover{ background: #9B0019; }
-.ic-bdot:hover{ background: #00AAE6; }
-.ic-ydot:hover{ background: #EBAA1E; }
+.ic-rdot{ border: solid 3px #FF6600; }
+.ic-bdot{ border: solid 3px #338DC9; }
+.ic-ydot{ border: solid 3px #F99E03; }
+.ic-rdot_checked{ background: #FF6600; }
+.ic-bdot_checked{ background: #338DC9; }
+.ic-ydot_checked{ background: #F99E03; }
+.ic-rdot:hover{ background: #FF6600; }
+.ic-bdot:hover{ background: #338DC9; }
+.ic-ydot:hover{ background: #F99E03; }
 .ic-bigtitle{
     clear: both;
     letter-spacing: 1.6px; /*0.1em*/
@@ -103,9 +103,9 @@ hr.ic{
     background: grey;
     transition: all .6s ease-in-out .6s;
 }
-.ic-bar_r{ background: #9B0019; }
-.ic-bar_b{ background: #00AAE6; }
-.ic-bar_y{ background: #EBAA1E; }
+.ic-bar_r{ background: #FF6600; }
+.ic-bar_b{ background: #338DC9; }
+.ic-bar_y{ background: #F99E03; }
 
 
 .ic-image{
@@ -154,188 +154,188 @@ hr.ic{
     color: white;
 }
 
-.ic-btn-r01{ background-image:url(../image/btn/number_r01-02.svg); }
-.ic-selector input:checked +.ic-btn-r01{ background-image:url(../image/btn/number_r01-01.svg); }
-.ic-btn-r02{ background-image:url(../image/btn/number_r02-02.svg); }
-.ic-selector input:checked +.ic-btn-r02{ background-image:url(../image/btn/number_r02-01.svg); }
-.ic-btn-r03{ background-image:url(../image/btn/number_r03-02.svg); }
-.ic-selector input:checked +.ic-btn-r03{ background-image:url(../image/btn/number_r03-01.svg); }
-.ic-btn-r04{ background-image:url(../image/btn/number_r04-02.svg); }
-.ic-selector input:checked +.ic-btn-r04{ background-image:url(../image/btn/number_r04-01.svg); }
-.ic-btn-r05{ background-image:url(../image/btn/number_r05-02.svg); }
-.ic-selector input:checked +.ic-btn-r05{ background-image:url(../image/btn/number_r05-01.svg); }
-.ic-btn-r06{ background-image:url(../image/btn/number_r06-02.svg); }
-.ic-selector input:checked +.ic-btn-r06{ background-image:url(../image/btn/number_r06-01.svg); }
-.ic-btn-r07{ background-image:url(../image/btn/number_r07-02.svg); }
-.ic-selector input:checked +.ic-btn-r07{ background-image:url(../image/btn/number_r07-01.svg); }
-.ic-btn-r08{ background-image:url(../image/btn/number_r08-02.svg); }
-.ic-selector input:checked +.ic-btn-r08{ background-image:url(../image/btn/number_r08-01.svg); }
-.ic-btn-r09{ background-image:url(../image/btn/number_r09-02.svg); }
-.ic-selector input:checked +.ic-btn-r09{ background-image:url(../image/btn/number_r09-01.svg); }
-.ic-btn-r010{ background-image:url(../image/btn/number_r10-02.svg); }
-.ic-selector input:checked +.ic-btn-r010{ background-image:url(../image/btn/number_r10-01.svg); }
-.ic-btn-r011{ background-image:url(../image/btn/number_r11-02.svg); }
-.ic-selector input:checked +.ic-btn-r011{ background-image:url(../image/btn/number_r11-01.svg); }
-.ic-btn-r012{ background-image:url(../image/btn/number_r12-02.svg); }
-.ic-selector input:checked +.ic-btn-r012{ background-image:url(../image/btn/number_r12-01.svg); }
-.ic-btn-r013{ background-image:url(../image/btn/number_r13-02.svg); }
-.ic-selector input:checked +.ic-btn-r013{ background-image:url(../image/btn/number_r13-01.svg); }
-.ic-btn-r014{ background-image:url(../image/btn/number_r14-02.svg); }
-.ic-selector input:checked +.ic-btn-r014{ background-image:url(../image/btn/number_r14-01.svg); }
-.ic-btn-r015{ background-image:url(../image/btn/number_r15-02.svg); }
-.ic-selector input:checked +.ic-btn-r015{ background-image:url(../image/btn/number_r15-01.svg); }
-.ic-btn-r016{ background-image:url(../image/btn/number_r16-02.svg); }
-.ic-selector input:checked +.ic-btn-r016{ background-image:url(../image/btn/number_r16-01.svg); }
-.ic-btn-r017{ background-image:url(../image/btn/number_r17-02.svg); }
-.ic-selector input:checked +.ic-btn-r017{ background-image:url(../image/btn/number_r17-01.svg); }
-.ic-btn-r018{ background-image:url(../image/btn/number_r18-02.svg); }
-.ic-selector input:checked +.ic-btn-r018{ background-image:url(../image/btn/number_r18-01.svg); }
-.ic-btn-r019{ background-image:url(../image/btn/number_r19-02.svg); }
-.ic-selector input:checked +.ic-btn-r019{ background-image:url(../image/btn/number_r19-01.svg); }
-.ic-btn-r020{ background-image:url(../image/btn/number_r20-02.svg); }
-.ic-selector input:checked +.ic-btn-r020{ background-image:url(../image/btn/number_r20-01.svg); }
-.ic-btn-r021{ background-image:url(../image/btn/number_r21-02.svg); }
-.ic-selector input:checked +.ic-btn-r021{ background-image:url(../image/btn/number_r21-01.svg); }
-.ic-btn-r022{ background-image:url(../image/btn/number_r22-02.svg); }
-.ic-selector input:checked +.ic-btn-r022{ background-image:url(../image/btn/number_r22-01.svg); }
-.ic-btn-r023{ background-image:url(../image/btn/number_r23-02.svg); }
-.ic-selector input:checked +.ic-btn-r023{ background-image:url(../image/btn/number_r23-01.svg); }
-.ic-btn-r024{ background-image:url(../image/btn/number_r24-02.svg); }
-.ic-selector input:checked +.ic-btn-r024{ background-image:url(../image/btn/number_r24-01.svg); }
-.ic-btn-r025{ background-image:url(../image/btn/number_r25-02.svg); }
-.ic-selector input:checked +.ic-btn-r025{ background-image:url(../image/btn/number_r25-01.svg); }
-.ic-btn-r026{ background-image:url(../image/btn/number_r26-02.svg); }
-.ic-selector input:checked +.ic-btn-r026{ background-image:url(../image/btn/number_r26-01.svg); }
-.ic-btn-r027{ background-image:url(../image/btn/number_r27-02.svg); }
-.ic-selector input:checked +.ic-btn-r027{ background-image:url(../image/btn/number_r27-01.svg); }
-.ic-btn-r028{ background-image:url(../image/btn/number_r28-02.svg); }
-.ic-selector input:checked +.ic-btn-r028{ background-image:url(../image/btn/number_r28-01.svg); }
-.ic-btn-r029{ background-image:url(../image/btn/number_r29-02.svg); }
-.ic-selector input:checked +.ic-btn-r029{ background-image:url(../image/btn/number_r29-01.svg); }
-.ic-btn-r030{ background-image:url(../image/btn/number_r30-02.svg); }
-.ic-selector input:checked +.ic-btn-r030{ background-image:url(../image/btn/number_r20-01.svg); }
+.ic-btn-r01{ background-image:url(../image/btn/number_r01-02.png); }
+.ic-selector input:checked +.ic-btn-r01{ background-image:url(../image/btn/number_r01-01.png); }
+.ic-btn-r02{ background-image:url(../image/btn/number_r02-02.png); }
+.ic-selector input:checked +.ic-btn-r02{ background-image:url(../image/btn/number_r02-01.png); }
+.ic-btn-r03{ background-image:url(../image/btn/number_r03-02.png); }
+.ic-selector input:checked +.ic-btn-r03{ background-image:url(../image/btn/number_r03-01.png); }
+.ic-btn-r04{ background-image:url(../image/btn/number_r04-02.png); }
+.ic-selector input:checked +.ic-btn-r04{ background-image:url(../image/btn/number_r04-01.png); }
+.ic-btn-r05{ background-image:url(../image/btn/number_r05-02.png); }
+.ic-selector input:checked +.ic-btn-r05{ background-image:url(../image/btn/number_r05-01.png); }
+.ic-btn-r06{ background-image:url(../image/btn/number_r06-02.png); }
+.ic-selector input:checked +.ic-btn-r06{ background-image:url(../image/btn/number_r06-01.png); }
+.ic-btn-r07{ background-image:url(../image/btn/number_r07-02.png); }
+.ic-selector input:checked +.ic-btn-r07{ background-image:url(../image/btn/number_r07-01.png); }
+.ic-btn-r08{ background-image:url(../image/btn/number_r08-02.png); }
+.ic-selector input:checked +.ic-btn-r08{ background-image:url(../image/btn/number_r08-01.png); }
+.ic-btn-r09{ background-image:url(../image/btn/number_r09-02.png); }
+.ic-selector input:checked +.ic-btn-r09{ background-image:url(../image/btn/number_r09-01.png); }
+.ic-btn-r010{ background-image:url(../image/btn/number_r10-02.png); }
+.ic-selector input:checked +.ic-btn-r010{ background-image:url(../image/btn/number_r10-01.png); }
+.ic-btn-r011{ background-image:url(../image/btn/number_r11-02.png); }
+.ic-selector input:checked +.ic-btn-r011{ background-image:url(../image/btn/number_r11-01.png); }
+.ic-btn-r012{ background-image:url(../image/btn/number_r12-02.png); }
+.ic-selector input:checked +.ic-btn-r012{ background-image:url(../image/btn/number_r12-01.png); }
+.ic-btn-r013{ background-image:url(../image/btn/number_r13-02.png); }
+.ic-selector input:checked +.ic-btn-r013{ background-image:url(../image/btn/number_r13-01.png); }
+.ic-btn-r014{ background-image:url(../image/btn/number_r14-02.png); }
+.ic-selector input:checked +.ic-btn-r014{ background-image:url(../image/btn/number_r14-01.png); }
+.ic-btn-r015{ background-image:url(../image/btn/number_r15-02.png); }
+.ic-selector input:checked +.ic-btn-r015{ background-image:url(../image/btn/number_r15-01.png); }
+.ic-btn-r016{ background-image:url(../image/btn/number_r16-02.png); }
+.ic-selector input:checked +.ic-btn-r016{ background-image:url(../image/btn/number_r16-01.png); }
+.ic-btn-r017{ background-image:url(../image/btn/number_r17-02.png); }
+.ic-selector input:checked +.ic-btn-r017{ background-image:url(../image/btn/number_r17-01.png); }
+.ic-btn-r018{ background-image:url(../image/btn/number_r18-02.png); }
+.ic-selector input:checked +.ic-btn-r018{ background-image:url(../image/btn/number_r18-01.png); }
+.ic-btn-r019{ background-image:url(../image/btn/number_r19-02.png); }
+.ic-selector input:checked +.ic-btn-r019{ background-image:url(../image/btn/number_r19-01.png); }
+.ic-btn-r020{ background-image:url(../image/btn/number_r20-02.png); }
+.ic-selector input:checked +.ic-btn-r020{ background-image:url(../image/btn/number_r20-01.png); }
+.ic-btn-r021{ background-image:url(../image/btn/number_r21-02.png); }
+.ic-selector input:checked +.ic-btn-r021{ background-image:url(../image/btn/number_r21-01.png); }
+.ic-btn-r022{ background-image:url(../image/btn/number_r22-02.png); }
+.ic-selector input:checked +.ic-btn-r022{ background-image:url(../image/btn/number_r22-01.png); }
+.ic-btn-r023{ background-image:url(../image/btn/number_r23-02.png); }
+.ic-selector input:checked +.ic-btn-r023{ background-image:url(../image/btn/number_r23-01.png); }
+.ic-btn-r024{ background-image:url(../image/btn/number_r24-02.png); }
+.ic-selector input:checked +.ic-btn-r024{ background-image:url(../image/btn/number_r24-01.png); }
+.ic-btn-r025{ background-image:url(../image/btn/number_r25-02.png); }
+.ic-selector input:checked +.ic-btn-r025{ background-image:url(../image/btn/number_r25-01.png); }
+.ic-btn-r026{ background-image:url(../image/btn/number_r26-02.png); }
+.ic-selector input:checked +.ic-btn-r026{ background-image:url(../image/btn/number_r26-01.png); }
+.ic-btn-r027{ background-image:url(../image/btn/number_r27-02.png); }
+.ic-selector input:checked +.ic-btn-r027{ background-image:url(../image/btn/number_r27-01.png); }
+.ic-btn-r028{ background-image:url(../image/btn/number_r28-02.png); }
+.ic-selector input:checked +.ic-btn-r028{ background-image:url(../image/btn/number_r28-01.png); }
+.ic-btn-r029{ background-image:url(../image/btn/number_r29-02.png); }
+.ic-selector input:checked +.ic-btn-r029{ background-image:url(../image/btn/number_r29-01.png); }
+.ic-btn-r030{ background-image:url(../image/btn/number_r30-02.png); }
+.ic-selector input:checked +.ic-btn-r030{ background-image:url(../image/btn/number_r20-01.png); }
 
-.ic-btn-b01{ background-image:url(../image/btn/number_b01-02.svg); }
-.ic-selector input:checked +.ic-btn-b01{ background-image:url(../image/btn/number_b01-01.svg); }
-.ic-btn-b02{ background-image:url(../image/btn/number_b02-02.svg); }
-.ic-selector input:checked +.ic-btn-b02{ background-image:url(../image/btn/number_b02-01.svg); }
-.ic-btn-b03{ background-image:url(../image/btn/number_b03-02.svg); }
-.ic-selector input:checked +.ic-btn-b03{ background-image:url(../image/btn/number_b03-01.svg); }
-.ic-btn-b04{ background-image:url(../image/btn/number_b04-02.svg); }
-.ic-selector input:checked +.ic-btn-b04{ background-image:url(../image/btn/number_b04-01.svg); }
-.ic-btn-b05{ background-image:url(../image/btn/number_b05-02.svg); }
-.ic-selector input:checked +.ic-btn-b05{ background-image:url(../image/btn/number_b05-01.svg); }
-.ic-btn-b06{ background-image:url(../image/btn/number_b06-02.svg); }
-.ic-selector input:checked +.ic-btn-b06{ background-image:url(../image/btn/number_b06-01.svg); }
-.ic-btn-b07{ background-image:url(../image/btn/number_b07-02.svg); }
-.ic-selector input:checked +.ic-btn-b07{ background-image:url(../image/btn/number_b07-01.svg); }
-.ic-btn-b08{ background-image:url(../image/btn/number_b08-02.svg); }
-.ic-selector input:checked +.ic-btn-b08{ background-image:url(../image/btn/number_b08-01.svg); }
-.ic-btn-b09{ background-image:url(../image/btn/number_b09-02.svg); }
-.ic-selector input:checked +.ic-btn-b09{ background-image:url(../image/btn/number_b09-01.svg); }
-.ic-btn-b010{ background-image:url(../image/btn/number_b10-02.svg); }
-.ic-selector input:checked +.ic-btn-b010{ background-image:url(../image/btn/number_b10-01.svg); }
-.ic-btn-b011{ background-image:url(../image/btn/number_b11-02.svg); }
-.ic-selector input:checked +.ic-btn-b011{ background-image:url(../image/btn/number_b11-01.svg); }
-.ic-btn-b012{ background-image:url(../image/btn/number_b12-02.svg); }
-.ic-selector input:checked +.ic-btn-b012{ background-image:url(../image/btn/number_b12-01.svg); }
-.ic-btn-b013{ background-image:url(../image/btn/number_b13-02.svg); }
-.ic-selector input:checked +.ic-btn-b013{ background-image:url(../image/btn/number_b13-01.svg); }
-.ic-btn-b014{ background-image:url(../image/btn/number_b14-02.svg); }
-.ic-selector input:checked +.ic-btn-b014{ background-image:url(../image/btn/number_b14-01.svg); }
-.ic-btn-b015{ background-image:url(../image/btn/number_b15-02.svg); }
-.ic-selector input:checked +.ic-btn-b015{ background-image:url(../image/btn/number_b15-01.svg); }
-.ic-btn-b016{ background-image:url(../image/btn/number_b16-02.svg); }
-.ic-selector input:checked +.ic-btn-b016{ background-image:url(../image/btn/number_b16-01.svg); }
-.ic-btn-b017{ background-image:url(../image/btn/number_b17-02.svg); }
-.ic-selector input:checked +.ic-btn-b017{ background-image:url(../image/btn/number_b17-01.svg); }
-.ic-btn-b018{ background-image:url(../image/btn/number_b18-02.svg); }
-.ic-selector input:checked +.ic-btn-b018{ background-image:url(../image/btn/number_b18-01.svg); }
-.ic-btn-b019{ background-image:url(../image/btn/number_b19-02.svg); }
-.ic-selector input:checked +.ic-btn-b019{ background-image:url(../image/btn/number_b19-01.svg); }
-.ic-btn-b020{ background-image:url(../image/btn/number_b20-02.svg); }
-.ic-selector input:checked +.ic-btn-b020{ background-image:url(../image/btn/number_b20-01.svg); }
-.ic-btn-b021{ background-image:url(../image/btn/number_b21-02.svg); }
-.ic-selector input:checked +.ic-btn-b021{ background-image:url(../image/btn/number_b21-01.svg); }
-.ic-btn-b022{ background-image:url(../image/btn/number_b22-02.svg); }
-.ic-selector input:checked +.ic-btn-b022{ background-image:url(../image/btn/number_b22-01.svg); }
-.ic-btn-b023{ background-image:url(../image/btn/number_b23-02.svg); }
-.ic-selector input:checked +.ic-btn-b023{ background-image:url(../image/btn/number_b23-01.svg); }
-.ic-btn-b024{ background-image:url(../image/btn/number_b24-02.svg); }
-.ic-selector input:checked +.ic-btn-b024{ background-image:url(../image/btn/number_b24-01.svg); }
-.ic-btn-b025{ background-image:url(../image/btn/number_b25-02.svg); }
-.ic-selector input:checked +.ic-btn-b025{ background-image:url(../image/btn/number_b25-01.svg); }
-.ic-btn-b026{ background-image:url(../image/btn/number_b26-02.svg); }
-.ic-selector input:checked +.ic-btn-b026{ background-image:url(../image/btn/number_b26-01.svg); }
-.ic-btn-b027{ background-image:url(../image/btn/number_b27-02.svg); }
-.ic-selector input:checked +.ic-btn-b027{ background-image:url(../image/btn/number_b27-01.svg); }
-.ic-btn-b028{ background-image:url(../image/btn/number_b28-02.svg); }
-.ic-selector input:checked +.ic-btn-b028{ background-image:url(../image/btn/number_b28-01.svg); }
-.ic-btn-b029{ background-image:url(../image/btn/number_b29-02.svg); }
-.ic-selector input:checked +.ic-btn-b029{ background-image:url(../image/btn/number_b29-01.svg); }
-.ic-btn-b030{ background-image:url(../image/btn/number_b30-02.svg); }
-.ic-selector input:checked +.ic-btn-b030{ background-image:url(../image/btn/number_b20-01.svg); }
+.ic-btn-b01{ background-image:url(../image/btn/number_b01-02.png); }
+.ic-selector input:checked +.ic-btn-b01{ background-image:url(../image/btn/number_b01-01.png); }
+.ic-btn-b02{ background-image:url(../image/btn/number_b02-02.png); }
+.ic-selector input:checked +.ic-btn-b02{ background-image:url(../image/btn/number_b02-01.png); }
+.ic-btn-b03{ background-image:url(../image/btn/number_b03-02.png); }
+.ic-selector input:checked +.ic-btn-b03{ background-image:url(../image/btn/number_b03-01.png); }
+.ic-btn-b04{ background-image:url(../image/btn/number_b04-02.png); }
+.ic-selector input:checked +.ic-btn-b04{ background-image:url(../image/btn/number_b04-01.png); }
+.ic-btn-b05{ background-image:url(../image/btn/number_b05-02.png); }
+.ic-selector input:checked +.ic-btn-b05{ background-image:url(../image/btn/number_b05-01.png); }
+.ic-btn-b06{ background-image:url(../image/btn/number_b06-02.png); }
+.ic-selector input:checked +.ic-btn-b06{ background-image:url(../image/btn/number_b06-01.png); }
+.ic-btn-b07{ background-image:url(../image/btn/number_b07-02.png); }
+.ic-selector input:checked +.ic-btn-b07{ background-image:url(../image/btn/number_b07-01.png); }
+.ic-btn-b08{ background-image:url(../image/btn/number_b08-02.png); }
+.ic-selector input:checked +.ic-btn-b08{ background-image:url(../image/btn/number_b08-01.png); }
+.ic-btn-b09{ background-image:url(../image/btn/number_b09-02.png); }
+.ic-selector input:checked +.ic-btn-b09{ background-image:url(../image/btn/number_b09-01.png); }
+.ic-btn-b010{ background-image:url(../image/btn/number_b10-02.png); }
+.ic-selector input:checked +.ic-btn-b010{ background-image:url(../image/btn/number_b10-01.png); }
+.ic-btn-b011{ background-image:url(../image/btn/number_b11-02.png); }
+.ic-selector input:checked +.ic-btn-b011{ background-image:url(../image/btn/number_b11-01.png); }
+.ic-btn-b012{ background-image:url(../image/btn/number_b12-02.png); }
+.ic-selector input:checked +.ic-btn-b012{ background-image:url(../image/btn/number_b12-01.png); }
+.ic-btn-b013{ background-image:url(../image/btn/number_b13-02.png); }
+.ic-selector input:checked +.ic-btn-b013{ background-image:url(../image/btn/number_b13-01.png); }
+.ic-btn-b014{ background-image:url(../image/btn/number_b14-02.png); }
+.ic-selector input:checked +.ic-btn-b014{ background-image:url(../image/btn/number_b14-01.png); }
+.ic-btn-b015{ background-image:url(../image/btn/number_b15-02.png); }
+.ic-selector input:checked +.ic-btn-b015{ background-image:url(../image/btn/number_b15-01.png); }
+.ic-btn-b016{ background-image:url(../image/btn/number_b16-02.png); }
+.ic-selector input:checked +.ic-btn-b016{ background-image:url(../image/btn/number_b16-01.png); }
+.ic-btn-b017{ background-image:url(../image/btn/number_b17-02.png); }
+.ic-selector input:checked +.ic-btn-b017{ background-image:url(../image/btn/number_b17-01.png); }
+.ic-btn-b018{ background-image:url(../image/btn/number_b18-02.png); }
+.ic-selector input:checked +.ic-btn-b018{ background-image:url(../image/btn/number_b18-01.png); }
+.ic-btn-b019{ background-image:url(../image/btn/number_b19-02.png); }
+.ic-selector input:checked +.ic-btn-b019{ background-image:url(../image/btn/number_b19-01.png); }
+.ic-btn-b020{ background-image:url(../image/btn/number_b20-02.png); }
+.ic-selector input:checked +.ic-btn-b020{ background-image:url(../image/btn/number_b20-01.png); }
+.ic-btn-b021{ background-image:url(../image/btn/number_b21-02.png); }
+.ic-selector input:checked +.ic-btn-b021{ background-image:url(../image/btn/number_b21-01.png); }
+.ic-btn-b022{ background-image:url(../image/btn/number_b22-02.png); }
+.ic-selector input:checked +.ic-btn-b022{ background-image:url(../image/btn/number_b22-01.png); }
+.ic-btn-b023{ background-image:url(../image/btn/number_b23-02.png); }
+.ic-selector input:checked +.ic-btn-b023{ background-image:url(../image/btn/number_b23-01.png); }
+.ic-btn-b024{ background-image:url(../image/btn/number_b24-02.png); }
+.ic-selector input:checked +.ic-btn-b024{ background-image:url(../image/btn/number_b24-01.png); }
+.ic-btn-b025{ background-image:url(../image/btn/number_b25-02.png); }
+.ic-selector input:checked +.ic-btn-b025{ background-image:url(../image/btn/number_b25-01.png); }
+.ic-btn-b026{ background-image:url(../image/btn/number_b26-02.png); }
+.ic-selector input:checked +.ic-btn-b026{ background-image:url(../image/btn/number_b26-01.png); }
+.ic-btn-b027{ background-image:url(../image/btn/number_b27-02.png); }
+.ic-selector input:checked +.ic-btn-b027{ background-image:url(../image/btn/number_b27-01.png); }
+.ic-btn-b028{ background-image:url(../image/btn/number_b28-02.png); }
+.ic-selector input:checked +.ic-btn-b028{ background-image:url(../image/btn/number_b28-01.png); }
+.ic-btn-b029{ background-image:url(../image/btn/number_b29-02.png); }
+.ic-selector input:checked +.ic-btn-b029{ background-image:url(../image/btn/number_b29-01.png); }
+.ic-btn-b030{ background-image:url(../image/btn/number_b30-02.png); }
+.ic-selector input:checked +.ic-btn-b030{ background-image:url(../image/btn/number_b20-01.png); }
 
-.ic-btn-y01{ background-image:url(../image/btn/number_y01-02.svg); }
-.ic-selector input:checked +.ic-btn-y01{ background-image:url(../image/btn/number_y01-01.svg); }
-.ic-btn-y02{ background-image:url(../image/btn/number_y02-02.svg); }
-.ic-selector input:checked +.ic-btn-y02{ background-image:url(../image/btn/number_y02-01.svg); }
-.ic-btn-y03{ background-image:url(../image/btn/number_y03-02.svg); }
-.ic-selector input:checked +.ic-btn-y03{ background-image:url(../image/btn/number_y03-01.svg); }
-.ic-btn-y04{ background-image:url(../image/btn/number_y04-02.svg); }
-.ic-selector input:checked +.ic-btn-y04{ background-image:url(../image/btn/number_y04-01.svg); }
-.ic-btn-y05{ background-image:url(../image/btn/number_y05-02.svg); }
-.ic-selector input:checked +.ic-btn-y05{ background-image:url(../image/btn/number_y05-01.svg); }
-.ic-btn-y06{ background-image:url(../image/btn/number_y06-02.svg); }
-.ic-selector input:checked +.ic-btn-y06{ background-image:url(../image/btn/number_y06-01.svg); }
-.ic-btn-y07{ background-image:url(../image/btn/number_y07-02.svg); }
-.ic-selector input:checked +.ic-btn-y07{ background-image:url(../image/btn/number_y07-01.svg); }
-.ic-btn-y08{ background-image:url(../image/btn/number_y08-02.svg); }
-.ic-selector input:checked +.ic-btn-y08{ background-image:url(../image/btn/number_y08-01.svg); }
-.ic-btn-y09{ background-image:url(../image/btn/number_y09-02.svg); }
-.ic-selector input:checked +.ic-btn-y09{ background-image:url(../image/btn/number_y09-01.svg); }
-.ic-btn-y010{ background-image:url(../image/btn/number_y10-02.svg); }
-.ic-selector input:checked +.ic-btn-y010{ background-image:url(../image/btn/number_y10-01.svg); }
-.ic-btn-y011{ background-image:url(../image/btn/number_y11-02.svg); }
-.ic-selector input:checked +.ic-btn-y011{ background-image:url(../image/btn/number_y11-01.svg); }
-.ic-btn-y012{ background-image:url(../image/btn/number_y12-02.svg); }
-.ic-selector input:checked +.ic-btn-y012{ background-image:url(../image/btn/number_y12-01.svg); }
-.ic-btn-y013{ background-image:url(../image/btn/number_y13-02.svg); }
-.ic-selector input:checked +.ic-btn-y013{ background-image:url(../image/btn/number_y13-01.svg); }
-.ic-btn-y014{ background-image:url(../image/btn/number_y14-02.svg); }
-.ic-selector input:checked +.ic-btn-y014{ background-image:url(../image/btn/number_y14-01.svg); }
-.ic-btn-y015{ background-image:url(../image/btn/number_y15-02.svg); }
-.ic-selector input:checked +.ic-btn-y015{ background-image:url(../image/btn/number_y15-01.svg); }
-.ic-btn-y016{ background-image:url(../image/btn/number_y16-02.svg); }
-.ic-selector input:checked +.ic-btn-y016{ background-image:url(../image/btn/number_y16-01.svg); }
-.ic-btn-y017{ background-image:url(../image/btn/number_y17-02.svg); }
-.ic-selector input:checked +.ic-btn-y017{ background-image:url(../image/btn/number_y17-01.svg); }
-.ic-btn-y018{ background-image:url(../image/btn/number_y18-02.svg); }
-.ic-selector input:checked +.ic-btn-y018{ background-image:url(../image/btn/number_y18-01.svg); }
-.ic-btn-y019{ background-image:url(../image/btn/number_y19-02.svg); }
-.ic-selector input:checked +.ic-btn-y019{ background-image:url(../image/btn/number_y19-01.svg); }
-.ic-btn-y020{ background-image:url(../image/btn/number_y20-02.svg); }
-.ic-selector input:checked +.ic-btn-y020{ background-image:url(../image/btn/number_y20-01.svg); }
-.ic-btn-y021{ background-image:url(../image/btn/number_y21-02.svg); }
-.ic-selector input:checked +.ic-btn-y021{ background-image:url(../image/btn/number_y21-01.svg); }
-.ic-btn-y022{ background-image:url(../image/btn/number_y22-02.svg); }
-.ic-selector input:checked +.ic-btn-y022{ background-image:url(../image/btn/number_y22-01.svg); }
-.ic-btn-y023{ background-image:url(../image/btn/number_y23-02.svg); }
-.ic-selector input:checked +.ic-btn-y023{ background-image:url(../image/btn/number_y23-01.svg); }
-.ic-btn-y024{ background-image:url(../image/btn/number_y24-02.svg); }
-.ic-selector input:checked +.ic-btn-y024{ background-image:url(../image/btn/number_y24-01.svg); }
-.ic-btn-y025{ background-image:url(../image/btn/number_y25-02.svg); }
-.ic-selector input:checked +.ic-btn-y025{ background-image:url(../image/btn/number_y25-01.svg); }
-.ic-btn-y026{ background-image:url(../image/btn/number_y26-02.svg); }
-.ic-selector input:checked +.ic-btn-y026{ background-image:url(../image/btn/number_y26-01.svg); }
-.ic-btn-y027{ background-image:url(../image/btn/number_y27-02.svg); }
-.ic-selector input:checked +.ic-btn-y027{ background-image:url(../image/btn/number_y27-01.svg); }
-.ic-btn-y028{ background-image:url(../image/btn/number_y28-02.svg); }
-.ic-selector input:checked +.ic-btn-y028{ background-image:url(../image/btn/number_y28-01.svg); }
-.ic-btn-y029{ background-image:url(../image/btn/number_y29-02.svg); }
-.ic-selector input:checked +.ic-btn-y029{ background-image:url(../image/btn/number_y29-01.svg); }
-.ic-btn-y030{ background-image:url(../image/btn/number_y30-02.svg); }
-.ic-selector input:checked +.ic-btn-y030{ background-image:url(../image/btn/number_y20-01.svg); }
+.ic-btn-y01{ background-image:url(../image/btn/number_y01-02.png); }
+.ic-selector input:checked +.ic-btn-y01{ background-image:url(../image/btn/number_y01-01.png); }
+.ic-btn-y02{ background-image:url(../image/btn/number_y02-02.png); }
+.ic-selector input:checked +.ic-btn-y02{ background-image:url(../image/btn/number_y02-01.png); }
+.ic-btn-y03{ background-image:url(../image/btn/number_y03-02.png); }
+.ic-selector input:checked +.ic-btn-y03{ background-image:url(../image/btn/number_y03-01.png); }
+.ic-btn-y04{ background-image:url(../image/btn/number_y04-02.png); }
+.ic-selector input:checked +.ic-btn-y04{ background-image:url(../image/btn/number_y04-01.png); }
+.ic-btn-y05{ background-image:url(../image/btn/number_y05-02.png); }
+.ic-selector input:checked +.ic-btn-y05{ background-image:url(../image/btn/number_y05-01.png); }
+.ic-btn-y06{ background-image:url(../image/btn/number_y06-02.png); }
+.ic-selector input:checked +.ic-btn-y06{ background-image:url(../image/btn/number_y06-01.png); }
+.ic-btn-y07{ background-image:url(../image/btn/number_y07-02.png); }
+.ic-selector input:checked +.ic-btn-y07{ background-image:url(../image/btn/number_y07-01.png); }
+.ic-btn-y08{ background-image:url(../image/btn/number_y08-02.png); }
+.ic-selector input:checked +.ic-btn-y08{ background-image:url(../image/btn/number_y08-01.png); }
+.ic-btn-y09{ background-image:url(../image/btn/number_y09-02.png); }
+.ic-selector input:checked +.ic-btn-y09{ background-image:url(../image/btn/number_y09-01.png); }
+.ic-btn-y010{ background-image:url(../image/btn/number_y10-02.png); }
+.ic-selector input:checked +.ic-btn-y010{ background-image:url(../image/btn/number_y10-01.png); }
+.ic-btn-y011{ background-image:url(../image/btn/number_y11-02.png); }
+.ic-selector input:checked +.ic-btn-y011{ background-image:url(../image/btn/number_y11-01.png); }
+.ic-btn-y012{ background-image:url(../image/btn/number_y12-02.png); }
+.ic-selector input:checked +.ic-btn-y012{ background-image:url(../image/btn/number_y12-01.png); }
+.ic-btn-y013{ background-image:url(../image/btn/number_y13-02.png); }
+.ic-selector input:checked +.ic-btn-y013{ background-image:url(../image/btn/number_y13-01.png); }
+.ic-btn-y014{ background-image:url(../image/btn/number_y14-02.png); }
+.ic-selector input:checked +.ic-btn-y014{ background-image:url(../image/btn/number_y14-01.png); }
+.ic-btn-y015{ background-image:url(../image/btn/number_y15-02.png); }
+.ic-selector input:checked +.ic-btn-y015{ background-image:url(../image/btn/number_y15-01.png); }
+.ic-btn-y016{ background-image:url(../image/btn/number_y16-02.png); }
+.ic-selector input:checked +.ic-btn-y016{ background-image:url(../image/btn/number_y16-01.png); }
+.ic-btn-y017{ background-image:url(../image/btn/number_y17-02.png); }
+.ic-selector input:checked +.ic-btn-y017{ background-image:url(../image/btn/number_y17-01.png); }
+.ic-btn-y018{ background-image:url(../image/btn/number_y18-02.png); }
+.ic-selector input:checked +.ic-btn-y018{ background-image:url(../image/btn/number_y18-01.png); }
+.ic-btn-y019{ background-image:url(../image/btn/number_y19-02.png); }
+.ic-selector input:checked +.ic-btn-y019{ background-image:url(../image/btn/number_y19-01.png); }
+.ic-btn-y020{ background-image:url(../image/btn/number_y20-02.png); }
+.ic-selector input:checked +.ic-btn-y020{ background-image:url(../image/btn/number_y20-01.png); }
+.ic-btn-y021{ background-image:url(../image/btn/number_y21-02.png); }
+.ic-selector input:checked +.ic-btn-y021{ background-image:url(../image/btn/number_y21-01.png); }
+.ic-btn-y022{ background-image:url(../image/btn/number_y22-02.png); }
+.ic-selector input:checked +.ic-btn-y022{ background-image:url(../image/btn/number_y22-01.png); }
+.ic-btn-y023{ background-image:url(../image/btn/number_y23-02.png); }
+.ic-selector input:checked +.ic-btn-y023{ background-image:url(../image/btn/number_y23-01.png); }
+.ic-btn-y024{ background-image:url(../image/btn/number_y24-02.png); }
+.ic-selector input:checked +.ic-btn-y024{ background-image:url(../image/btn/number_y24-01.png); }
+.ic-btn-y025{ background-image:url(../image/btn/number_y25-02.png); }
+.ic-selector input:checked +.ic-btn-y025{ background-image:url(../image/btn/number_y25-01.png); }
+.ic-btn-y026{ background-image:url(../image/btn/number_y26-02.png); }
+.ic-selector input:checked +.ic-btn-y026{ background-image:url(../image/btn/number_y26-01.png); }
+.ic-btn-y027{ background-image:url(../image/btn/number_y27-02.png); }
+.ic-selector input:checked +.ic-btn-y027{ background-image:url(../image/btn/number_y27-01.png); }
+.ic-btn-y028{ background-image:url(../image/btn/number_y28-02.png); }
+.ic-selector input:checked +.ic-btn-y028{ background-image:url(../image/btn/number_y28-01.png); }
+.ic-btn-y029{ background-image:url(../image/btn/number_y29-02.png); }
+.ic-selector input:checked +.ic-btn-y029{ background-image:url(../image/btn/number_y29-01.png); }
+.ic-btn-y030{ background-image:url(../image/btn/number_y30-02.png); }
+.ic-selector input:checked +.ic-btn-y030{ background-image:url(../image/btn/number_y20-01.png); }
 /*
 .ic-btn-b01{ background-image:url(../image/btn/number_b01-02.svg); }
 .ic-selector input:checked +.ic-btn-b01{ background-image:url(../image/btn/number_b01-01.svg); }

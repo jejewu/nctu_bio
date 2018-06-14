@@ -4,17 +4,17 @@
  */
     if(is_page('exchange_student')){
         $short_color = 'r';
-        $color_code = '#9B0019';
+        $color_code = '#FF6600';
         $cat_name = 'exchange_student';
         $page_title = '交換生合約';
     }else if(is_page('joint_dual_degree')){
         $short_color = 'b';
-        $color_code = '#00AAE6';
+        $color_code = '#338DC9';
         $cat_name = 'joint_dual_degree';
         $page_title = '雙聯學位合約';
     }else if(is_page('academic_exchange')){
         $short_color = 'y';
-        $color_code = '#F0BE23';
+        $color_code = '#F99E03';
         $cat_name = 'academic_exchange';
         $page_title = '學術交流合作書';
     }else{

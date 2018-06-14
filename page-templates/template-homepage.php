@@ -207,8 +207,8 @@ get_header(); ?>
     
     function showNext(){
         old_bg = now_bg;
-        now_bg = (now_bg+1)%3; /* 輪播圖總數量 */
-        next_bg = (now_bg+1)%3;
+        now_bg = (now_bg+1)%4; /* 輪播圖總數量 */
+        next_bg = (now_bg+1)%4;
         $(".hp-p01").addClass("hp-p01_"+now_bg).removeClass("hp-p01_"+old_bg);
         $(".hp-p01_next").addClass("hp-p01_"+next_bg).removeClass("hp-p01_"+now_bg);
         timer = setTimeout(showNext, frequency);
