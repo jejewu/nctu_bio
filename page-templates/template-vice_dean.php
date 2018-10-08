@@ -4,31 +4,38 @@
  */
 ?>
 <?php get_header(); ?>
+<head>
+
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/intro.css" type="text/css" media="screen and (min-width: 701px)" />
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/mobile-css/homepage-mobile.css" type="text/css" media="screen and (max-width: 700px)" />
+
+</head>
+
 <div class="page-vice_dean">
 
     <div class="container mobilehidden">
         <div id="vice_dean-container">
-            <div class="intro-littleTitle">04  副院長簡介</div>
-            <div class="vd-block vd-chen">
+            <div class="intro-littleTitle">03  副院長簡介</div>
+            <div class="vd-block vd-chen-tp">
                 <div class="vd-text_block vd-m1">
                     <div class="vd-littleTitle" style="margin-top:0px; margin-bottom:0px;">副院長</div>
-                    <div class="vd-bigTitle vd-fl">陳永富</div>
+                    <div class="vd-bigTitle vd-fl">黃憲達</div>
                     <div class="vd-littleTitle vd-fl">教授</div>
                     <a target="_blank" href="<?php bloginfo('template_url');?>/files/Yung-Fu_Chen_CV.pdf"><div class="vd-cv_icon"></div></a>
                     <div class="clear_both"></div>
                     <hr class="vd_hr">
-                    <div class="vd-text">電子物理學系教授<br>yfchen@cc.nctu.edu.tw<br>03-5725257#56106</div>
+                    <div class="vd-text">生物科技學系教授<br>bryan@mail.nctu.edu.tw<br>03-5725257#56952</div>
                 </div>
             </div>
-            <div class="vd-block vd-yang">
+            <div class="vd-block vd-yang-tp">
                 <div class="vd-text_block vd-m2">
                     <div class="vd-littleTitle" style="margin-top:0px; margin-bottom:0px;">副院長</div>
-                    <div class="vd-bigTitle vd-fl">楊一帆</div>
+                    <div class="vd-bigTitle vd-fl">王雲銘</div>
                     <div class="vd-littleTitle vd-fl">教授</div>
                     <a target="_blank" href="<?php bloginfo('template_url');?>/files/Yi-Fan-Yang.pdf"><div class="vd-cv_icon"></div></a>
                     <div class="clear_both"></div>
                     <hr class="vd_hr">
-                    <div class="vd-text">應用數學系教授<br>yfyang@math.nctu.edu.tw<br>03-5724679#56419</div>
+                    <div class="vd-text">分子醫學與生物工程所教授<br>ymwang@mail.nctu.edu.tw<br>03-5724679#56972</div>
                 </div>
             </div>
         </div>

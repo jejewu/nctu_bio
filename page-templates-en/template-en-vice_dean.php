@@ -4,6 +4,13 @@
  */
 ?>
 <?php get_header('en_header'); ?>
+<head>
+
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/intro.css" type="text/css" media="screen and (min-width: 701px)" />
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/mobile-css/homepage-mobile.css" type="text/css" media="screen and (max-width: 700px)" />
+
+</head>
+
 <div class="page-vice_dean">
 
     <div class="container mobilehidden">
