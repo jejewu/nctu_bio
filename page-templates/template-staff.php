@@ -4,49 +4,114 @@
  */
 ?>
 <?php get_header(); ?>
+<head>
+
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/intro.css" type="text/css" media="screen and (min-width: 701px)" />
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/mobile-css/homepage-mobile.css" type="text/css" media="screen and (max-width: 700px)" />
+
+</head>
+
+
 <div class="page-staff">
     <div class="container mobile-staff">
         <div id="staff-container">
-	    <div class="intro-littleTitle formobile" style="line-height:18px;">04  院辦公室成員</div>
-            <div class="intro-littleTitle mobilehidden">05  院辦公室成員</div>
+	    <div class="staff-littleTitle formobile" style="line-height:18px;">04  院辦公室成員</div>
+            <div class="staff-littleTitle mobilehidden">04  院辦公室成員</div>
+
 	    <div class="staff-mobile-space"></div>
-            <div class="staff-block">
-                <div class="staff-photo staff-wu"></div>
-		<div class="staff-block1"></div>
-		<div class="staff-text1">
-                <div class="staff-littleTitle">技士</div>
-                <div class="staff-bigTitle">吳盈熹</div>
-		</div>
-		<div class="staff-line"></div>
-		<div class="staff-text2">
-		<p class="staff-text notes">財產、 經費及空間管理<br>amy@mail.nctu.edu.tw<br>03 - 5712121 # 56001</p>
-		</div>
+
+            <div class="staff-block item1">
+                <div class="staff-photo staff-lu1"></div>
+                <div class="staff-intro">
+                    <div class="staff-text1">
+                                <div class="staff-littleTitle">行政專員</div>
+                                <div class="staff-bigTitle">呂聖玲</div>
+                    </div>
+                    <div class="staff-line"></div>
+                    <div class="staff-text2">
+                        <p class="staff-text notes">研究計畫及財產等事務<br>shenq@cc.nctu.edu.tw<br>03 - 5712121 # 56902</p>
+                    </div>
+                </div>
             </div>
 	    <div class="staff-mobile-line"></div>
-            <div class="staff-block">
-                <div class="staff-photo staff-liu"></div>
-                <div class="staff-block1"></div>
-		<div class="staff-text1">
-                <div class="staff-littleTitle">助理管理師</div>
-                <div class="staff-bigTitle">劉佳菁</div>
-                <div class="staff-line"></div>
-		</div>
-                <div class="staff-text2">
-                <p class="staff-text notes">院長行程、 行政與會議安排<br>joanliu@mail.nctu.edu.tw<br>03 - 5712121 # 56002</p>
-		</div>
+            <div class="staff-block item2">
+                <div class="staff-photo "></div>
+                <div class="staff-intro">
+                    <div class="staff-text1">
+                                <div class="staff-littleTitle">技士</div>
+                                <div class="staff-bigTitle">郭珍佑</div>
+                    </div>
+                    <div class="staff-line"></div>
+                    <div class="staff-text2">
+                        <p class="staff-text notes">館舍及公儀維修、門禁管理<br>系教評會業務、排課<br>cynthia@mail.nctu.edu.tw<br>03 - 5712121 # 56901</p>
+                    </div>
+                </div>
             </div>
 	    <div class="staff-mobile-line"></div>
-            <div class="staff-block" style="margin-right:0px;">
-                <div class="staff-photo staff-hsieh"></div>
-                <div class="staff-block1"></div>
-                <div class="staff-text1">
-                <div class="staff-littleTitle">行政助理</div>
-                <div class="staff-bigTitle">謝培禹</div>
-		</div>
-                <div class="staff-line"></div>
-		<div class="staff-text2">
-                <p class="staff-text notes">院教評、 網頁維護、國際化<br>page54@nctu.edu.tw<br>03 - 5712121 # 56003</p>
-		</div>
+            <div class="staff-block item3" style="margin-right:0px;">
+                <div class="staff-photo staff-kao1"></div>
+                <div class="staff-intro">
+                    <div class="staff-text1">
+                        <div class="staff-littleTitle">行政專員</div>
+                        <div class="staff-bigTitle">郭淑卿</div>
+                    </div>
+                    <div class="staff-line"></div>
+                    <div class="staff-text2">
+                        <p class="staff-text notes">院務及研究生相關事務<br>sunny@mail.nctu.edu.tw<br>03 - 5712121 # 56937</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="staff-block item4">
+                <div class="staff-intro2">
+                    <div class="staff-text1">
+                        <div class="staff-littleTitle">行政專員</div>
+                        <div class="staff-bigTitle">吳佳文</div>
+                    </div>
+                    <div class="staff-line2"></div>
+                    <div class="clear"></div>
+                    <div class="staff-text2">
+                        <p class="staff-text notes">專題演講、實驗室環安<br>chiawen@mail.nctu.edu.tw<br>03 - 5712121 # 56943</p>
+                    </div>
+                </div>
+                
+                <div class="staff-photo "></div>
+
+            </div>
+	    <div class="staff-mobile-line"></div>
+            <div class="staff-block item5">
+                <div class="staff-intro2">
+                    <div class="staff-text1">
+                        <div class="staff-littleTitle">行政專員</div>
+                        <div class="staff-bigTitle">呂弈凜</div>
+                    </div>
+                    <div class="staff-line2"></div>
+                    <div class="clear"></div>
+                    <div class="staff-text2">
+                        <p class="staff-text notes">科技部計畫、系所會務<br>院士事務<br>mobu@nctu.edu.tw<br>03 - 5712121 # 56938</p>
+                    </div>
+                </div>
+                
+                <div class="staff-photo staff-lu2"></div>
+
+            </div>
+	    <div class="staff-mobile-line"></div>
+            <div class="staff-block item6" style="margin-right:0px;">
+                <div class="staff-intro2">
+                    <div class="staff-text1">
+                        <div class="staff-littleTitle">公友</div>
+                        <div class="staff-bigTitle">葉連發</div>
+                    </div>
+                    <div class="staff-line2"></div>
+                    <div class="clear"></div>
+                    <div class="staff-text2">
+                        <p class="staff-text notes">館舍維護、收發信件<br>yah@mail.nctu.edu.tw<br>03 - 5712121 # 53008</p>
+                    </div>
+                </div>
+
+                <div class="staff-photo"></div>
+
             </div>
             
         </div>
@@ -54,9 +119,35 @@
 		   <a class="icon_up"href="<?php echo site_url(); ?>/vice_dean" style="opacity:1; transform: matrix(1,0,0,1,0,0);"><div class="left_icon"></div></a>
 </div>
 <script>
+/*
+    now = 1;
+    num = 6;
+
     $(document).ready(function() {
+ 
+        $(".staff-block").hide();
+        $('.item'+now).fadeIn(1500,"swing");
+        $('.item'+ (now + 1)).fadeIn(1500,"swing");
+        $('.item'+ (now + 2)).fadeIn(1500,"swing");
+
         $(".nav_menu").on("click",function(){});
     });
+
+    $('.staff-intro-prev').click(function(){
+        now = (now+num-3)%num;
+        $('.staff-block').hide();
+        $('.item'+now).fadeIn(1500,"swing");
+        $('.item'+ (now + 1)).fadeIn(1500,"swing");
+        $('.item'+ (now + 2)).fadeIn(1500,"swing");
+    });
+    $('.staff-intro-next').click(function(){
+        now = (now+3)%num;
+        $('.staff-block').hide();
+        $('.item'+now).fadeIn(1500,"swing");
+        $('.item'+ (now + 1)).fadeIn(1500,"swing");
+        $('.item'+ (now + 2)).fadeIn(1500,"swing");
+    });
+ */   
 </script>
 <?php wp_nav_menu (array('theme_location' => 'Menu2','container_class' => 'nav_menu','container_id' => 'nav_menu_5')); ?>
 <?php //get_sidebar(); ?>
