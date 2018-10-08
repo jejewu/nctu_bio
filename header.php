@@ -193,7 +193,9 @@
                         <?php echo qtranxf_getLanguage()=='zh' ? '國立交通大學' : 'NCTU' ?>
                     </div>
                     <div id="header-block6">
-                        <?php echo qtranxf_getLanguage()=='zh' ? 'College of Biological Science and Technology' : '國立交通大學生物科技學院' ?>
+                        <p class="fontSize_11">
+                            <?php echo qtranxf_getLanguage()=='zh' ? 'College of Biological Science and Technology' : '國立交通大學生物科技學院' ?>
+        </p>
                     </div>
                     <div id="header-block7">College<br>of<br>Biological<br>Science and<br>Technology</div>
                     <div id="header-block8">
