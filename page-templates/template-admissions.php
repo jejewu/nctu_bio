@@ -12,9 +12,7 @@
         <div class="adm-container adm-container0">
 	    <div class="subtitled adm-l_title">01  一般招生</div>
         <div class="adm-container-mobile">
-            <div class="subtitle adm-b_title">大學部招生</div>
-            <div class="adm-btn adm-btn_left"></div>
-            <div class="adm-btn adm-btn_right"></div>
+            <div class="subtitle adm-b_title">招生資訊</div>
 	        <div class="clear_both"></div>
 	    </div>
 	        <div class="adm-line"></div>
@@ -294,7 +292,7 @@
                 </a>
 	    </div>
 	</div>
-        <div class="adm-mobile_info adm-mobile_info1 formobile">
+        <!--<div class="adm-mobile_info adm-mobile_info1 formobile">
             <div class="adm-mobile_info_container">
                 <a target="_blank" href="http://exam.nctu.edu.tw/bulletin.aspx?id=af576c6a-ff5a-42ff-9278-5c5f6391d480&id2=f2a7e67a-4378-4e29-8b99-ab56bb451ac7">
                         <p class="text adm-mobile_text adm-bottom_text4 formobile"  style="margin-left: calc( 33vw - 52px);">甄試招生</p>
@@ -311,50 +309,8 @@
                         <p class="text adm-mobile_text adm-bottom_text2 formobile" style="margin-left: calc( 35vw - 26px);">招生資訊</p>
                 </a>
             </div>
-        </div>
+        </div>-->
 
-<!--for web-->
-
-
-
-        <div onclick="" class="adm-bottom_info adm-bottom_info0 mobilehidden">
-	    <p class="subtitled adm-bottom_title mobilehidden">交通大學招生訊息</p>
-	    <div class="adm-bottom_info_container mobilehidden">
-		<div class="adm-bottom_info_line"></div>
-		<a target="_blank" href="http://exam.nctu.edu.tw/bulletin.aspx?id=BF4FE8DE-60AB-4AB0-ADC6-0559AE2CFC76&id2=7489d79c-d194-45f2-b076-00a6ada5c83d">
-			<p class="text adm-bottom_text">個人申請</p>
-		</a>
-		<a target="_blank" href="http://exam.nctu.edu.tw/bulletin.aspx?id=BF4FE8DE-60AB-4AB0-ADC6-0559AE2CFC76&id2=57eeeed7-2c9d-441f-b4f2-bf317e33ff41">
-            		<p class="text adm-bottom_text adm-bottom_text2">繁星推薦</p>
-		</a>
-		<a target="_blank" href="http://exam.nctu.edu.tw/bulletin.aspx?id=BF4FE8DE-60AB-4AB0-ADC6-0559AE2CFC76&id2=7625f197-0399-482b-a569-8d0b6f87a3d7">
-            		<p class="text adm-bottom_text adm-bottom_text3">考試分發</p>
-		</a>
-	    </div>
-        </div>
-        <div onclick="" class="adm-bottom_info adm-bottom_info1 mobilehidden">
-            <p class="subtitled adm-bottom_title">交通大學招生訊息</p>
-            <div class="adm-bottom_info_container">
-                <div class="adm-bottom_info_line"></div>
-                <a target="_blank" href="http://exam.nctu.edu.tw/bulletin.aspx?id=af576c6a-ff5a-42ff-9278-5c5f6391d480&id2=f2a7e67a-4378-4e29-8b99-ab56bb451ac7">
-                        <p class="text adm-bottom_text adm-bottom_text4">甄試招生</p>
-                </a>
-                <a target="_blank" href="http://exam.nctu.edu.tw/bulletin.aspx?id=af576c6a-ff5a-42ff-9278-5c5f6391d480&id2=f2a7e67a-4378-4e29-8b99-ab56bb451ac7">
-                        <p class="text adm-bottom_text adm-bottom_text5">考試入學</p>
-                </a>
-	    </div>
-        </div>
-        <div onclick="" class="adm-bottom_info adm-bottom_info2 mobilehidden">
-            <p class="subtitled adm-bottom_title">交通大學招生訊息</p>
-            <div class="adm-bottom_info_container">
-                <div class="adm-bottom_info_line"></div>
-                <a target="_blank" href="http://exam.nctu.edu.tw/bulletin.aspx?id=af576c6a-ff5a-42ff-9278-5c5f6391d480&id2=1605afaf-9cdb-4499-afa5-6dff9ad0a6d5">
-                        <p class="text adm-bottom_text adm-bottom_text2">招生資訊</p>
-                </a>
-	    </div>
-        </div>
-    </div>
-</div>
 
 <script>
     var old_num1 = 0;
