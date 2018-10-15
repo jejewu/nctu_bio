@@ -25,7 +25,8 @@
 
 
         <ul class="rf-menu">
-        <li class="subtitled rf-normal">表格規章</li><li class="subtitled rf-checked2"><a class="rf-menu-link" href="<?php echo site_url(); ?>/conference_room">會議室借用</a></li>
+        <!--<li class="subtitled rf-normal">表格規章</li><li class="subtitled rf-checked2"><a class="rf-menu-link" href="<?php echo site_url(); ?>/conference_room">會議室借用</a></li>-->
+        <li class="subtitled rf-normal">表格規章</li><li class="subtitled rf-checked2">會議室借用</li>
         </ul>
         <div class="rf-form_list_block formobile">
  	    <div class="rf-item" data-num="1"data-rel="rf_block1_0">
