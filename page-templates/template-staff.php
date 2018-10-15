@@ -15,8 +15,8 @@
 <div class="page-staff">
     <div class="container mobile-staff">
         <div id="staff-container">
-	    <div class="staff-littleTitle formobile" style="line-height:18px;">04  院辦公室成員</div>
-            <div class="staff-littleTitle mobilehidden">04  院辦公室成員</div>
+	    <div class="staff-littleTitle formobile" style="line-height:18px;">03  院辦公室成員</div>
+            <div class="staff-littleTitle mobilehidden">03  院辦公室成員</div>
 
 	    <div class="staff-mobile-space"></div>
 
@@ -35,7 +35,7 @@
             </div>
 	    <div class="staff-mobile-line"></div>
             <div class="staff-block item2">
-                <div class="staff-photo "></div>
+                <div class="staff-photo staff-kao2"></div>
                 <div class="staff-intro">
                     <div class="staff-text1">
                                 <div class="staff-littleTitle">技士</div>
@@ -76,24 +76,24 @@
                     </div>
                 </div>
                 
-                <div class="staff-photo "></div>
+                <div class="staff-photo2 staff-wu"></div>
 
             </div>
 	    <div class="staff-mobile-line"></div>
-            <div class="staff-block item5">
+            <div class="staff-block item5" style="margin-right:0px;">
                 <div class="staff-intro2">
                     <div class="staff-text1">
                         <div class="staff-littleTitle">行政專員</div>
-                        <div class="staff-bigTitle">呂弈凜</div>
+                        <div class="staff-bigTitle">陳珮筠</div>
                     </div>
                     <div class="staff-line2"></div>
                     <div class="clear"></div>
                     <div class="staff-text2">
-                        <p class="staff-text notes">科技部計畫、系所會務<br>院士事務<br>mobu@nctu.edu.tw<br>03 - 5712121 # 56938</p>
+                        <p class="staff-text notes">大學部及國際處師生<br>教學空間設備相關事務<br>g0630@nctu.edu.tw<br>03 - 5712121 # 56930</p>
                     </div>
                 </div>
                 
-                <div class="staff-photo staff-lu2"></div>
+                <div class="staff-photo2 staff-Chen"></div>
 
             </div>
 	    <div class="staff-mobile-line"></div>
@@ -107,10 +107,10 @@
                     <div class="clear"></div>
                     <div class="staff-text2">
                         <p class="staff-text notes">館舍維護、收發信件<br>yah@mail.nctu.edu.tw<br>03 - 5712121 # 53008</p>
-                    </div>
+                    </div> 
                 </div>
 
-                <div class="staff-photo"></div>
+                <div class="staff-photo2 staff-Ye"></div>
 
             </div>
             
