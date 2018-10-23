@@ -35,10 +35,11 @@
 .adm-btn_right{ background-image: url(../image/btn/btn_right_white.png); }
 .adm-btn_right:hover{ background-image: url(../image/btnbtn_right_white_full.png); }
 .adm-rec_item{
-    width: 8vw;
+    width: 9vw;
     height: 5vh;
     text-align: center;
-    line-height: 5vh;
+    padding-top: 10px;
+    margin: auto;
     cursor: pointer;
     border: solid 0px orange;
 }
@@ -48,23 +49,37 @@
 .adm-block1{
     float: left;
     height: 30vh;
-    width: 8vw;
-    margin-right: 4vw;
+    width: 10vw;
+    margin-right: 1vw;
     margin-left: 0;
+    margin-top: 20px;
     border: solid 0px green;
 }
 .adm-block1_w{ 
     width: 11vw;
 }
-.adm-block_r_extend{
-    height: 15vh;
+.adm-block_extend{
+    height: 16vh;
     color: white;
-    background: rgba(230, 50, 30, 0.8);
     border: solid 0px red;
     transition: color,background 1s ease-in-out;
+    margin-bottom: 15px;
 }
+
+.adm-block_r_extend{
+    background: rgba(230, 50, 30, 0.8);
+}
+
+.adm-block_b_extend{
+    background: rgba(51, 141, 201, 0.8);
+}
+
+.adm-block_o_extend{
+    background: rgba(255, 102, 0, 0.8);
+}
+
 .adm-block_r{
-    height: 5vh;
+    height: 9vh;
     border: solid 0px red;
     overflow: hidden;
 }
@@ -72,7 +87,7 @@
     float: left;
     width: 20vw;
     padding: 1vw;
-    background: rgba(255,255,255,0.4);
+    background: rgba(255,255,255,0.5);
     border: solid 0px blue;
     text-align: justify;
     display: none;
@@ -83,11 +98,12 @@
 .adm-link{
     width: 85%;
     border: solid 0px blue;
-    padding-left: 15%;
+    margin: auto;
     height: 2.2vh;
     line-height: 2.2vh;
     margin-bottom: 0.3vh;
     color: white;
+    text-align: center;
 }
 .adm-link:hover{
     background: rgba(255, 255, 255, 0.2);

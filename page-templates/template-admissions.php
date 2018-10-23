@@ -19,7 +19,10 @@
 <!-- for mobile -->
 
 	<div class="adm-block-container formobile">
-		<div class="adm-block1">
+        <div class="adm-block1"> 
+        生物科技系成立於民國八十三年，由碩士班開始，成為交通大學第一個生物科技相關的系所。</br>八十七年博士班成立後，於八十八年正式招收第一屆大學部學生。</br>九十年本系生化工程研究所開始招生，生物資訊研究所已於九十一年正式招生。</br>生物科技學院在九十二年獲教育部准許成立。
+        </div>
+		<!--<div class="adm-block1">
                     <a class="adm-rec_item" target="_blank" href="http://www.ep.nctu.edu.tw/admissions/admission_lists_tw/admission_category1_id:2">
                         <div class="adm-link adm-link_margin text">電子物理所</div>
                     </a>
@@ -38,7 +41,7 @@
                     <a class="adm-rec_item" style="width: 180px;" target="_blank" href="http://www.isdp.nctu.edu.tw/application.html">
                         <div class="adm-link adm-link_margin text">科學學士學位學程</div>
                     </a>
-		</div>
+		</div>-->
 	</div>
 
 
@@ -48,54 +51,48 @@
           <div class="adm-block-container mobilehidden"> <!--AnnieDisplayNone-->  
             <div class="adm-block1">
                 <div class="adm-block_r adm-br1">
-                    <div class="adm-rec_item" data-num="1">電子物理系</div>
+                    <div class="adm-rec_item" data-num="1">生物科技學系</div>
 <!--                    <div class="adm-link adm-link_margin text">招生訊息</div>
                     <div class="adm-link text">課程修業</div>
 -->
-                    <a target="_blank" href="http://www.ep.nctu.edu.tw/admissions/admission_lists_tw/admission_category1_id:2">
-			<div class="adm-link adm-link_margin text">招生訊息</div>
-		    </a>
-                    <a target="_blank" href="http://www.ep.nctu.edu.tw/filedownloads/filedownload_curriculum_lists_tw/filedownload_category1_id:3">
-		    	<div class="adm-link text">課程修業</div>
-		    </a>
+			        <div class="adm-link adm-link_margin text">學士、碩士、博士<br>課程修業</div>
                 </div>
                 <div class="adm-text_block1 text adm-tb1">本系大學部招生分「電子物理組」及「光電與奈米科學組」兩組。其中，電子物理組著重在半導體物理、凝態 物理、電子科學和理論物理的教學與研究。光電與奈米科學組則著重在光電材料與元件、雷射技術、雷射 物理及光資訊儲存的研究與教學。培養「物理為體」、「工學為用」具有學理涵養之專業領袖人才。授課涵蓋物理與電機電子領域，提供基礎物理、半導體、電子、光電、及奈米科學等課程，學生未來可朝向跨領域前瞻科技整合及應用發展。</div>
             </div>
             <div class="adm-block1">
                 <div class="adm-block_r adm-br2">
-                    <div class="adm-rec_item" data-num="2">應用數學系</div>
-		    <a target="_blank" href="http://www.math.nctu.edu.tw/admission/university.php">
-                        <div class="adm-link adm-link_margin text">招生訊息</div>
-                    </a>
-		    <a target="_blank" href="http://www.math.nctu.edu.tw/program/required_rule.php">
-			<div class="adm-link text">課程修業</div>
-		    </a>
+                    <div class="adm-rec_item" data-num="2">分子醫學與<br>生物工程研究所</div>
+                        <div class="adm-link adm-link_margin text">碩士、博士<br>課程修業</div>
                 </div>
                 <div class="adm-text_block1 text adm-tb2">本系以培養二十一世紀跨領域數學科學人才為目標。發展方向為數學建模與科學計算、微分方程與動態系統、財務工程與機率、離散數學與最優化、數論與分析、其他數學領域。</div>
             </div>
             <div class="adm-block1">
                 <div class="adm-block_r adm-br3">
-                    <div class="adm-rec_item" data-num="3">應用化學系</div>
-                    <a target="_blank" href="http://www.ac.nctu.edu.tw/zh_tw/recruit/recruit_1">
-                        <div class="adm-link adm-link_margin text">招生訊息</div>
-                    </a>
-                    <a target="_blank" href="http://www.ac.nctu.edu.tw/zh_tw/rule">
-                        <div class="adm-link text">課程修業</div>
-                    </a>
+                    <div class="adm-rec_item" data-num="3">生物資訊及<br>系統生物研究所</div>
+                        <div class="adm-link adm-link_margin text">碩士、博士<br>課程修業</div>
                 </div>
                 <div class="adm-text_block1 text adm-tb3">培養尖端化學領域人才，發展方向為跨領域分子科學、材料化學、光電化學及生物分析化學，課程兼具純化學與應用化學之特色。</div>
             </div>
-            <div class="adm-block1 adm-block1_w">
+            <div class="adm-block1">
                 <div class="adm-block_r adm-br4">
-                    <div class="adm-rec_item adm-rec_item_w" data-num="4">科學學士學位學程</div>
-                    <a target="_blank" href="http://www.isdp.nctu.edu.tw/application.html">
-                        <div class="adm-link adm-link_margin text">招生訊息</div>
-                    </a>
-                    <a target="_blank" href="http://www.isdp.nctu.edu.tw/intro4.html">
-                        <div class="adm-link text">課程修業</div>
-                    </a>
+                    <div class="adm-rec_item" data-num="4">生醫科學與工程<br>博士學位學程</div>
+                        <div class="adm-link adm-link_margin text">博士<br>課程修業</div>
                 </div>
-                <div class="adm-text_block1 adm-text_block1_w text adm-tb4">進入「理學院科學學士學位學程」之學生，須主修電子物理學系、應用數學系、或應用化學系，其學籍歸在其組別之學系（簡稱主修學系）並加註[雙學位：科學學士學位學程]。完成主修學系之畢業規定，並且滿足「科學學士學位學程」跨領域雙學位至少35學分之修業規定者，得獲授予主修學系及「科學學士學位學程」學位(雙學位)。「理學院科學學士學位學程」之學生，修習跨領域課程，不侷限在單一科系，提昇未來的競爭力。</div>
+                <div class="adm-text_block1 text adm-tb4">培養尖端化學領域人才，發展方向為跨領域分子科學、材料化學、光電化學及生物分析化學，課程兼具純化學與應用化學之特色。</div>
+            </div>
+            <div class="adm-block1">
+                <div class="adm-block_r adm-br5">
+                    <div class="adm-rec_item" data-num="5">跨領域神經科學<br>博士學位學程</div>
+                        <div class="adm-link adm-link_margin text">博士<br>課程修業</div>
+                </div>
+                <div class="adm-text_block1 adm-text_block1_w text adm-tb5">培養尖端化學領域人才，發展方向為跨領域分子科學、材料化學、光電化學及生物分析化學，課程兼具純化學與應用化學之特色。</div>
+            </div>
+            <div class="adm-block1 adm-block1_w">
+                <div class="adm-block_r adm-br6">
+                    <div class="adm-rec_item adm-rec_item_w" data-num="6">生物科技學院<br>產業博士班</div>
+                        <div class="adm-link adm-link_margin text">博士<br>課程修業</div>
+                </div>
+                <div class="adm-text_block1 adm-text_block1_w text adm-tb6">進入「理學院科學學士學位學程」之學生，須主修電子物理學系、應用數學系、或應用化學系，其學籍歸在其組別之學系（簡稱主修學系）並加註[雙學位：科學學士學位學程]。完成主修學系之畢業規定，並且滿足「科學學士學位學程」跨領域雙學位至少35學分之修業規定者，得獲授予主修學系及「科學學士學位學程」學位(雙學位)。「理學院科學學士學位學程」之學生，修習跨領域課程，不侷限在單一科系，提昇未來的競爭力。</div>
             </div>
 	  </div>
             <div class="clear_both"></div>
@@ -329,7 +326,10 @@
 	        
         //initial pop up
         new_num1 = 1;
-        $( ".adm-br" + new_num1 ).removeClass("adm-block_r").addClass("adm-block_r_extend");
+        $( ".adm-br" + new_num1 ).removeClass("adm-block_r").addClass("adm-block_extend");
+        if(new_num1 == "1"){
+            $( ".adm-br" + new_num1 ).addClass("adm-block_r_extend");
+        }
         $( ".adm-tb" + new_num1 ).fadeIn(1000);
         old_num1 = new_num1;
         //initial pop up
@@ -344,14 +344,41 @@
             console.log(new_num1);
             if(new_num1 != old_num1){
                 if(old_num1 != "0"){
-                    $( ".adm-br" + old_num1 ).removeClass("adm-block_r_extend").addClass("adm-block_r");
+                    $( ".adm-br" + old_num1 ).removeClass("adm-block_extend").addClass("adm-block_r");
+                    if(old_num1 == "1"){
+                        $( ".adm-br" + old_num1 ).removeClass("adm-block_r_extend");
+                    }
+                    else if(old_num1 == "2" || old_num1 == "3"){
+                        $( ".adm-br" + old_num1 ).removeClass("adm-block_b_extend");
+                    }
+                    else{
+                        $( ".adm-br" + old_num1 ).removeClass("adm-block_o_extend");
+                    }
                     $( ".adm-tb" + old_num1 ).hide();
                 }
-                $( ".adm-br" + new_num1 ).removeClass("adm-block_r").addClass("adm-block_r_extend");
+                $( ".adm-br" + new_num1 ).removeClass("adm-block_r").addClass("adm-block_extend");
+                if(new_num1 == "1"){
+                    $( ".adm-br" + new_num1 ).addClass("adm-block_r_extend");
+                }
+                else if(new_num1 == "2" || new_num1 == "3"){
+                    $( ".adm-br" + new_num1 ).addClass("adm-block_b_extend");
+                }
+                else{
+                    $( ".adm-br" + new_num1 ).addClass("adm-block_o_extend");
+                }
                 $( ".adm-tb" + new_num1 ).fadeIn(1000);
                 old_num1 = new_num1;
             }else{
-                $( ".adm-br" + new_num1 ).removeClass("adm-block_r_extend").addClass("adm-block_r");
+                $( ".adm-br" + new_num1 ).removeClass("adm-block_extend").addClass("adm-block_r");
+                if(new_num1 == "1"){
+                    $( ".adm-br" + new_num1 ).removeClass("adm-block_r_extend");
+                }
+                else if(new_num1 == "2" || new_num1 == "3"){
+                    $( ".adm-br" + new_num1 ).removeClass("adm-block_b_extend");
+                }
+                else{
+                    $( ".adm-br" + new_num1 ).removeClass("adm-block_o_extend");
+                }
                 $( ".adm-tb" + new_num1 ).hide();
                 old_num1 = 0;
             }    
