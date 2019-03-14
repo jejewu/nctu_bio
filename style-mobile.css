@@ -128,7 +128,7 @@ a{font-family:'Noto Sans TC', '微軟正黑體', sans-serif; text-decoration:non
 /************header***********/
 .mobilehidden{
 	display: none;
-        opacity: 0;
+    opacity: 0;
 }
 .mobile-header{ /*交通大學*/
 	position: fixed;
@@ -469,59 +469,59 @@ a{font-family:'Noto Sans TC', '微軟正黑體', sans-serif; text-decoration:non
     }
 
 .right_icon_w:hover {
-    background-image: url(../nctu_cos/image/Mobile_500x600/btn_right_arrow_k_500x600.svg);
+    background-image: url(../nctu_bio/image/Mobile_500x600/right-002.png);
 }
 .right_icon_w {
     position: fixed;
     top: 40vh;
     right: 3vw;
     width: 5vmin;
-    height: 5vmin;
+    height: 8vmin;
     cursor: pointer;
-    background-image: url(../nctu_cos/image/Mobile_500x600/btn_right_arrow_w_500x600.svg);
+    background-image: url(../nctu_bio/image/Mobile_500x600/right-002-white.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
 .right_icon:hover {
-    background-image: url(../nctu_cos/image/Mobile_500x600/btn_right_arrow_w_500x600.svg);
+    background-image: url(../nctu_bio/image/Mobile_500x600/right-002.png);
 }
 .right_icon {
     position: fixed;
     top: 40vh;
     right: 3vw;
     width: 5vmin;
-    height: 5vmin;
+    height: 8vmin;
     cursor: pointer;
-    background-image: url(../nctu_cos/image/Mobile_500x600/btn_right_arrow_k_500x600.svg);
+    background-image: url(../nctu_bio/image/Mobile_500x600/right-002.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
 .left_icon_w:hover {
-    background-image: url(../nctu_cos/image/Mobile_500x600/btn_left_arrow_k_500x600.svg);
+    background-image: url(../nctu_bio/image/Mobile_500x600/left-001-white.png);
 }
 .left_icon_w {
     position: fixed;
     top: 40vh;
     left: 3vw;
     width: 5vmin;
-    height: 5vmin;
+    height: 8vmin;
     cursor: pointer;
-    background-image: url(../nctu_cos/image/Mobile_500x600/btn_left_arrow_w_500x600.svg);
+    background-image: url(../nctu_bio/image/Mobile_500x600/left-001-white.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .left_icon:hover {
-    background-image: url(../nctu_cos/image/Mobile_500x600/btn_left_arrow_w_500x600.svg);
+    background-image: url(../nctu_bio/image/Mobile_500x600/left-001.png);
 }
 .left_icon {
     position: fixed;
     top: 40vh;
     left: 3vw;
     width: 5vmin;
-    height: 5vmin;
+    height: 8vmin;
     cursor: pointer;
-    background-image: url(../nctu_cos/image/Mobile_500x600/btn_left_arrow_k_500x600.svg);
+    background-image: url(../nctu_bio/image/Mobile_500x600/left-001.png);
     background-size: contain;
     background-repeat: no-repeat;
 }

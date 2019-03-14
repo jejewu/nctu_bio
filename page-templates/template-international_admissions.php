@@ -4,6 +4,12 @@
  */
 ?>
 <?php get_header(); ?>
+<head>
+
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/admissions.css" type="text/css" media="screen and (min-width: 701px)" />
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/mobile-css/admissions-mobile.css" type="text/css" media="screen and (max-width: 700px)" />
+
+</head>
 <div class="page-admissions">
 		<a class="icon_up"href="<?php echo site_url(); ?>/admissions" style="opacity:1; transform: matrix(1,0,0,1,0,0);"><div class="left_icon"></div></a>
                 <a class="icon_down"href="<?php echo site_url(); ?>/mainland_overseas_chinese" style="opacity:1; transform: matrix(1,0,0,1,0,0);"><div class="right_icon"></div></a>

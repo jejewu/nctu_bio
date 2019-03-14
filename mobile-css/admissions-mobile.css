@@ -8,7 +8,7 @@
 .page-admissions{
     height:100vh;
     width: 100vw;
-    background-image: url(../image/Mobile_500x600/19_500x600.jpg);
+    background-image: url(../image/Mobile_500x600/admissions.jpg);
     background-size: cover;
     border: solid 0px black;
     overflow: hidden;
@@ -27,7 +27,7 @@
 }
 .adm-container{
     position:absolute;
-    top: 14.5vh;
+    top: 10.5vh;
     left: 15vw;
     width: 70vw;
     height: 85.5vh;
@@ -54,11 +54,12 @@
 .adm-b_title{
     font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1.33em;
     letter-spacing: 0.2em;
     color: rgba(0, 0, 0, 1);
     border: solid 0px orange;
     width: 70vw;
+    margin-top: 10px;
 }
 .adm-btn{
     position: absolute;
@@ -103,9 +104,12 @@
     /*float: left;*/
     position: relative;
     height: 3vh;
-    margin-top: 15px;
+    margin-top: 20px;
     opacity: 0.9;
     border: solid 0px green;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 300;
 }
 .adm-block1_w{ 
 }
@@ -136,8 +140,8 @@
 .adm-line{
 /* 10 */
     position: absolute;
-    margin-top: 9px;
-    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     width: 70vw;
     height: 1px;
     border: 0px black solid;

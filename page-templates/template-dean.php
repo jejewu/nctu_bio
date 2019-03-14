@@ -18,7 +18,7 @@ get_header();
  
 <head>
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/intro.css" type="text/css" media="screen and (min-width: 701px)" />
-	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/mobile-css/homepage-mobile.css" type="text/css" media="screen and (max-width: 700px)" />
+	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/mobile-css/intro-mobile.css" type="text/css" media="screen and (max-width: 700px)" />
 
 </head> 
  
@@ -26,10 +26,10 @@ get_header();
     <div class="container">
         <div id="vice_dean-container" class="mobilehidden">
             <div class="intro-littleTitle2">02  院長簡介</div>
-            <div class="dean-bigTitle">鐘  育志</div>
-            <div class="dean-littleTitle">教授</div>
-            <div class="dean-littleTitle">(2014.8~)</div>
-            <a target="_blank" href="<?php bloginfo('template_url');?>/files/Prof_Yaw-Kuen_Li-CV.pdf"><div class="dean-cv_icon"></div></a>
+            <div class="dean-bigTitle">王  雲銘</div>
+            <div class="dean-littleTitle">院長</div>
+            <div class="dean-littleTitle">(2018.8~)</div>
+            <a target="_blank" href="https://cbt.nctu.edu.tw/wp-content/uploads/ymwang_cv.docx"><div class="dean-cv_icon"></div></a>
             <div class="clear_both"></div>
             <hr class="dean_hr mobilehidden">
             <div class="dean-option-wrapper dean-height1">
@@ -55,17 +55,17 @@ get_header();
 <!--formobile-->
 	<div id="vice_dean-container" class="formobile">
             <div class="dean-option-wrapper dean-height3 formobile">
-                <div class="intro-littleTitle formobile">02 院長簡介(2014.8-)</div>
-                <div class="dean-bigTitle">鐘  育志</div>
-                <div class="dean-littleTitle">教授</div>
-                <div class="notes dean-width3">ykl@cc.nctu.edu.tw<br>886-3-5712121 # 31985<br> 886-3-5712121 # 56545</div>
+                <div class="dean-littleTitle formobile">02 院長簡介</div>
+                <div class="dean-bigTitle">王  雲銘</div>
+                <div class="dean-littleTitle">院長(2018.8-)</div>
+                <div class="notes dean-width3">電子郵件 ymwang@mail.nctu.edu.tw<br>連絡電話 886-3-5712121 # 56972</div>
             </div>
 	    <div class="dean-triangle"></div>
 	    <div class="dean-rectangle"></div>
 	</div>
     </div>
 		<a class="icon_up"href="<?php echo site_url(); ?>/intro" style="opacity:1; transform: matrix(1,0,0,1,0,0);"><div class="left_icon"></div></a>
-                <a class="icon_down"href="<?php echo site_url(); ?>/vice_dean" style="opacity:1; transform: matrix(1,0,0,1,0,0);"><div class="right_icon_w"></div></a>
+        <a class="icon_down"href="<?php echo site_url(); ?>/staff" style="opacity:1; transform: matrix(1,0,0,1,0,0);"><div class="right_icon"></div></a>
 </div>
 <script>
     $(".dean-option-wrapper").hover(

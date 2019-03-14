@@ -11,7 +11,7 @@
     <div class="container">    
         <div class="ra-color_block"></div>
         <div class="ra-block">
-            <p class="subtitled ra-title1 formobile">重點研究</p>
+            <p class="subtitled ra-title1 formobile">01 重點研究</p>
                 <p class="subtitled ra-title1 mobilehidden">01 重點研究</p>
                 <p class="subtitle ra-title2">各領域重點研究</p>
                 <!--
@@ -30,7 +30,7 @@
                 $the_query = new WP_Query($args);
             ?>
             <div class="ra-circle_block mobilehidden">
-                <div class="ra-circle_b subtitled mobilehidden">跨領域基礎學科</div>
+                <div class="ra-circle_b subtitled mobilehidden">跨領域研究</div>
 
                 <?php
                     if($the_query->have_posts()):
@@ -58,7 +58,7 @@
                             $the_query->the_post();
                 ?>
 
-                    <div class="ra-text_block ra-block<?php echo $i;?>">
+                    <div class="mobilehidden ra-text_block ra-block<?php echo $i;?>">
                         <div class="subtitle ra-title3 mobilehidden"><?php the_title(); ?></div>
                         <hr class="ra-hr">
                         <div class="ra-subtitled ra-text"><?php the_field('category1'); ?></div>
@@ -66,7 +66,15 @@
                         <div class="ra-subtitled ra-text"><?php the_field('category3'); ?></div>
                         <div class="ra-subtitled ra-text"><?php the_field('category4'); ?></div>
                     </div>
-
+                    
+                    <div class="formobile ra-text_block ra-block_mobile_<?php echo $i;?>">
+                        <hr class="ra-hr">
+                        <div class="subtitle ra-title3 formobile"><?php the_title(); ?></div>
+                        <div class="ra-subtitled ra-text"><?php the_field('category1'); ?></div>
+                        <div class="ra-subtitled ra-text"><?php the_field('category2'); ?></div>
+                        <div class="ra-subtitled ra-text"><?php the_field('category3'); ?></div>
+                        <div class="ra-subtitled ra-text"><?php the_field('category4'); ?></div>
+                    </div>
                 <?php
                         $i++;
                         endwhile;
@@ -74,17 +82,19 @@
                         echo "no post";
                     endif;
                 ?>
-            
+
 
             <div class="ra-circle_block formobile">
-                <div class="ra-c1_mobile text formobile">物</div>
-                <div class="ra-c2_mobile text formobile">數</div>
-                <div class="ra-c3_mobile text formobile">化</div>
+                <div class="ra-c1_mobile text formobile"></div>
+                <div class="ra-c2_mobile text formobile"></div>
+                <div class="ra-c3_mobile text formobile"></div>
+                <div class="ra-c4_mobile text formobile"></div>
             </div>
 
         </div>
     </div>        
-</div>    
+</div> 
+<a class="icon_down"href="<?php echo site_url(); ?>/national_labs" style="opacity:1; transform: matrix(1,0,0,1,0,0);"><div class="right_icon_w"></div></a>   
 <!-- original example       
             <div class="ra-circle_block mobilehidden">
                 <div class="ra-circle_b subtitled mobilehidden">跨領域基礎學科</div>
@@ -119,6 +129,18 @@
 <script>
 
 
+    function isMobile() {
+
+    try{ document.createEvent("TouchEvent"); return true; }
+
+    catch(e){ return false;}
+
+    }
+
+    if(isMobile()){
+        $(".ra-block_mobile_1").css("display","block");
+        $(".ra-c1_mobile").css("background-image","url(../wp-content/themes/nctu_bio/image/Mobile_500x600/02.png)");
+    }
     $(".ra-c1").hover(
         function(){
             $(".ra-block1").fadeIn(500,"swing");
@@ -128,73 +150,66 @@
     );
     $(".ra-c1_mobile").hover(
         function(){
-            $(".ra-block1").fadeIn(500,"swing");
-            $(".ra-c1_mobile").css("border","1px solid rgba(230, 50, 30, 1)");
-            $(".ra-c1_mobile").css("color","rgba(230, 50, 30, 1)");
-            $(".ra-block1").css("display","block");
+            $(".ra-block_mobile_1").fadeIn(500,"swing");
+            $(".ra-c1_mobile").css("background-image","url(../wp-content/themes/nctu_bio/image/Mobile_500x600/02.png)");
         },function(){
-            $(".ra-block1").fadeOut(500,"swing");
+            $(".ra-block_mobile_1").fadeOut(500,"swing");
+            $(".ra-c1_mobile").css("background-image","url(../wp-content/themes/nctu_bio/image/Mobile_500x600/01.png)");
         }
     );
     $(".ra-c2").hover(
         function(){
             $(".ra-block2").fadeIn(500,"swing");
-	    $(".ra-block1").fadeOut(500,"swing");
+	        $(".ra-block1").fadeOut(500,"swing");
         },function(){
             $(".ra-block2").fadeOut(500,"swing");
         }
     );
     $(".ra-c2_mobile").hover(
         function(){
-            $(".ra-block2").fadeIn(500,"swing");
-            $(".ra-block1").css("display","none");
-            $(".ra-c1_mobile").css("border","1px solid rgba(100, 100, 100, 1)");
-            $(".ra-c1_mobile").css("color","rgba(100,100,100,1)");
+            $(".ra-block_mobile_2").fadeIn(500,"swing");
+            $(".ra-block_mobile_1").css("display","none");
+            $(".ra-c1_mobile").css("background-image","url(../wp-content/themes/nctu_bio/image/Mobile_500x600/01.png)");
         },function(){
-            $(".ra-block2").fadeOut(500,"swing");
+            $(".ra-block_mobile_2").fadeOut(500,"swing");
         }
     );
     $(".ra-c3").hover(
         function(){
             $(".ra-block3").fadeIn(500,"swing");
-	    $(".ra-block1").fadeOut(500,"swing");
+	        $(".ra-block1").fadeOut(500,"swing");
         },function(){
             $(".ra-block3").fadeOut(500,"swing");
         }
     );
     $(".ra-c3_mobile").hover(
         function(){
-            $(".ra-block3").fadeIn(500,"swing");
-            $(".ra-block1").css("display","none");
-            $(".ra-c1_mobile").css("border","1px solid rgba(100, 100, 100, 1)");
-            $(".ra-c1_mobile").css("color","rgba(100,100,100,1)");
+            $(".ra-block_mobile_3").fadeIn(500,"swing");
+            $(".ra-block_mobile_1").css("display","none");
+            $(".ra-c1_mobile").css("background-image","url(../wp-content/themes/nctu_bio/image/Mobile_500x600/01.png)");
         },function(){
-            $(".ra-block3").fadeOut(500,"swing");
+            $(".ra-block_mobile_3").fadeOut(500,"swing");
         }
     );
     $(".ra-c4").hover(
         function(){
             $(".ra-block4").fadeIn(500,"swing");
-	    $(".ra-block1").fadeOut(500,"swing");
+	        $(".ra-block1").fadeOut(500,"swing");
         },function(){
             $(".ra-block4").fadeOut(500,"swing");
         }
     );
     $(".ra-c4_mobile").hover(
         function(){
-            $(".ra-block4").fadeIn(500,"swing");
-            $(".ra-block1").css("display","none");
-            $(".ra-c1_mobile").css("border","1px solid rgba(100, 100, 100, 1)");
-            $(".ra-c1_mobile").css("color","rgba(100,100,100,1)");
+            $(".ra-block_mobile_4").fadeIn(500,"swing");
+            $(".ra-block_mobile_1").css("display","none");
+            $(".ra-c1_mobile").css("background-image","url(../wp-content/themes/nctu_bio/image/Mobile_500x600/01.png)");
         },function(){
-            $(".ra-block4").fadeOut(500,"swing");
+            $(".ra-block_mobile_4").fadeOut(500,"swing");
         }
     );
     $(document).ready(function() {
         $(".nav_menu").on("click",function(){});
-	$(".ra-c1_mobile").css("border","1px solid rgba(230, 50, 30, 1)");
-	$(".ra-c1_mobile").css("color","rgba(230, 50, 30, 1)");
-        $(".ra-block1").css("display","block");
     });
 </script>
 

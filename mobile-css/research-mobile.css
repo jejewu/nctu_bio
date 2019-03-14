@@ -1,6 +1,6 @@
 /*research - page1*/
 .page-research_achievements{
-    background-image:url(../image/Mobile_500x600/index_bg06_500x600.jpg);
+    background-image:url(../image/Mobile_500x600/research_achievements.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     height:100vh;
@@ -13,11 +13,10 @@
     border: 0px black solid;
     width: 80vw;
     height: 60vh;
-    background: rgba(255, 255, 255, 0.7);
 }
 .ra-block{
-    width: 70%;
-    height: 70%;
+    width: 75%;
+    height: 80%;
     position: absolute;
     top: 17.5%;
     left: 15%;
@@ -38,16 +37,23 @@
     font-weight: 300;
     font-size: 14px;
     letter-spacing: 0.1em;
-    color: rgba(50, 50, 50, 1);
+    color: white;
     line-height: 20px;
 }
 .ra-title2{
     font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1.33em;
     letter-spacing: 0.2em;
-    color: rgba(50, 50, 50, 1);
+    color: white;
+    margin-top: 15px;
 }
+
+.ra-title3{
+    color: white;
+    margin-bottom: 20px;
+}
+
 .ra-btn{
     display: none;
 }
@@ -63,8 +69,7 @@
     position: absolute;
     margin-top: 15px;
     right: 0vw;
-    width: 32px;
-    height: 120px;
+    bottom: 0;
     border: 0px solid rgba(230, 50, 30, 1);
 }
 .ra-circle_b{
@@ -81,52 +86,63 @@
 }
 
 .ra-c1_mobile{
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
-    line-height: 30px;
-    font-size: 0.83em;
+    background-image:url(../image/Mobile_500x600/01.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: top;
+    background-position: right bottom;
+    width: 25px;
+    height: 280px;
     margin-bottom: 13px;
-    text-align: center;
-    border: 1px solid rgba(100, 100, 100, 1);
-    color: rgba(100, 100, 100, 1);
 }
 .ra-c1_mobile:hover{
-    border: 1px solid rgba(230, 50, 30, 1);
-    color: rgba(230, 50, 30, 1);  
+    background-image:url(../image/Mobile_500x600/02.png);
 }
 .ra-c2_mobile{
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
-    line-height: 30px;
-    font-size: 0.83em;
+    background-image:url(../image/Mobile_500x600/03.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: top;
+    background-position: right bottom;
+    width: 25px;
+    height: 280px;
     margin-bottom: 13px;
-    text-align: center;
-    border: 1px solid rgba(100, 100, 100, 1);
-    color: rgba(100, 100, 100, 1);
 }
 .ra-c2_mobile:hover{
-    border: 1px solid rgba(255, 150, 45, 1);
-    color: rgba(255, 150, 45, 1);
+    background-image:url(../image/Mobile_500x600/04.png);
 }
 
 .ra-c3_mobile{
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
-    line-height: 30px;
-    font-size: 0.83em;
+    background-image:url(../image/Mobile_500x600/05.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: top;
+    background-position: right bottom;
+    width: 25px;
+    height: 280px;
     margin-bottom: 13px;
-    text-align: center;
-    border: 1px solid rgba(100, 100, 100, 1);
-    color: rgba(100, 100, 100, 1);
 }
 .ra-c3_mobile:hover{
-    border: 1px solid rgba(0, 170, 230, 1);
-    color: rgba(0, 170, 230, 1);
+    background-image:url(../image/Mobile_500x600/06.png);
 }
 
+.ra-c4_mobile{
+    background-image:url(../image/Mobile_500x600/07.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: top;
+    background-position: right bottom;
+    width: 30px;
+    height: 280px;
+    margin-bottom: 13px;
+}
+.ra-c4_mobile:hover{
+    background-image:url(../image/Mobile_500x600/08.png);
+}
 /*
 .ra-c1{
     left: 0vmin;
@@ -143,8 +159,8 @@
 */
 .ra-text_block{
     position: absolute;
-    margin-top: 15px;
-    width: 50vw;
+    margin-top: 20px;
+    width: 100%;
     border: solid 0px blue;
     display: none;
 }
@@ -153,11 +169,11 @@
     font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
     font-weight: 350;
     font-size: 0.66em;
-    color: rgba(100, 100, 100, 1);
+    color: white;
 }
 
 hr.ra-hr{
-    display: none;
+    margin-bottom: 20px;
 }
 .ra-text{
     height: 22px;
@@ -178,15 +194,16 @@ hr.ra-hr{
 .mp-title1{
     margin-top: 10px;
     line-height: 10px;
-    color: black;
-    font-size: 0.83em;
+    color: white;
+    font-size: 1em;
 }
-.mp-title2{
-    margin-top: 10px;
+.mp-title2-mobile{
+    margin-top: 15px;
     line-height: 25px;
-    color: black;
+    color: white;
     font-size: 1.33em;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
 }
 
 .mp-subtitle{
@@ -268,3 +285,179 @@ hr.ra-hr{
 .mp-circle_o{ background: #FF962D; }
 
 
+/* national labs*/
+
+.page-national_labs{
+    height:100vh;
+	background-image: url(../image/Mobile_500x600/national_labs.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: auto;
+}
+
+#rh-container{
+    width: 75%;
+    height: 80%;
+    position: absolute;
+    top: 17.5%;
+    left: 15%;
+    overflow-y: auto;
+    border: black 0px solid;
+}
+
+.rh-down-icon{
+    background-image: url(../image/Mobile_500x600/icon_bottom.png);
+    position: absolute;
+    width: 20px;
+    height: 22px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    right: 5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: solid 0px green;
+    cursor: pointer;
+    display: inline-block;
+    bottom: 0;
+}
+
+.rh-title-block{
+    position: relative;
+}
+
+.nl-line{
+    border: white 0.5px solid;
+    margin-bottom: 20px;
+}
+
+.nl-line_adjust{
+    border: white 1px solid;
+    width: 90%;
+    margin: auto;
+}
+
+.intro-first-subtext-mobile{
+    color: white;
+    font-size: 1.1em;
+    display: inline-block;   
+    margin-bottom: 20px;
+}
+
+.intro-first-page-text,.intro-second-page-text{
+    position: relative;
+}
+
+.more_btn,.back_btn_mobile{
+    background-image: url(../image/Mobile_500x600/national_labs_more.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    display: inline-block;
+    width: 20px;
+    height: 21px;
+    margin-top: 10px;
+    right: 5px;
+    background-size: contain;
+}
+
+.sub-text-mobile{
+    color: white;
+    font-size: 1.1em;
+}
+
+.sub-text_1 {
+    color: white;
+    font-size: 0.9em;
+    line-height: 25px;
+}
+
+.subpage-top, .subpage-middle, .subpage-bottom{
+    margin: 15px 0;
+}
+
+.nl_charge,.nl_reservation{
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 10px;
+}
+
+.nl_charge{
+    background-image: url(../image/Mobile_500x600/national_labs_charge.png);
+    width: 130px;
+    height: 21px;
+}
+
+.nl_reservation{
+    background-image: url(../image/Mobile_500x600/national_labs_reservation.png);
+    width: 65px;
+    height: 21px;
+}
+
+.disapear{
+    display: none;
+}
+
+#content-foot, #content-foot1{
+    background-image: url(../image/Mobile_500x600/national_labs_footer.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+	z-index: 11;
+	position: fixed;
+	width: 300px;
+    height: 300px;
+    bottom: -265px;
+	-webkit-transition: bottom 0.7s ease-in-out; /* For Safari 3.1 to 6.0 */
+    transition: bottom 0.7s ease-in-out;
+}
+#content-foot:hover, #content-foot1:hover{
+    background-image: url(../image/Mobile_500x600/national_labs_footer2.png);
+    bottom: -12px;
+}
+
+
+.footer_text{
+    color: white;
+    padding: 5px 15px;
+}
+
+.footer_item_text{
+    color: white;
+    padding: 5px 15px;
+}
+
+.item_content{
+    width: 100%;
+    background: rgba(255,255,255,0.4);
+    z-index: 11;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.line_height_24{
+    width: 90%;
+    margin: auto;
+    padding: 5px 0;
+    color: white;
+}
+
+.mcms_text img{
+    width: 90%;
+}
+
+.mcms_text,.im_spec_text,.service_text,.service_policy_text,.sys_level_open_text,.sys_level_right,.charge_text,.train_text{
+    color: white;
+    width: 90%;
+    margin: 8px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 0.9em;    
+}
+
+/*.scroller-up{
+    height: 0;
+}*/
+
+/*.common_content{
+	-webkit-transition: bottom 0.7s ease-in-out; /* For Safari 3.1 to 6.0 */
+  /*  transition: bottom 0.7s ease-in-out;
+}*/

@@ -89,7 +89,7 @@ ul.rf-menu li{
 }
 .rf-line{
     position: absolute;
-    margin-top: 9px;
+    margin-top: 20px;
     margin-left: 5vw;
     width: 70vw;
     height: 1px;
@@ -276,7 +276,7 @@ ul.rf-forms li{
 }
 .rf-form_list_block{
     position: absolute;
-    margin-top: 3vh;
+    margin-top: 5vh;
     margin-left: 5vw;
     width: 100%;
     height: 148px;

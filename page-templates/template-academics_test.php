@@ -99,7 +99,7 @@
             <div class="text ac-descript_text">建構終身學習的環境，提供理論與實務結合的教育與訓練，培育產業所需相關人才。</div>
         </div>
 
-                 <a class="icon_down"href="<?php echo site_url(); ?>/research_centers" style="opacity:1; transform: matrix(1,0,0,1,0,0);"></a>
+                 <a class="icon_down"href="<?php echo site_url(); ?>/research_centers" style="opacity:1; transform: matrix(1,0,0,1,0,0);"><div class="right_icon_w"></div></a>
 
 
     </div>

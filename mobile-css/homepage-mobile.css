@@ -82,7 +82,7 @@
     overflow-x: hidden;
 }
 .hp-p02{
-    background-image:url(../image/Mobile_500x600/02_500x600.png);/*,url(../image/p4.png);*/
+    background-image:url(../image/Mobile_500x600/homepage.png);/*,url(../image/p4.png);*/
     background-size:cover,auto;
     background-repeat: repeat;
     height:100vh;
@@ -180,7 +180,6 @@
         width: 100vw;
         height: 100vh;
         overflow: hidden;
-        background: rgba(255,255,255,0.4);
     }
     .hp-container{
         position: absolute;
@@ -188,7 +187,7 @@
 	/*left: 15vw;*/
         width: 100vw;
         height: 85.5vh;
-	overflow-y: hidden;
+	    overflow-y: hidden;
         /*background: rgba(255,255,255,0.8);*/
     }
 /*
@@ -238,7 +237,7 @@
 	font-size: 14px;
 	line-height: 20px;
 	letter-spacing: 0.1em;
-	color: #002D5A;
+	color: white;
     }
     .hp-moreinfo{
         float:left;
@@ -248,7 +247,7 @@
         margin-right: 2px;
         margin-top: 3px;
         cursor: pointer;
-        background-image: url(../image/Mobile_500x600/btn_more2.svg);
+        background-image: url(../image/Mobile_500x600/btn_more2_white.png);
 	background-size: contain;
   	background-repeat: no-repeat;
     }
@@ -313,19 +312,19 @@
     }
 
     #hp-news-icon1{
-        background-image: url(../image/icon/icon_07.svg);
+        background-image: url(../image/icon/icon_07_white.png);
         background-size: contain;
     }
     #hp-news-icon2{
-        background-image: url(../image/icon/icon_08.svg);
+        background-image: url(../image/icon/honor.png);
         background-size: contain;
     }
     #hp-news-icon3{
-        background-image: url(../image/icon/icon_09.svg);
+        background-image: url(../image/icon/academic_event.png);
         background-size: contain;
     }
     #hp-news-icon4{
-        background-image: url(../image/icon/icon_10.svg);
+        background-image: url(../image/icon/liberal-art-science.png);
         background-size: contain;
     }
 
@@ -337,24 +336,33 @@
         /*border: 2px green solid;*/
 	font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
 	overflow: hidden;
-	color: rgba(80, 80, 80, 1);
+	color: white;
     }
     .hp-news_item_date{
-        font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
-        font-weight: 300;
-        font-size: 11px;
-        line-height:16px;
+    font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+    font-weight: 300;
+    font-size: 11px;
+    line-height:16px;
  	margin-top: 18px;
-	letter-spacing: 0.05em;
-	font-style: italic;
+    font-style: italic;
+    text-align: center;
+    color: black;
     }
+
+    .date_image{
+        background-image: url(../image/Mobile_500x600/date.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 70px;
+    }
+
     .hp-news_item_title{
 	font-size: 14px;
 	font-weight: 300;
         font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
         letter-spacing: 0.1em;
   	line-height: 20px;
-        color: #505050;
+        color:white;
     }
     hr.news_line{
         border: 0;

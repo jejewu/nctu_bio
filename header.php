@@ -25,7 +25,7 @@
             <?php } ?>
         <?php } else if(check_current_page('intro')) { /*學院簡介*/?>
             <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/intro.css" type="text/css" media="screen and (min-width: 701px)" />
-            <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/mobile-css/homepage-mobile.css" type="text/css" media="screen and (max-width: 700px)" />
+            <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/mobile-css/intro-mobile.css" type="text/css" media="screen and (max-width: 700px)" />
         <?php } else if(check_current_page('academics')) { /*學術單位*/ ?>
             <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/academics.css" type="text/css" media="screen and (min-width: 701px)" />
             <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/mobile-css/academics-mobile.css" type="text/css" media="screen and (max-width: 700px)" />
@@ -124,20 +124,20 @@
                             </div>
                         </div>
                     </a>
-                    <a href="<?php echo site_url(); ?>/international">
+                    <a href="<?php echo site_url(); ?>/exchange_student">
                         <div id="mysidetext6" class="menu_block" style="transition:2.8s;">
                             <div class="header-icon header-icon5">
                                 <div class="menutext">
-                                    <?php echo qtranxf_getLanguage()=='zh' ? '國際交流合作' : 'International' ?>
+                                    <?php echo qtranxf_getLanguage()=='zh' ? '國際交流合作' : 'exchange_student' ?>
                                 </div>
                             </div>
                         </div>
                     </a>
-                    <a href="<?php echo site_url(); ?>/downloads">
+                    <a href="<?php echo site_url(); ?>/regulations_and_forms">
                         <div id="mysidetext7" class="menu_block" style="transition:3.2s;">
                             <div class="header-icon header-icon6">
                                 <div class="menutext">
-                                    <?php echo qtranxf_getLanguage()=='zh' ? '下載專區' : 'Downloads' ?>
+                                    <?php echo qtranxf_getLanguage()=='zh' ? '下載專區' : 'regulations_and_forms' ?>
                                 </div>
                             </div>
                         </div>

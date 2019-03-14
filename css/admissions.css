@@ -8,7 +8,7 @@
     top: 22.5vh;
     left: 26vw;
     width: 70vw;
-    height: 60vh;
+    height: 70vh;
     border: solid 0px orange;
 }
 .adm-l_title{
@@ -83,7 +83,7 @@
     border: solid 0px red;
     overflow: hidden;
 }
-.adm-text_block1{
+.text{
     float: left;
     width: 20vw;
     padding: 1vw;
@@ -92,6 +92,15 @@
     text-align: justify;
     display: none;
 }
+
+.adm-text{
+    font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+    font-size: 0.75em;
+    font-weight: 350;
+    line-height: 1.375em;
+    letter-spacing: 0.03125em;
+}
+
 .adm-text_block1_w{
     float: right;
 }
@@ -411,4 +420,26 @@ hr.adm-hr{
 }
 .adm-bg_w{
     background: rgba(255,255,255,0.4);
+}
+
+.read_more{
+    background-image: url(../image/btn/admission_more.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-top: 10px;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 60px;
+}
+
+.read_more:hover{
+    background-image: url(../image/btn/admission_more_black.png);
+    cursor: pointer;
+}
+
+.adm_image_disappear{
+    display: none;
 }

@@ -1,6 +1,6 @@
 
 .page-sa{
-    background-image: url(../image/Mobile_500x600/23_500x600.jpg);
+    background-image: url(../image/Mobile_500x600/studying_aboard.png);
     background-size:cover;
     background-repeat: no-repeat;
     height:100vh;
@@ -111,6 +111,12 @@
     position: relative;
     border: solid 0px black;
 }
+.sa-collegename-content{
+    position: relative;
+    border: solid 0px black;
+    margin-bottom: 15px;
+}
+
 .sa-collegename{
     font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
     font-size: 14px;
@@ -118,15 +124,13 @@
     font-weight: 300;
     letter-spacing: 0.1em;
     color: rgba(50,50,50,1);
-    position: absolute;
-    height: auto;
-    bottom: 0px;
+    margin: 5px auto;
 }
 .sa-title{
     color: rgba(50,50,50,1);
     font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 500;
     letter-spacing: 0.2em;
 }
 .sa-engtitle{
@@ -140,10 +144,10 @@
 */
     display: none;
 }
-.sa-applicant{
+/*.sa-applicant{
     margin-top: 0vh;
     width: 70vw;
-}
+}*/
 .sa-documents{
     margin-top: 2vh;
     width: 70vw;
@@ -164,6 +168,23 @@
     margin-top: 2vh;
     margin-bottom: 10vh;
     width: 70vw;
+}
+
+.read_more{
+    display: inline-block;
+    float: right;
+}
+
+.sa-applicant{  
+    display: inline-block;
+}
+
+.mobile-space{
+    width: 70vw;
+}
+
+.sa-clear{
+    clear: both;
 }
 
 /*

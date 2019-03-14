@@ -55,7 +55,7 @@ get_header(); ?>
             <div class="hp-container">
                 <?php foreach ($newslist as $key => $value): ?> <!-- StartNews -->
                     <div class="hp-news hp-news<?php echo $key ?>">
-                        <div class="icon_down"><div class="right_icon"></div></div>
+                        <div class="icon_down"><div class="right_icon_w"></div></div>
                         <div class="hp-newsheader">
                             <div id="hp-news-icon<?php echo $key+1 ?>" class="hp-news-icon"></div>
                             <div class="hp-newstitle">
@@ -75,7 +75,9 @@ get_header(); ?>
                                     $the_query->the_post();
                             ?>
                             <div class="hp-news_item_date">
-                                <?php the_time('Y.m.j'); ?>
+                                <div class="date_image">
+                                    <?php the_time('Y.m.j'); ?>
+                                </div>
                             </div>
                             <a class="hp-news_item_title" href="<?php the_permalink(); ?>">
                                 <?php the_title(); ?>
@@ -145,11 +147,11 @@ get_header(); ?>
                     <?php echo $translate ? 'High School Students' : '高中生專區' ?>
                 </div>
             </a>
-            <a href="<?php echo site_url(); ?>/international">
+            <!--<a href="<?php echo site_url(); ?>/international">-->
                 <div id="p5-right-button">
                     <?php echo $translate ? 'International Students' : '國際生專區' ?>
                 </div>
-            </a>
+            <!--</a>-->
             <div id="p5-announce-block">
                 <div id="copy-right-title">著作權聲明</div>
                 <div id="copy-right-text"> 1.交通大學理學院網站(以下簡稱本網站)上刊載之所有內容，除著作權法規定不得為著作權之標的(如法律、命令、公務員撰擬之講稿、新聞稿等--請參考著作權法第9條規定)外，其他包括文字敘述、攝影、圖片、錄音、影像及其他資訊，均受著作權法保護。<br>2.本網站所提供相關連結網站之網頁或資料，均為被連結網站所提供，相關權利為該等網站或合法權利人所有，本網站不擔保其正確性、即時性或完整性。</div>
@@ -167,7 +169,7 @@ get_header(); ?>
                     <div class="foot-font-4"><img class="ft-icon" src="<?php bloginfo('template_url')?>/image/icon/icon_info_02.svg"> 886-3-571-9288</div>
                     <div class="foot-font-4"><img class="ft-icon" src="<?php bloginfo('template_url')?>/image/icon/icon_info_03.svg"> meiling@cc.nctu.edu.tw</div>
                     <div class="foot-font-4"><img class="ft-icon" src="<?php bloginfo('template_url')?>/image/icon/icon_info_04.svg"> 
-                        <?php echo $translate ? 'Room 117, Lab Building 1, 75 Bo-Ai Street, Hsin-Chu, Taiwan 300, ROC' : '300 新竹市博愛街75號 實驗一館117室' ?>
+                        <?php echo $translate ? 'Room 117, Lab Building 1, 75 Bo-Ai Street, Hsin-Chu, Taiwan 300, ROC' : '300 新竹市博愛街75號 賢齊館325室' ?>
                     </div>
                     <hr class="ft-hr"/>
                     <div class="foot-font-4" style="float:left;">
@@ -207,8 +209,8 @@ get_header(); ?>
     
     function showNext(){
         old_bg = now_bg;
-        now_bg = (now_bg+1)%4; /* 輪播圖總數量 */
-        next_bg = (now_bg+1)%4;
+        now_bg = (now_bg+1)%2; /* 輪播圖總數量 */
+        next_bg = (now_bg+1)%2;
         $(".hp-p01").addClass("hp-p01_"+now_bg).removeClass("hp-p01_"+old_bg);
         $(".hp-p01_next").addClass("hp-p01_"+next_bg).removeClass("hp-p01_"+now_bg);
         timer = setTimeout(showNext, frequency);

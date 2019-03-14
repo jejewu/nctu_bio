@@ -24,7 +24,7 @@
 <?php get_header(); ?>
 <div class="page-inter_contract">
     <div class="container">
-    <a class="icon_down"href="<?php echo site_url(); ?>/studying_abroad" style="opacity:1; transform: matrix(1,0,0,1,0,0);"><div class="right_icon"></div></a>
+    <a class="icon_down"href="<?php echo site_url(); ?>/studying_abroad" style="opacity:1; transform: matrix(1,0,0,1,0,0);"><div class="right_icon_w"></div></a>
         <div id="ic-container">
             <div class="subtitled ic-pagetitle">01 國際學術合約</div>
 <?php if($short_color == 'r'): ?>

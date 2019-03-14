@@ -259,7 +259,7 @@ hr.intro-title{
     text-align: center;
 }
 .intro-p2-text1{
-	font-family ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
+	font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
     width: 15vw;
     height: 18vh;
     float:left;
@@ -276,7 +276,7 @@ hr.intro-title{
     clear: both;
 }
 .intro-p2-text2{
-	ont-family ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
+	font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
     font-weight: 300;
     font-size: 0.8em;
     text-align: justify;
@@ -329,7 +329,7 @@ hr.intro-title{
     border: solid 0px red;
 }
 .intro-p3-text{
-	font-family ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
+	font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
     float: left;
 	width: 15vw;
     font-weight: 300;
@@ -340,7 +340,7 @@ hr.intro-title{
 	margin-right: 80px;
 }
 .intro-p3-text2{
-	ont-family ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
+	font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
     font-weight: 300;
     font-size: 1em;
     text-align: justify;
@@ -455,7 +455,7 @@ hr.intro-title{
     background-image:url(../image/bg/dean.jpg);
     background-size:cover;
     background-repeat: no-repeat;
-    background-position: right top;
+    background-position: right center;
     height:100vh;
 }
 .dean-bigTitle{
@@ -522,13 +522,13 @@ hr.dean_hr{
     font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
     font-weight: 350;
     font-size: 0.8em;
-    line-height: 1.833em;
+    line-height: 1.5em;
     letter-spacing:0.05em;
     color: #000000;
     border: solid 0px green;
 }
 .dean-width1{ width: 36vw; }
-.dean-width2{ width: 36vw; }
+.dean-width2{ width: 60vw; }
 .dean-width3{ width: 36vw; }
 .dean-option-wrapper:hover .dean-discript{
     display: block;
@@ -824,6 +824,10 @@ hr.vd_hr{
     }
 }
 
+.staff-mobile-space{
+    display: none;
+}
+
 /* history of the deans */
 .page-history_of_the_deans{
     background-image:url(../image/bg/16.jpg);
@@ -850,3 +854,5 @@ hr.vd_hr{
 .clear{
     clear: both;
 }
+
+

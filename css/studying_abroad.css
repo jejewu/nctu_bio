@@ -131,3 +131,15 @@
     margin-top: 16vh;
     margin-right: 5vw;
 }
+
+.studying_more{
+    background-image: url("../image/btn/studying_abroad_more.png");
+    width: 120px;
+    height: 45px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.studying_more:hover{
+    background-image: url("../image/btn/studying_abroad_more_black.png");
+}

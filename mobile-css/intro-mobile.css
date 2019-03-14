@@ -4,7 +4,7 @@
     overflow: hidden;
 }
 .page-intro{
-    background-image:url(../image/Mobile_500x600/15_500x600.jpg);
+    background-image:url(../image/Mobile_500x600/intro.jpg);
     /*,url(image/p4.png);*/
     background-size:cover,auto;
     background-repeat: no-repeat,repeat;
@@ -50,16 +50,17 @@
     font-weight: 300;
     font-size: 14px;
     letter-spacing: 0.1em;
-    color: rgba(0, 0, 0, 1);
+    color: white;
     z-index: 2;
 }
 .intro-bigTitle{
     font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
     font-weight: 400;
-    font-size: 16px;
-    color: rgba(0,0,0,1);
+    font-size: 1.33em;
+    color: white;
     letter-spacing: 0.2em;
     z-index: 2;
+    margin-top: 5px;
 }
 .intro-button{
     display: none;
@@ -67,19 +68,19 @@
 hr.intro-title{
     border: 0;
     width: 100%;
-    margin-top: 9px;
+    margin-top: 15px;
     margin-bottom: 15px;
     height: 1px;
-    background: rgba(50, 50, 50, 1);
+    background: white;
 }
 /**1st page**/
 .intro-first-page-text{
     border: 0px red solid;
     font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
     font-weight: 300;
-    font-size: 12px;
-    line-height: 20px;
-    color: rgba(50, 50, 50, 1);
+    font-size: 14px;
+    line-height: 25px;
+    color: white;
     text-align: justify;
 }
 
@@ -151,7 +152,7 @@ hr.intro-title{
 /*end of page intro*/
 /* page: dean */
 .page-dean{
-    background-image:url(../image/Mobile_500x600/dean2_500x600.jpg);
+    background-image:url(../image/Mobile_500x600/dean.png);
     background-size:cover, auto;
     background-repeat: repeat;
     /*height: 200vh;*/
@@ -169,14 +170,14 @@ hr.intro-title{
 	border: 1px orange solid;
     	z-index: 2;
 }
-.dean-triangle{
+/*.dean-triangle{
     position: absolute;
     z-index: 0;
     left: 0vw;
-    bottom: 10vh;
+    bottom: -2vh;
     overflow: hidden;
     border-style: solid;
-    border-width: 0 100vw 100vw 0;
+    border-width: 0 146vw 100vw 0;
     border-color: transparent transparent rgba(255,255,255,0.75) transparent;
 }
 .dean-rectangle{
@@ -186,7 +187,7 @@ hr.intro-title{
     width: 100vw;
     height: 10vh;
     background-color: rgba(255,255,255,0.75);
-}
+}*/
 .dean-bigTitle{
     font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
     float: left;
@@ -198,7 +199,6 @@ hr.intro-title{
     z-index: 2;
 }
 .dean-littleTitle{
-    float: left;
     font-weight: 300;
     font-size: 12px;
     line-height: 20px;
@@ -230,7 +230,7 @@ hr.intro-title{
     overflow: hidden;
     border: 0px orange solid;
 }
-.dean-width3{ margin-top: 45px;}
+.dean-width3{ margin-top: 30px;}
 .dean-height3{ height: auto; z-index: 2;}
 
 .dean-block{
@@ -344,17 +344,16 @@ hr.intro-title{
 */
 /* page: staff */
 .page-staff{
-    background-image:url(../image/Mobile_500x600/18_500x600.jpg);
+    background-image:url(../image/Mobile_500x600/staff.jpg);
     background-size:cover,auto;
     background-repeat: no-repeat,repeat;
-    height: 100vh;
+    height: 200vh;
     width: 100vw;
     overflow: hidden;
 }
 .mobile-staff{
 	height: 100%;
-        width: 100%;
-        overflow: hidden;
+    width: 100%;
 }
 #staff-container{
     position: absolute;
@@ -362,53 +361,110 @@ hr.intro-title{
     left: 15%;
     width: 85%;
     height: 70%;
-    overflow: hidden;
 }
 .staff-block{
-    width: 60vw;
+    width: 90vw;
+    margin: 5vh 0;
     border: 0px black solid; 
 }
-.staff-mobile-space{
-	height: 50px;
+.staff-mobile-space{    
+    margin-top: 50px;
+    margin-left: 20px;
 }
-.staff-text1{
+/*.staff-text1{
 	position: relative;
 	float: left;
-	height: 12vh;
 	width: 22vw;
 	border: solid 0px red;
 }
 .staff-text2{
         position: relative;
+        float: left;
         height: 12vh;
         width: 70vw;
         border: solid 0px blue;
+}*/
+
+.staff-intro,.staff-intro2{
+    display: inline-block;
+    margin-left: 10px;
 }
-/*
+
+.staff-intro2{
+    text-align: right;
+}
+
+.staff-photo,.staff-photo2{
+    width: 25vw;
+    height: 16vh;
+}
+
 .staff-photo{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    box-shadow: 0px 0px 4px rgba(0%, 0%, 0%, 0.4);
+    float: left; 
+    margin-right: 20px;
 }
+
+.staff-photo2{
+    display: inline-block;
+    vertical-align:top;
+    margin: auto 65px auto 20px;
+
+}
+
+/*郭淑卿*/
+.staff-kao1{
+    background-image: url(../image/Kao.png);
+    background-size:cover;
+}
+
+/*呂聖玲*/
+.staff-lu1{
+    background-image: url(../image/Lu.png);
+    background-size:cover;
+}
+
+/*呂弈凜*/
+.staff-lu2{
+    background-image: url(../image/Lu2.png);
+    background-size:cover;
+}
+
+/*吳佳文*/
 .staff-wu{
-    background-image: url(../image/Mobile_500x600/staff_01_500x600.jpg);
+    background-image: url(../image/wu.png);
     background-size:cover;
 }
-.staff-liu{
-    background-image: url(../image/Mobile_500x600/staff_02_500x600.jpg);
+
+/*郭珍佑*/
+.staff-kao2{
+    background-image: url(../image/Kao2.png);
     background-size:cover;
 }
-.staff-hsieh{
-    background-image: url(../image/Mobile_500x600/staff_03_500x600.jpg);
+
+/*陳珮筠*/
+.staff-Chen{
+    background-image: url(../image/Chen.png);
     background-size:cover;
 }
-*/
-.staff-mobile-line{
+
+/*葉連發*/
+.staff-Ye{
+    background-image: url(../image/Ye.png);
+    background-size:cover;
+}
+
+.staff-mobile-line,.staff-mobile-line2{ 
     height: 1px;
-    width: 25px;
-    margin-bottom: 4vh;
+    width: 25vw;
     background-color: black;
+}
+
+.staff-mobile-line{
+    float: left;
+}
+
+.staff-mobile-line2{
+    float: right;
 }
 .staff-littleTitle{
     font-family:'Noto Sans TC', '微軟正黑體', sans-serif;
@@ -418,16 +474,36 @@ hr.intro-title{
     color: #000000;
     letter-spacing: 0.05em;
 }
+
+.staff-littleTitle1{
+    font-family:'Noto Sans TC', '微軟正黑體', sans-serif;
+    font-weight: 300;
+    font-size: 0.8em;
+    line-height: 20px;
+    color: #000000;
+    letter-spacing: 0.05em;
+}
 .staff-bigTitle{
     font-family:'Noto Sans TC', '微軟正黑體', sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1.3em;
     letter-spacing: 0.2em;
     color: #000000;
 }
 .staff-text{
     padding-top: 2px;
 }
+
+.notes {
+    font-family: "Noto Sans TC", '微軟正黑體', sans-serif;
+    font-size: 0.5em;
+    line-height: 16px;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    font-style: italic;
+    margin-top: 1vh;
+}
+
 /*
 .icon_down_staff{
         bottom: 5vh;

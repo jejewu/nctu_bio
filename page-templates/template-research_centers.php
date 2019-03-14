@@ -31,8 +31,11 @@ get_header();
             </div>
 	    <!--for mobile -->
 	    <div class="ac-circle_block formobile">
-			<a target="_blank" href="#"><div class="rc-text">生物資訊中心</div></a>
-	    </div>
+			<a target="_blank" href="http://cbr.nctu.edu.tw/"><div class="rc-text">生物資訊中心</div></a>
+
+			
+		</div>
+		<a class="icon_up"href="<?php echo site_url(); ?>/academics" style="opacity:1; transform: matrix(1,0,0,1,0,0);"><div class="left_icon_w"></div></a>
             <!--hexagon  block-->
             <div class="ac-hexagon_block mobilehidden">
 				<div class="hexagon-block">

@@ -8,7 +8,7 @@
 <!--
 	<a class="icon_up"href="<?php echo site_url(); ?>/conference_room" style="opacity:1; transform: matrix(1,0,0,1,0,0);"><div class="left_icon"></div></a>
 -->
-        <a class="icon_down"href="<?php echo site_url(); ?>/conference_room" style="opacity:1; transform: matrix(1,0,0,1,0,0);"><div class="right_icon"></div></a>
+    <!--<a class="icon_down"href="<?php echo site_url(); ?>/conference_room" style="opacity:1; transform: matrix(1,0,0,1,0,0);"><div class="right_icon"></div></a>-->
 
     <div class="container container2">
 <!--mobile-->

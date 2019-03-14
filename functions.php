@@ -39,4 +39,5 @@
     }
     add_action( 'parse_query', 'wtnerd_global_vars' );
 
+
 ?>

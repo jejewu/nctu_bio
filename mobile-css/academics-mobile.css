@@ -1,19 +1,18 @@
 .page-academics_1{
-    background-image:url(../image/Mobile_500x600/22_500x600.jpg);
+    background-image:url(../image/Mobile_500x600/research_centers.jpg);
     height:100vh;
     width: 100vw;
     background-size: cover;
     background-repeat: repeat;
 }
 .page-academics{
-    background-image:url(../image/Mobile_500x600/21_500x600.jpg);
+    background-image:url(../image/Mobile_500x600/academics.jpg);
     height:100vh;
     width: 100vw;
     background-size: cover;
     background-repeat: repeat;
 }
 .container{
-    background-color: rgba(0,0,0,0.5);
     position: absolute;
     left: 0px;
     width: 100vw;
@@ -49,7 +48,7 @@ hr.ac{
     height: 1px;
     width: 70vw;
     background-color: rgba(255,255,255,1);
-    margin-top: 9px;
+    margin-top: 15px;
     margin-bottom: 15px;
 }
 .rc-smalltitle{
@@ -63,12 +62,15 @@ hr.ac{
 .rc-bigtitle{
     font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1.33em;
     letter-spacing: 0.2em;
     color: #ffffff;
+    margin-top: 5px;
+
 }
 .ac-circle_block{
     position: absolute;
+    margin-top: 20px;
     top: 24vh;
     left: 15vw;
     float: left;

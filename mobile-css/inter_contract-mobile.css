@@ -1,6 +1,6 @@
 /***page international (國際交流合作)***/
 .page-inter_contract{
-    background-image: url(../image/Mobile_500x600/20_500x600.jpg);
+    background-image: url(../image/Mobile_500x600/exchange_student.jpg);
     background-size: cover, auto;
     background-repeat: no-repeat, repeat;
     height: 100vh;
@@ -60,7 +60,7 @@ hr.ic{
 .ic-bigtitle{
     clear: both;
     letter-spacing: 0.2em; /*0.1em*/
-    font-size: 16px;
+    font-size: 1.33em;
     margin-bottom: 17px;
     font-weight: 400;
     font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
@@ -130,12 +130,12 @@ hr.ic{
 */
     display: hidden;
 }
-.ic-line_r{ background-color: rgba(155, 0, 25, 1); }
-.ic-line_b{ background-color: rgba(0, 170, 230, 1); }
-.ic-line_y{ background-color: rgba(240, 190, 35, 1);}
-.ic-text_r{ color: rgba(155, 0, 25, 1); }
-.ic-text_b{ color: rgba(0, 170, 230, 1); }
-.ic-text_y{ color: rgba(240, 190, 35, 1);}
+.ic-line_r{ background-color: #FF6600; }
+.ic-line_b{ background-color: #338DC9; }
+.ic-line_y{ background-color: #F99E03;}
+.ic-text_r{ color: #FF6600; }
+.ic-text_b{ color: #338DC9; }
+.ic-text_y{ color: #F99E03;}
 
 
 .ic-image{
@@ -208,18 +208,19 @@ hr.ic{
     color: rgba(100, 100, 100, 1);
 }
 .ic-down-icon{
-    background-image: url(../image/Mobile_500x600/btn_next_wh.svg);
+    background-image: url(../image/Mobile_500x600/icon_bottom.png);
     position: absolute;
     width: 20px;
     height: 20px;
-    margin-top: 0px;
+    margin-top: 10px;
     right: 5px;
     background-size: contain;
+    background-repeat: no-repeat;
     border: solid 0px green;
     cursor: pointer;
 }
 .ic-down-icon:hover{
-    background-image: url(../image/Mobile_500x600/btn_next_dg.svg);
+    /*background-image: url(../image/Mobile_500x600/btn_next_dg.svg);*/
 }
 /*
 .ic-btn-r01{ background-image:url(../image/btn/number_r01-02.svg); }

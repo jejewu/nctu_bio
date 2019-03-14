@@ -30,12 +30,16 @@ get_header();
 	<!--for mobile-->
 	    <div class="ac-circle_block formobile">
 			<a target="_blank" href="http://bio.life.nctu.edu.tw/?locale=zh_tw"><div class="ac-text">生物科技學系</div></a>
-			<a target="_blank" href="#"><div class="ac-text">生科院產業博士班</div></a>
+			<div class="ac-text">-</div>
 			<a target="_blank" href="http://bio.life.nctu.edu.tw/?locale=zh_tw"><div class="ac-text">生物科技學系暨研究所</div></a>
 			<a target="_blank" href="http://bioinfo.nctu.edu.tw/?locale-zh_tw"><div class="ac-text">生物資訊與系統生物學研究所</div></a>
-			<a target="_blank" href="#"><div class="ac-text">生醫科學與工程博士學位學程</div></a>
 			<a target="_blank" href="http://bioce.life.nctu.edu.tw/"><div class="ac-text">分子醫學與生物工程研究所</div></a>
-	    </div>
+			<div class="ac-text">-</div>
+			<a target="_blank" href="https://ustnc.ym.edu.tw//bin/home.php"><div class="ac-text">跨領域神經科學博士學位學程</div></a>
+			<a target="_blank" href="http://biose-phd.life.nctu.edu.tw/"><div class="ac-text">生醫科學與工程博士學位學程</div></a>
+			<a target="_blank" href="https://pidcbt.nctu.edu.tw/"><div class="ac-text">生科院產業博士班</div></a>
+		</div>
+		<a class="icon_down" href="<?php echo site_url(); ?>/research_centers" style="opacity:1; transform: matrix(1,0,0,1,0,0);"><div class="right_icon_w"></div></a>	
 	<!--for mobile -->
 
             <!--hexagon  block-->

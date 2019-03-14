@@ -164,13 +164,13 @@
         $(".nav_menu").on("click",function(){});
         if(location.hash){
             var newhash = window.location.hash.substring(1); 
-            if( newhash == "cell" ){
+            if( newhash == "bioinfo" ){
                 f = 0;
-            }else if( newhash == "bioinfo" ){
+            }else if( newhash == "cell" ){
                 f = 1;
-            }else if( newhash == "biophysics" ){
+            }else if( newhash == "protein" ){
                 f = 2;
-			}else if( newhash == "protein" ){
+			}else if( newhash == "biophysics" ){
                 f = 3;
             }else{
                 f = 0;
@@ -223,13 +223,13 @@
         show_cross(rec_num);*/
         var newh="";
         if( f==0 ){
-            newh = "cell";
-        }else if( f==1 ){
             newh = "bioinfo";
+        }else if( f==1 ){
+            newh = "cell";
         }else if( f==2 ){
-            newh = "biophysics";
-		}else if( f==3 ){
             newh = "protein";
+		}else if( f==3 ){
+            newh = "biophysics";
 		}
         window.location.hash = newh;
     })
@@ -257,13 +257,13 @@
         show_cross(rec_num);*/
         var newh="";
         if( f==0 ){
-            newh = "cell";
-        }else if( f==1 ){
             newh = "bioinfo";
+        }else if( f==1 ){
+            newh = "cell";
         }else if( f==2 ){
-            newh = "biophysics";
-		}else if( f==3 ){
             newh = "protein";
+		}else if( f==3 ){
+            newh = "biophysics";
         }
         window.location.hash = newh;
     });
@@ -275,13 +275,13 @@
              var hash = location.hash.substring(1);
              console.log(hash);
             //update i and f
-            if( hash == "cell" ){
+            if( hash == "bioinfo" ){
                 f = 0;
-            }else if( hash == "bioinfo" ){
+            }else if( hash == "cell" ){
                 f = 1;
-            }else if( hash == "biophysics" ){
+            }else if( hash == "protein" ){
                 f = 2;
-			}else if( hash == "protein" ){
+			}else if( hash == "biophysics" ){
                 f = 3;
             }else{
                 f = 0;
