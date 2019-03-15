@@ -1,0 +1,11 @@
+#/usr/local/bin/zsh
+local_path="/Applications/MAMP/htdocs/wordpress/wp-content/themes/nctu_po"
+cd $local_path;
+ssh -t personnel@140.113.199.21 "cd public_html/wp-content/themes/nctu_po; rm ./css/homepage.css; rm ./js/homepage.js;  rm ./js/homepage_db.js; rm ./page-templates/template-homepage.php; rm ./page-templates/homepage_db.php;"
+scp "$local_path/page-templates/template-homepage.php" personnel@140.113.199.21:/home/personnel/public_html/wp-content/themes/nctu_po/page-templates
+scp "$local_path/page-templates/homepage_db.php" personnel@140.113.199.21:/home/personnel/public_html/wp-content/themes/nctu_po/page-templates
+scp "$local_path/js/homepage.js" personnel@140.113.199.21:/home/personnel/public_html/wp-content/themes/nctu_po/js
+scp "$local_path/js/homepage_db.js" personnel@140.113.199.21:/home/personnel/public_html/wp-content/themes/nctu_po/js
+scp "$local_path/css/homepage.css" personnel@140.113.199.21:/home/personnel/public_html/wp-content/themes/nctu_po/css
+
+
