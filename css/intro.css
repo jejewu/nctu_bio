@@ -452,11 +452,22 @@ hr.intro-title{
 
 /* page: dean */
 .page-dean{
-    background-image:url(../image/bg/dean.jpg);
+    background-image:url(../image/bg/dean-bg.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: right center;
     height:100vh;
+}
+.dean-photo{
+    background-image:url(../image/bg/dean.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+    width:43vw;
+    height: 85vh;
+    position: absolute;
+    left:53vw;
+    top:15vh;
 }
 .dean-bigTitle{
     float: left;

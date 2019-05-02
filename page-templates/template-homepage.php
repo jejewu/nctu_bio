@@ -190,14 +190,14 @@ get_header(); ?>
                         </a> 
                     </div>
                 </div>
-                <div id="foot-right">
+                <!--<div id="foot-right">
                     <div >
                         <img class="ft-link-icon" src="<?php bloginfo('template_url')?>/image/icon/FB_icon.png" alt="Facebook link">
                     </div>
                     <div  style="margin-top:1vh">
                         <img class="ft-link-icon" src="<?php bloginfo('template_url')?>/image/icon/YT_icon.png" alt="YouTube link">
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
     </div>

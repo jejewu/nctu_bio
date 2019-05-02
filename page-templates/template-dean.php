@@ -22,14 +22,16 @@ get_header();
 
 </head> 
  
+<div class="mobile-photo"></div>
 <div class="page-dean">
+    <div class="dean-photo"></div>
     <div class="container">
         <div id="vice_dean-container" class="mobilehidden">
             <div class="intro-littleTitle2">02  院長簡介</div>
-            <div class="dean-bigTitle">王  雲銘</div>
+            <div class="dean-bigTitle">陳  俊勳</div>
             <div class="dean-littleTitle">院長</div>
-            <div class="dean-littleTitle">(2018.8~)</div>
-            <a target="_blank" href="https://cbt.nctu.edu.tw/wp-content/uploads/ymwang_cv.docx"><div class="dean-cv_icon"></div></a>
+            <div class="dean-littleTitle">(2019.2~)</div>
+            <a target="_blank" href="https://cbt.nctu.edu.tw/wp-content/uploads/CVCHiun-Hsun-Chen.doc"><div class="dean-cv_icon"></div></a>
             <div class="clear_both"></div>
             <hr class="dean_hr mobilehidden">
             <div class="dean-option-wrapper dean-height1">
@@ -56,9 +58,9 @@ get_header();
 	<div id="vice_dean-container" class="formobile">
             <div class="dean-option-wrapper dean-height3 formobile">
                 <div class="dean-littleTitle formobile">02 院長簡介</div>
-                <div class="dean-bigTitle">王  雲銘</div>
-                <div class="dean-littleTitle">院長(2018.8-)</div>
-                <div class="notes dean-width3">電子郵件 ymwang@mail.nctu.edu.tw<br>連絡電話 886-3-5712121 # 56972</div>
+                <div class="dean-bigTitle">陳  俊勳</div>
+                <div class="dean-littleTitle">院長(2019.2-)</div>
+                <div class="notes dean-width3">電子郵件 chchen@mail.nctu.edu.tw<br>連絡電話 886-3-5131557</div>
             </div>
 	    <div class="dean-triangle"></div>
 	    <div class="dean-rectangle"></div>

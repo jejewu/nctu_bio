@@ -151,14 +151,25 @@ hr.intro-title{
 }
 /*end of page intro*/
 /* page: dean */
+.mobile-photo{
+    -webkit-clip-path: polygon(0 0%, 100% 0, 100% 85%, 0 50%);
+    clip-path: polygon(0 0%, 100% 0, 100% 85%, 0 50%);
+    background-image:url(../image/bg/dean.png),
+                     url(../image/bg/dean-bg.jpg);
+    background-size:contain, cover;
+    background-position: 0% 15vh,0% 0%;
+    background-repeat: no-repeat,no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
 .page-dean{
-    background-image:url(../image/Mobile_500x600/dean.png);
-    background-size:cover, auto;
-    background-repeat: repeat;
     /*height: 200vh;*/
+    position: absolute;
     height: 100vh;
     overflow: hidden;
     width: 100vw;
+    top:0vh;
+    left:0vw;
 }
 .mobile-dean{
 	height: auto;
