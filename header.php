@@ -41,6 +41,8 @@
         <?php } else if(check_current_page('regulations_and_forms')) { /*下載專區*/ ?>
             <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/downloads.css" type="text/css" media="screen and (min-width: 701px)" />
             <link rel="stylesheet" href="<?php bloginfo('template_url');  ?>/mobile-css/downloads-mobile.css" type="text/css" media="screen and (max-width: 700px)" />
+        <?php } else if(check_current_page('newslist')) { /*下載專區*/ ?>
+            <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/category.css" type="text/css" />
         <?php } else if(check_current_page('default_page')) { /*Default*/ ?>
             <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/default.css" type="text/css" />
         <?php } ?>
