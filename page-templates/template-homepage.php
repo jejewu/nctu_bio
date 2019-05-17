@@ -61,10 +61,10 @@ get_header(); ?>
                             <div class="hp-newstitle">
                                 <?php echo $translate ? $value[1] : $value[0] ?>
                             </div>
-                            <a href="<?php echo site_url().'/category/'.$value[2] ?>" title="More">
+                            <a href="<?php echo site_url().'/news' ?>" title="More">
                                 <div class="hp-moreinfo"></div>
                             </a>
-                            <div class="hp-nextnews" title="Next"></div>
+                            <!--<div class="hp-nextnews" title="Next"></div>-->
                         </div>
                         <div class="hp-newsbody">
                             <?php
@@ -217,7 +217,7 @@ get_header(); ?>
     }
     
     $( document ).ready(function(){
-  	$('.hp-newsbody').perfectScrollbar();
+    $('.hp-newsbody').perfectScrollbar();
         timer = setTimeout(showNext, frequency);
         $(".hp-news0").show();
     });
