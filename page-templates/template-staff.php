@@ -6,13 +6,13 @@
 <?php get_header(); ?>
 <head>
 
-    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/intro.css" type="text/css" media="screen and (min-width: 701px)" />
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/contact.css" type="text/css" media="screen and (min-width: 701px)" />
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/mobile-css/intro-mobile.css" type="text/css" media="screen and (max-width: 700px)" />
 
 </head>
 
 
-<div class="page-staff">
+<!--<div class="page-staff">
     <div class="container mobile-staff">
         <div id="staff-container">
 	    <div class="staff-littleTitle formobile" style="line-height:18px;">03  院辦公室成員</div>
@@ -206,12 +206,19 @@
         </div>
     </div>
 		   <a class="icon_up"href="<?php echo site_url(); ?>/dean" style="opacity:1; transform: matrix(1,0,0,1,0,0);"><div class="left_icon"></div></a>
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 </div>-->
 <div class="page-intro">
     <div class="container intro-mobile-container">
         <div class="intro-bigTitle_1">03 院辦公室成員</div>
+
+</div>-->
+<div class="page-intro">
+    <div class="container intro-mobile-container">
+        <div class="intro-bigTitle_1">聯絡我們</div>
+
         <!--<div class="map"><a href="https://goo.gl/maps/qo5CweUFBWG2">地理位置(On Google Map)</a></div>-->
         <div class="ra-circle_first">
             <div class="page-1">
@@ -311,9 +318,20 @@
         <span onclick="iconDown()" class="icon_down"></span>
     </a>-->
 
->>>>>>> Stashed changes
+
 </div>
 <script>
+    $(document).ready(function(){
+  $(".page-2").hide();
+  $(".nextpage").click(function(){
+    $(".page-1").hide();
+    $(".page-2").fadeIn(1000,"swing");
+  });
+  $(".prepage").click(function(){
+    $(".page-1").fadeIn(1000,"swing");
+    $(".page-2").hide();
+  });
+});
 /*
     now = 1;
     num = 6;

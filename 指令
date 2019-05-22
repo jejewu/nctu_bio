@@ -1,0 +1,2 @@
+ssh -i /home/bug/文件/nctu_bio/nctubio.pem ec2-user@ec2-34-207-101-122.compute-1.amazonaws.com
+

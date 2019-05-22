@@ -49,10 +49,13 @@
     font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
     font-weight: regular;
     position: fixed;
-    top:22.5vh;
-    left:26vw;
-    font-size: 18px;
-    font-weight: 300;
+    top:18.5vh;
+    left:28vw;
+    background-image:url(../image/icon/underline.png);
+    background-size:220px 12px; 
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    font-size: 2.4em;
     color: #000000;
     height: 8vh;
     width: 16.9vw;
