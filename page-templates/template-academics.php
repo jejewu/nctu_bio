@@ -71,11 +71,11 @@ get_header();
 					<div class="blue">
 
 					<?php if(get_field('white-hexagon')): ?>
-						<a target="_blank" href="<?php the_field('white-hexagon-link'); ?>"><div class="hexagon white-hexagon"><div class="bio-text"><?php the_field('white-hexagon'); ?></div></div></a>
+						<a href="https://dbt.nctu.edu.tw/#1"><div class="hexagon white-hexagon"><div class="bio-text"><?php the_field('white-hexagon'); ?></div></div></a>
 					<?php endif; ?>
 
 					<?php if(get_field('blue-hexagon-left')): ?>
-						<a target="_blank" href="<?php the_field('blue-hexagon-left-link'); ?>"><div class="hexagon blue-hexagon"><div class="bio-text"><?php the_field('blue-hexagon-left'); ?></div></div></a>
+						<a href="https://dbt.nctu.edu.tw/#1"><div class="hexagon blue-hexagon"><div class="bio-text"><?php the_field('blue-hexagon-left'); ?></div></div></a>
 					<?php else: ?>
 						<a target="_blank" href="#"><div class="hexagon"></div></a>
 					<?php endif; ?>

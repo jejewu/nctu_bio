@@ -176,13 +176,13 @@ get_header(); ?>
                         <a href="http://www.nctu.edu.tw/">
                             <?php echo $translate ? 'NCTU' : '交通大學' ?>
                         </a>
-                        <a href="http://www.nctu.edu.tw/">
+                        <a href="https://cbt.nctu.edu.tw/wp-content/uploads/%E7%94%9F%E7%A7%91%E9%99%A2%E7%B6%B2%E7%AB%99%E5%B0%8E%E8%A6%BD.pdf">
                             <?php echo $translate ? '' : ' | 網頁導覽' ?> | 
                         </a>
                         <a href="http://www.life.nctu.edu.tw">
                              <?php echo $translate ? 'Old Version' : '舊版網頁' ?> | 
                         </a>
-                        <a target=_blank href="<?php bloginfo('template_url')?>/files/Web_Design_Guideline.pdf">
+                        <a href="https://cbt.nctu.edu.tw/wp-content/uploads/網頁規範.pdf">
                             <?php echo $translate ? 'Web Design Guideline' : '設計規範' ?>
                         </a>
                         <a id="hp-announce">
