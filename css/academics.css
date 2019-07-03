@@ -100,12 +100,13 @@
 #ac-container{
     position: absolute;
     left: 26vw;
-    top: 22.5vh;
+    top: 19.5vh;
     width: 71vw;
     height: 80vh;
 }
 .ac-title_block{
     float: left;
+    top:3vmin;
     width: 28vmin;
     height: 10vmin;
 }
@@ -361,7 +362,7 @@ ul.rc-list{margin-left:40px;}
 /* for website content */
 
 /* image */
-.ac-hexagon_block a{
+.ac-hexagon_block {
 	float: left;
 }
 
@@ -386,20 +387,33 @@ ul.rc-list{margin-left:40px;}
     background-repeat: no-repeat;
     width: 26vmin;
     height: 30vmin;
-	margin-right: 5px;
+	margin-right: 10px;
 	
 }
 
 .hexagon-block {
 	position: absolute;
-	top: 10vmin;
+	top: 0vmin;
 	left: 33.2vmin;
 	width: 100vmin;
 }
-
+.first {
+    position: relative;
+    left:13.3vmin;
+    /*top: -8.6vmin;
+    margin-top: 5px;*/
+    left: 14vmin;
+}
 .blue {
+    position: relative;
+    top: -6vmin;
+    /*margin-top: 5px;
+    left: 13.3vmin;*/
+}
+
+.yellow {
 	position: relative;
-	top: -8.6vmin;
+	top: -12.6vmin;
 	margin-top: 5px;
 	left: 13.3vmin;
 }
@@ -413,15 +427,15 @@ ul.rc-list{margin-left:40px;}
 	background-image: url(../image/academics/botton-01.png);
 }
 
-.white-hexagon{
+.s-yellow-hexagon{
 	position: absolute;
-    left: -52vmin;
+    left: -26.5vmin;
     margin-left: -10px;
-    background-image: url(../image/academics/botton-06.png);
+    background-image: url(../image/academics/botton-01.png);
 }
 
-.white-hexagon:hover{
-	background-image: url(../image/academics/botton-05.png);
+.s-blue-hexagon{
+	background-image: url(../image/academics/botton-03.png);
 }
 
 .blue-hexagon{
@@ -430,4 +444,8 @@ ul.rc-list{margin-left:40px;}
 
 .blue-hexagon:hover{
 	background-image: url(../image/academics/botton-03.png);
+}
+
+.s-s-yellow-hexagon{
+    background-image: url(../image/academics/botton-01.png);
 }

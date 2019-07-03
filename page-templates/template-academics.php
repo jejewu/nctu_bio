@@ -45,9 +45,45 @@ get_header();
             <!--hexagon  block-->
             <div class="ac-hexagon_block mobilehidden">
 				<div class="hexagon-block">
-					<div class="yellow">
+					
+					<div class="first"> 
+					<div class="hexagon s-s-yellow-hexagon"><div class="bio-text">學士班<br>碩士班<br>博士班</div></div>
+					
+					<?php if(get_field('blue-hexagon-left')): ?>
+						<a href="https://dbt.nctu.edu.tw/#1"><div class="hexagon yellow-hexagon"><div class="bio-text"><?php the_field('blue-hexagon-left'); ?></div></div></a>
+					<?php else: ?>
+						<a target="_blank" href="#"><div class="hexagon"></div></a>
+					<?php endif; ?>
+					</div>
 
-					<?php if(get_field('yellow-hexagon-left')): ?>
+					
+					
+
+					<div class="blue">
+					
+
+
+					<!--<?php if(get_field('blue-hexagon-left')): ?>
+						<a href="https://dbt.nctu.edu.tw/#1"><div class="hexagon blue-hexagon"><div class="bio-text"><?php the_field('blue-hexagon-left'); ?></div></div></a>
+					<?php else: ?>
+						<a target="_blank" href="#"><div class="hexagon"></div></a>
+					<?php endif; ?>-->
+					
+					<div class="hexagon s-blue-hexagon"><div class="bio-text">碩士班<br>博士班</div></div>
+
+					<?php if(get_field('blue-hexagon-center')): ?>
+						<a target="_blank" href="<?php the_field('blue-hexagon-center-link'); ?>"><div class="hexagon blue-hexagon"><div class="bio-text"><?php the_field('blue-hexagon-center'); ?></div></div></a>
+					<?php else: ?>
+						<a target="_blank" href="#"><div class="hexagon"></div></a>
+					<?php endif; ?>
+
+					<?php if(get_field('blue-hexagon-right')): ?>
+						<a target="_blank" href="<?php the_field('blue-hexagon-right-link'); ?>"><div class="hexagon blue-hexagon"><div class="bio-text"><?php the_field('blue-hexagon-right'); ?></div></div></a>
+					<?php else: ?>
+						<a target="_blank" href="#"><div class="hexagon"></div></a>
+					<?php endif; ?>-->
+
+					<!--<?php if(get_field('yellow-hexagon-left')): ?>
 						<a target="_blank" href="<?php the_field('yellow-hexagon-left-link'); ?>"><div class="hexagon yellow-hexagon"><div class="bio-text"><?php the_field('yellow-hexagon-left'); ?></div></div></a>
 					<?php else: ?>
 						<a target="_blank" href="#"><div class="hexagon"></div></a>
@@ -63,24 +99,41 @@ get_header();
 						<a target="_blank" href="<?php the_field('yellow-hexagon-right-link'); ?>"><div class="hexagon yellow-hexagon"><div class="bio-text"><?php the_field('yellow-hexagon-right'); ?></div></div></a>
 					<?php else: ?>
 						<a target="_blank" href="#"><div class="hexagon"></div></a>
-					<?php endif; ?>
+					<?php endif; ?>-->
 						
 						<div style="clear:both"></div>										
 					</div>	
 
-					<div class="blue">
+					<div class="yellow">
 
-					<?php if(get_field('white-hexagon')): ?>
+					<!--<?php if(get_field('white-hexagon')): ?>
 						<a href="https://dbt.nctu.edu.tw/#1"><div class="hexagon white-hexagon"><div class="bio-text"><?php the_field('white-hexagon'); ?></div></div></a>
-					<?php endif; ?>
+					<?php endif; ?>-->
 
-					<?php if(get_field('blue-hexagon-left')): ?>
+					<!--<?php if(get_field('blue-hexagon-left')): ?>
 						<a href="https://dbt.nctu.edu.tw/#1"><div class="hexagon blue-hexagon"><div class="bio-text"><?php the_field('blue-hexagon-left'); ?></div></div></a>
+					<?php else: ?>
+						<a target="_blank" href="#"><div class="hexagon"></div></a>
+					<?php endif; ?>-->
+					<div class="hexagon s-yellow-hexagon"><div class="bio-text">博士班</div></div></a>
+
+					<?php if(get_field('yellow-hexagon-left')): ?>
+						<a target="_blank" href="<?php the_field('yellow-hexagon-left-link'); ?>"><div class="hexagon yellow-hexagon"><div class="bio-text"><?php the_field('yellow-hexagon-left'); ?></div></div></a>
+					<?php else: ?>
+						<a target="_blank" href="#"><div class="hexagon"></div></a>
+					<?php endif; ?>	
+					<?php if(get_field('yellow-hexagon-center')): ?>
+						<a target="_blank" href="<?php the_field('yellow-hexagon-center-link'); ?>"><div class="hexagon yellow-hexagon"><div class="bio-text"><?php the_field('yellow-hexagon-center'); ?></div></div></a>
 					<?php else: ?>
 						<a target="_blank" href="#"><div class="hexagon"></div></a>
 					<?php endif; ?>
 
-					<?php if(get_field('blue-hexagon-center')): ?>
+					<?php if(get_field('yellow-hexagon-right')): ?>
+						<a target="_blank" href="<?php the_field('yellow-hexagon-right-link'); ?>"><div class="hexagon yellow-hexagon"><div class="bio-text"><?php the_field('yellow-hexagon-right'); ?></div></div></a>
+					<?php else: ?>
+						<a target="_blank" href="#"><div class="hexagon"></div></a>
+					<?php endif; ?>
+					<!--<?php if(get_field('blue-hexagon-center')): ?>
 						<a target="_blank" href="<?php the_field('blue-hexagon-center-link'); ?>"><div class="hexagon blue-hexagon"><div class="bio-text"><?php the_field('blue-hexagon-center'); ?></div></div></a>
 					<?php else: ?>
 						<a target="_blank" href="#"><div class="hexagon"></div></a>
@@ -90,7 +143,7 @@ get_header();
 						<a target="_blank" href="<?php the_field('blue-hexagon-right-link'); ?>"><div class="hexagon blue-hexagon"><div class="bio-text"><?php the_field('blue-hexagon-right'); ?></div></div></a>
 					<?php else: ?>
 						<a target="_blank" href="#"><div class="hexagon"></div></a>
-					<?php endif; ?>
+					<?php endif; ?>-->
 
 						<div style="clear:both"></div>
 					</div>
