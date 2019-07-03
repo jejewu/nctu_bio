@@ -694,6 +694,19 @@ hr.ft-hr{
 		opacity:0.6;
         transition: all .3s ease-in-out;
 	}
+	#map{
+		position: absolute;
+        top: -5vh;
+        left: 30vw;
+        display: none;
+        width: 50vw;
+        height: 85vh;
+        background-image: url(../image/bg/辦公室位置地圖.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        /*background-color:#FFFFFF;*/
+	}
+
     #p5-announce-block{
         position: absolute;
         top: 33vh;

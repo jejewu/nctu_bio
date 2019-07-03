@@ -156,6 +156,9 @@ get_header(); ?>
                 <div id="copy-right-title">著作權聲明</div>
                 <div id="copy-right-text"> 1.交通大學生科院網站(以下簡稱本網站)上刊載之所有內容，除著作權法規定不得為著作權之標的(如法律、命令、公務員撰擬之講稿、新聞稿等--請參考著作權法第9條規定)外，其他包括文字敘述、攝影、圖片、錄音、影像及其他資訊，均受著作權法保護。<br>2.本網站所提供相關連結網站之網頁或資料，均為被連結網站所提供，相關權利為該等網站或合法權利人所有，本網站不擔保其正確性、即時性或完整性。</div>
             </div>
+
+            <div id="map"></div>
+            
             <div id="foot">
                 <div id="foot-left">
                     <p id="foot-font-1">
@@ -173,21 +176,31 @@ get_header(); ?>
                     </div>
                     <hr class="ft-hr"/>
                     <div class="foot-font-4" style="float:left;">
+                        
                         <a href="http://www.nctu.edu.tw/">
                             <?php echo $translate ? 'NCTU' : '交通大學' ?>
                         </a>
+
                         <a href="https://cbt.nctu.edu.tw/wp-content/uploads/%E7%94%9F%E7%A7%91%E9%99%A2%E7%B6%B2%E7%AB%99%E5%B0%8E%E8%A6%BD.pdf">
                             <?php echo $translate ? '' : ' | 網頁導覽' ?> | 
                         </a>
+
                         <a href="http://www.life.nctu.edu.tw">
                              <?php echo $translate ? 'Old Version' : '舊版網頁' ?> | 
                         </a>
+
                         <a href="https://cbt.nctu.edu.tw/wp-content/uploads/網頁規範.pdf">
                             <?php echo $translate ? 'Web Design Guideline' : '設計規範' ?>
                         </a>
+
                         <a id="hp-announce">
                             <?php echo $translate ? '' : ' | 著作權聲明' ?>
                         </a> 
+                        
+                        <a id="hp-map">
+                            <?php echo $translate ? 'Map' : ' | 地圖' ?>
+                        </a> 
+
                     </div>
                 </div>
                 <!--<div id="foot-right">
@@ -247,7 +260,12 @@ get_header(); ?>
     },function(){
         $("#p5-announce-block").fadeOut(500);
     });
-
+    
+    $("#hp-map").hover(function(){
+        $("#map").fadeIn(500);
+    },function(){
+        $("#map").fadeOut(500);
+    });
 </script>
 <?php //get_sidebar(); ?>
 <?php get_footer(); ?>
