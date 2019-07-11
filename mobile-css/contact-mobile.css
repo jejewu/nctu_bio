@@ -1,0 +1,182 @@
+.{
+  font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
+}
+.page-intro{
+  display: none;
+}
+.mobile{
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background-image:url(../image/bg/15_2.jpg);
+  background-size:cover,auto;
+  background-repeat: no-repeat,repeat;
+}
+.intro-bigTitle_1{
+    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
+    font-weight: regular;
+    position: fixed;
+    top:18.5vh;
+    left:15vw;
+    background-image:url(../image/icon/underline.png);
+    background-size:100px 7px; 
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    font-size: 1.2em;
+    color: #000000;
+    height: 3.3vh;
+    width: 30vw;
+    display: flex;
+    align-items: flex-start;
+    letter-spacing:0.3em;
+}
+.page{
+  position: absolute;
+  display: flex;
+  top: 25vh;
+  height: 65vh;
+  width: 70vw;
+  margin-right: 15vw;
+  margin-left: 15vw;
+  flex-wrap: wrap;
+}
+.card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  height: 30%;
+}
+.info{
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.info-title{
+  width: 100%;
+  font-size: 1em;
+}
+.name{
+  width: 100%;
+  font-size: 1.8em;
+}
+.line{
+  width: 90%;
+  height: 1px;
+  background-color: black;
+}
+.information{
+  width: 100%;
+  font-size: 6.2px;
+}
+.photo{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.option{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 7%;
+  position: absolute;
+  bottom: 3vh;
+}
+.option-left{
+  width: 7vh;
+  height: 7vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+  background-position: center;
+  background-image: url(../image/bg/職員切版-05.png);
+}
+.option-left:hover{
+  cursor:pointer;
+  background-image: url(../image/bg/職員切版-06.jpg);
+}
+.option-right{
+  width: 7vh;
+  height: 7vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+  background-position: center;
+  background-image: url(../image/bg/職員切版-07.png);
+}
+.option-right:hover{
+  cursor:pointer;
+  background-image: url(../image/bg/職員切版-08.jpg);
+}
+.space{
+  height: 100%;
+  width: 10%;
+}
+.photo-1{
+  background-image: url(../image/7_1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 999em;
+  width: 90%;
+  height: 90%;
+}
+.photo-2{
+  background-image: url(../image/7_3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 999em;
+  width: 90%;
+  height: 90%;
+}
+.photo-3{
+  background-image: url(../image/7_2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 999em;
+  width: 90%;
+  height: 90%;
+}
+.photo-4{
+  background-image: url(../image/7_7.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 999em;
+  width: 90%;
+  height: 90%;
+}
+.photo-5{
+  background-image: url(../image/7_4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 999em;
+  width: 90%;
+  height: 90%;
+}
+.photo-6{
+  background-image: url(../image/7_5.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 999em;
+  width: 90%;
+  height: 90%;
+}
+.photo-7{
+  background-image: url(../image/7_6.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 999em;
+  width: 90%;
+  height: 90%;
+}
+.photo-8{
+  background-image: url(../image/7_8.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 999em;
+  width: 90%;
+  height: 90%;
+}
