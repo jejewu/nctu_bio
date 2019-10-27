@@ -229,7 +229,7 @@
                     <div class="first_first_line">行政專員</div>
                     <div class="first_second_line">呂聖鈴</div>
                     <div class="middle_line"><hr></div>
-                    <div class="first_third_line">研究計畫及財產等事務<br>shenq@cc.nctu.edu.tw<br>03-5712121 # 56902</div>
+                    <div class="first_third_line">研究計畫及財產等事務<br>shenq@mail.nctu.edu.tw<br>03-5712121 # 56902</div>
                 </div>
             </div>
             <div class="ra-circle_first_block_2">
@@ -239,7 +239,7 @@
                     <div class="first_first_line">技士</div>
                     <div class="first_second_line">郭珍佑</div>
                     <div class="middle_line"><hr></div>
-                    <div class="first_third_line"><p>館舍及公儀維修 門禁管理</p><p>系教評會業務 排課</p><p>shenq@mail.nctu.edu.tw</p><p>03-5712121 # 56901</p></div>
+                    <div class="first_third_line"><p>館舍及公儀維修 門禁管理</p><p>系教評會業務 排課</p><p>cynthia@mail.nctu.edu.tw</p><p>03-5712121 # 56901</p></div>
                 </div>
             </div>
             </div>

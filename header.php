@@ -154,7 +154,7 @@
                         <p class="foot-font-top formobile">E-MAIL│science@cc.nctu.edu.tw</p>
                     </div>
                     <div class="foot-bottom">
-                    <p class="foot-font-bottom formobile">300 新竹市東區大學路1001號<br>基礎科學教學研究大樓101室</p>
+                    <p class="foot-font-bottom formobile">300 新竹市博愛街75號 <br>賢齊館325室</p>
                     </div>
                 </div>
 
