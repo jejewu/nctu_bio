@@ -3,49 +3,71 @@
  *Template Name:en-dean
  */
 ?>
-<?php get_header('en_header'); ?>
+<?php 
+$translate = qtranxf_getLanguage()!='zh' ? true : false;
+
+$wp_query_args = array(
+    'posts_per_page' => 4,
+    's' => '[:'.qtranxf_getLanguage().']',
+    'orderby'   => 'date',
+    'order' => 'DESC'
+);
+
+get_header();
+ ?>
+ 
+<head>
+	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/intro.css" type="text/css" media="screen and (min-width: 701px)" />
+	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/mobile-css/intro-mobile.css" type="text/css" media="screen and (max-width: 700px)" />
+
+</head> 
+ 
+<div class="mobile-photo"></div>
 <div class="page-dean">
+    <div class="dean-photo"></div>
     <div class="container">
         <div id="vice_dean-container" class="mobilehidden">
-            <div class="intro-littleTitle">02  The Dean</div>
-            <div class="dean-bigTitle">Prof. LI, YAW-KUEN</div>
-            <div class="dean-littleTitle">(2014.8~)</div>
-            <a target="_blank" href="<?php bloginfo('template_url');?>/files/Prof_Yaw-Kuen_Li-CV.pdf"><div class="dean-cv_icon"></div></a>
+            <div class="intro-littleTitle2">02  院長簡介</div>
+            <div class="dean-bigTitle">陳  俊勳</div>
+            <div class="dean-littleTitle">院長</div>
+            <div class="dean-littleTitle">(2019.2~)</div>
+            <a target="_blank" href="https://cbt.nctu.edu.tw/wp-content/uploads/CVCHiun-Hsun-Chen.doc"><div class="dean-cv_icon"></div></a>
             <div class="clear_both"></div>
             <hr class="dean_hr mobilehidden">
             <div class="dean-option-wrapper dean-height1">
-                <div class="dean-option">Education</div>
-                <div class="dean-discript dean-width1">1987 - 1991 PhD, Department of Chemistry, Tulane University, USA<br>1985 - 1987 MS, Department of Chemistry, National Cheng Kung University, Taiwan<br>1977 - 1981 BS, Department of Chemistry, National Tsing Hua University, Taiwan</div>
+                <div class="dean-option">學歷</div>
+                <!--<div class="dean-discript dean-width1">化學系博士 / 杜蘭大學, 美國<br>化學研究所碩士 / 成功大學, 台灣<br>化學系學士 / 清華大學, 台灣</div>-->
+                <div class="dean-discript dean-width1"><?php the_field('education'); ?></div>
             </div>
             <div class="dean-option-wrapper dean-height2">
-                <div class="dean-option">Experience</div>
-                <div class="dean-discript dean-width2">
-			<div class="dean-width2-1">2014 -<br>2014<br>2011 - 2013<br>2007<br>2007<br>2005<br>2004 - 2005<br>2004 - 2006<br>2002<br>2001<br>1993 - 2001<br>1991 - 1993</div>
-                	<div class="dean-width2-2">Dean, College of Science, NCTU<br>Visiting Scholar, NMI, University of Tubingen, Germany<br>Director of Chemistry division, National Science Council, Taiwan<br>Visiting Scholar, Linkoping University, Sweden<br>Dean of Student Affair, NCTU<br>Panel of Biochemistry Division, National Science Council, Taiwan<br>Panel of Biochemistry Division, National Science Council, Taiwan<br>Chair, Department of Applied Chemistry, NCTU<br>Present Professor, Department of Applied Chemistry, NCTU<br>Visiting Scholar, University of British Columbia, Canada<br>Associate professor, Department of Applied Chemistry, NCTU<br>Post-doctoral Fellow, Pharmacology and Molecular Science Department,School of Medicine, Johns Hopkins University, USA</div>
-		</div>
+                <div class="dean-option">經歷</div>
+                <!--<div class="dean-discript dean-width2">院長 / 交通大學理學院<br>訪問學者 / 德國杜賓根大學<br>學門召集人 / 國科會自然處化學門<br>訪問教授 / 瑞典林雪萍大學<br>學務長 / 國立交通大學<br>審議委員 / 國科會生物處生化學門<br>教授兼系主任 / 國立交通大學應用化學系<br>審議委員 / 國科會自然處化學門<br>教授 / 國立交通大學應用化學系所<br>訪問教授 / 加拿大英屬哥倫比亞大學<br>副教授 / 國立交通大學應用化學系<br>博士後研究員 / 美國約翰霍普金斯醫學院</div>-->
+                <div class="dean-discript dean-width2"><?php the_field('experience'); ?></div>
             </div>
             <div class="dean-option-wrapper dean-height3">
-                <div class="dean-option">Contact</div>
-                <div class="dean-discript dean-width3">E-mail:&nbsp;ykl@cc.nctu.edu.tw<br>Phone:&nbsp;886 - 3 - 5712121 # 31985<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;886 - 3 - 5712121 # 56545</div>
+                <div class="dean-option">聯絡方式</div>
+                <!--<div class="dean-discript dean-width3">電子郵件 ykl@cc.nctu.edu.tw<br>連絡電話 886 - 3 - 5712121 # 31985<br>實驗室電話 886 - 3 - 5712121 # 56545</div>-->
+                <div class="dean-discript dean-width3"><?php the_field('contact'); ?></div>
             </div>
             <div class="dean-block">
-                <div class="dean-block-text"><p>Education is not only the training of their own proficiency, it is also the temperament and tolerance training.</p></div>
+                <!--<div class="dean-block-text"><p>教育，</p><p>不僅止於本職學能的訓練，</p><p>更是氣質與氣度的培養。</p></div>-->
+                <div class="dean-block-text"><?php the_field('saying'); ?></div>
             </div>
 	</div>
 <!--formobile-->
 	<div id="vice_dean-container" class="formobile">
             <div class="dean-option-wrapper dean-height3 formobile">
-                <div class="intro-littleTitle formobile">02 院長簡介(2014.8-)</div>
-                <div class="dean-bigTitle">李  耀坤</div>
-                <div class="dean-littleTitle">教授</div>
-                <div class="notes dean-width3">ykl@cc.nctu.edu.tw<br>886-3-5712121 # 31985<br> 886-3-5712121 # 56545</div>
+                <div class="dean-littleTitle formobile">02 院長簡介</div>
+                <div class="dean-bigTitle">陳  俊勳</div>
+                <div class="dean-littleTitle">院長(2019.2-)</div>
+                <div class="notes dean-width3">電子郵件 chchen@mail.nctu.edu.tw<br>連絡電話 886-3-5131557</div>
             </div>
 	    <div class="dean-triangle"></div>
 	    <div class="dean-rectangle"></div>
 	</div>
     </div>
 		<a class="icon_up"href="<?php echo site_url(); ?>/intro" style="opacity:1; transform: matrix(1,0,0,1,0,0);"><div class="left_icon"></div></a>
-                <a class="icon_down"href="<?php echo site_url(); ?>/vice_dean" style="opacity:1; transform: matrix(1,0,0,1,0,0);"><div class="right_icon_w"></div></a>
+        <a class="icon_down"href="<?php echo site_url(); ?>/staff" style="opacity:1; transform: matrix(1,0,0,1,0,0);"><div class="right_icon"></div></a>
 </div>
 <script>
     $(".dean-option-wrapper").hover(

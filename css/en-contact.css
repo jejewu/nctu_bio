@@ -1,107 +1,16 @@
-/* special to change nav menu */
-.nav_menu ul{
-    height: 22.4vmin;
-}
-
-/*nav-menu*/
-.nav-menu{
-	position: fixed;
-    top: 0px;
-    right: 5vw;
-    height: 3.9vmin;
-    width: 52vmin;
-    /*overflow-y: hidden;*/
-    /* border: solid 1px black; */
-}
-
-.nav-menu:hover{
-    overflow-y: visible;
-}
-
-.nav-menu ul{
-	float: right;
-    list-style: none;
-    -ms-writing-mode: tb-lr;
-    -webkit-writing-mode: vertical-lr;
-    writing-mode: vertical-lr;
-    height: 35vmin;
-}
-
-.nav-menu li {
-	/*width: 40px;*/
-    counter-increment: item;
-    font-weight: 400;
-    font-size: 1.1em;
-    letter-spacing: 0.1rem;
-    color: #000000;
-    text-decoration: none;
-}
-
-.nav-menu li:before {
-    content: "0" counter(item);
-    text-align: center;
-    line-height: 3.9vmin;
-    display: inline-block;
-    -ms-writing-mode: lr-tb;
-    -webkit-writing-mode: horizontal-tb;
-    writing-mode: horizontal-tb;
-    width: 5.2vmin;
-    height: 3.9vmin;
-    font-weight: 350;
-    font-size: 0.75em;
-    letter-spacing: 0.1rem;
-    color: #000000;
-    margin-bottom: -39vmin;
-    background: rgba(255,255,255,.4);
-}
-.nav-menu ul:hover{
-    background: rgba(255,255,255,0.4);
-}
-.nav-menu ul:hover li::before{
-    background: rgba(0,0,0,0);
-    margin-bottom: 0px;
-}
-.nav-menu li:hover{
-    background: rgba(0,0,0,0.7);
-    color: white;
-    transition: all .5s ease-in-out;
-}
-.nav-menu li:hover::before{
-    color: white;
-}
-.nav-menu a{
-    font-weight: 350;
-    font-size: 1em;
-    letter-spacing: 0.1rem;
-    color: #000000;
-}
-.nav-menu li:hover a{
-    color: white;
-}
-
-#nav-menu-1 ul:hover li:nth-child(1):before{
-    background: rgba(0,0,0,0.0);
-    color:black;
-}
-#nav-menu-1 li:nth-child(1):before{
-    background: rgba(0,0,0,0.7);
-    color: white;
-}
-
 /* intro */
 .page-intro{
-    background-image:url(../image/bg/intro_bg.jpg);
-	/*background-image:url(../image/bg/index_bg02.jpg);*/
+    background-image:url(../image/bg/15_2.jpg),url(../image/p4.png);
     background-size:cover,auto;
     background-repeat: no-repeat,repeat;
     height:100vh;
 }
 #intro-container{
     position: absolute;
-    top: 22.5vh; /*18%*/
-    left: 26vw; /*20%*/
-    width: 70vw; /*850px*/
-    height: 68vh;/*500px*/
+    top: 130px; /*18%*/
+    left: 350px; /*20%*/
+    width: 540px; /*850px*/
+    height: 400px;/*500px*/
     overflow-x: hidden;
     overflow-y: hidden;
     border: solid 0px black;
@@ -123,29 +32,35 @@
     background-repeat: no-repeat;
 }
 .intro-littleTitle{
-	font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-	/*font-size: 1.5em;*/
-    /*line-height: 2.833em;*/
-	margin-bottom: 10px;
-    color: white;
+    font-weight: 350;
+    font-size: 1.2em;
+    line-height: 2.833em;
+    color: #000000;
+    line-height: 3vh;
 }
-
-.intro-littleTitle2{
-    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-	margin-bottom: 10px;
-    color: black;
-}
-
 .intro-bigTitle{
-    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
     font-weight: 400;
-    font-size: 40px;
-	/*font-size: 3.166em;*/
-    color: white;
+    font-size: 2.8em;
+    color: #000000;
+    line-height: 6vh;
+    margin-top: 0.5vmin;
+}
+.intro-bigTitle_1{
+    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
+    font-weight: regular;
+    position: fixed;
+    top:18.5vh;
+    left:28vw;
+    background-image:url(../image/icon/underline.png);
+    background-size:220px 12px; 
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    font-size: 2.4em;
+    color: #000000;
+    height: 8vh;
+    width: 16.9vw;
+    display: flex;
+    align-items: flex-start;
 }
 .intro-button{
     float:left;
@@ -157,47 +72,65 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+.map{
+    position: absolute;
+    top: 24vh;
+    left: 39vw;
+    font-size: 1em;
+    font-style: italic;
+    font-weight: border;
+}
 .intro-prev{
-    background-image: url(../image/btn/btn_left_white.png);
+    background-image: url(../image/btn/btn_left.svg);
 }
 .intro-prev:hover{
-    background-image: url(../image/btn/btn_left_white_full.png);
+    background-image: url(../image/btn/btn_left_rv.svg);
     transition: all .5s;
 }
 .intro-next{
-    background-image: url(../image/btn/btn_right_white.png);
+    background-image: url(../image/btn/btn_right.svg);
 }
 .intro-next:hover{
-    background-image: url(../image/btn/btn_right_white_full.png);
+    background-image: url(../image/btn/btn_right_rv.svg);
     transition: all .5s;
 }
 hr.intro-title{
     border: 0;
-    height: 1px;
-    width: 45vw;
+    height: 2px;
+    width: 56vw;
     margin-top: 3px;
-    background: white;
+    background: #505050;
     clear: both;
 }
 /**1st page**/
 .intro-first-page-text{
-	font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
     float:left;
     height:40vh;
-    width:40vw;
-    margin-top:24px;
+    width:27vw;
+    margin-top:20px;
     margin-right:2vw;
-    font-weight: 300;
-    font-size: 1em;
-    line-height:1.833em;
+    font-weight: 350;
+    font-size: 0.8em;
+    line-height:1.6em;
     letter-spacing: 0.05em;
-    color: white;
+    color: #000000;
+    border: solid 0px red;
+}
+.intro-first-page-text_1{
+    /*font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;*/
+    font-weight: regular;
+    font-size: 18px;
+    line-height: 31pt;
+    color: #000000;
+    position: relative;
+    top: 60px;
+    width: 540px;
 }
 
 /*
 @media (min-width: 550px) and (max-width: 900px){
     .intro-first-page-text{
-	float: none;
+    float: none;
     }
 }
 */
@@ -207,13 +140,13 @@ hr.intro-title{
         position: absolute; 
         top: 20%;
         left: 20%;
-	width: none;
-	height: none;
+    width: none;
+    height: none;
     }
     .intro-first-page-text{
         float: none;
-	font-size: 0.7em;
-	width: 220px;
+    font-size: 0.7em;
+    width: 220px;
     }
 }
 */
@@ -221,30 +154,19 @@ hr.intro-title{
 
 
 .intro-second-page-left{
-	font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
-    float:left;
-    height:40vh;
-    width:45vw;
-    margin-top:36px;
-    margin-right:2vw;
-    font-weight: 300;
-    font-size: 1em;
-    line-height:1.833em;
-    letter-spacing: 0.05em;
-    color: #000000;
+    float: left;
+    width: 29vw;
+    height: 40vh;
+    margin-top: 28px;
+    border: solid red 0px;
 }
 .intro-second-page-right{
-	font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
-    float:left;
-    height:40vh;
-    width:40vw;
-    /*margin-top:20px;*/
-    /*margin-right:2vw;*/
-    font-weight: 300;
-    font-size: 1em;
-    line-height:1.833em;
-    letter-spacing: 0.05em;
-    color: #000000;
+    float: left;
+    width: 25vw;
+    height: 40vh;
+    margin-left: 2vw;
+    margin-top: 28px;
+    border: solid blue 0px;
 }
 .intro-p2-block1{
     float: left;
@@ -259,16 +181,16 @@ hr.intro-title{
     text-align: center;
 }
 .intro-p2-text1{
-	font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
-    width: 15vw;
+    width: 21vw;
     height: 18vh;
+    border: solid 0px white;
+    margin-left:1.5vw;
     float:left;
-    font-weight: 300;
-    font-size: 1.2em;
-    line-height: 2em;
+    font-weight: 350;
+    font-size: 0.8em;
+    line-height: 1.6em;
     letter-spacing:0.05em;
-    color: white;
-	margin-right: 80px;
+    color: #000000;
 }
 .intro-p2-space{
     height: 2.5vh;
@@ -276,32 +198,16 @@ hr.intro-title{
     clear: both;
 }
 .intro-p2-text2{
-	font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
-    font-weight: 300;
+    font-weight: 350;
     font-size: 0.8em;
     text-align: justify;
-    line-height:1.833em;
+    line-height:1.6em;
     letter-spacing: 0.05em;
-    color: white;
-	width: 260px;
-	float: right;
+    color: #000000;
 }
 
 
 /**3rd page**/
-.intro-third-page-left{
-	font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
-    float:left;
-    height:40vh;
-    width:45vw;	
-    margin-top:36px;
-    margin-right:2vw;
-    font-weight: 300;
-    font-size: 1em;
-    line-height:1.833em;
-    letter-spacing: 0.05em;
-    color: white;
-}
 .intro-p3-block{
     margin-top:28px;
     margin-right:20px;
@@ -329,26 +235,12 @@ hr.intro-title{
     border: solid 0px red;
 }
 .intro-p3-text{
-	font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
     float: left;
-	width: 15vw;
-    font-weight: 300;
-    font-size:  1.2em;
-    line-height: 2em;
-    letter-spacing:0.05em;
-    color: white;
-	margin-right: 80px;
-}
-.intro-p3-text2{
-	font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
-    font-weight: 300;
-    font-size: 1em;
-    text-align: justify;
-    line-height:1.833em;
-    letter-spacing: 0.05em;
-    color: white;
-	width: 260px;
-	float: right;	
+    font-weight: 350;
+    font-size: 0.75em;
+    line-height: 1.833em;
+    letter-spacing:0.03em; /*0.05em*/
+    color: #000000;
 }
 .intro-p3-text-E{
     float: left;
@@ -452,22 +344,11 @@ hr.intro-title{
 
 /* page: dean */
 .page-dean{
-    background-image:url(../image/bg/dean-bg.jpg);
+    background-image:url(../image/bg/dean.jpg);
     background-size:cover;
     background-repeat: no-repeat;
-    background-position: right center;
+    background-position: right;
     height:100vh;
-}
-.dean-photo{
-    background-image:url(../image/bg/dean.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center top;
-    width:43vw;
-    height: 85vh;
-    position: absolute;
-    left:53vw;
-    top:15vh;
 }
 .dean-bigTitle{
     float: left;
@@ -533,13 +414,13 @@ hr.dean_hr{
     font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
     font-weight: 350;
     font-size: 0.8em;
-    line-height: 1.5em;
+    line-height: 1.833em;
     letter-spacing:0.05em;
     color: #000000;
     border: solid 0px green;
 }
 .dean-width1{ width: 36vw; }
-.dean-width2{ width: 60vw; }
+.dean-width2{ width: 36vw; }
 .dean-width3{ width: 36vw; }
 .dean-option-wrapper:hover .dean-discript{
     display: block;
@@ -566,7 +447,7 @@ hr.dean_hr{
 
 /* page: vice-dean */
 .page-vice_dean{
-    background-image:url(../image/bg/vice_dean.jpg);
+    background-image:url(../image/bg/17.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     height:100vh;
@@ -581,12 +462,11 @@ hr.dean_hr{
 }
 .vd-block{
     width: 56vw;
-    height: 15.5vw;
+    height: 17.5vw;
     margin-top: 17px;
     margin-bottom: 8px;
     border-radius:10px;
     box-shadow:0px 0px 10px 2px rgba(20%,20%,40%,0.5);
-    background: #ffffff3d;
     overflow: hidden;
 }
 .vd-chen{
@@ -661,7 +541,7 @@ hr.vd_hr{
 }
 /* page: staff */
 .page-staff{
-    background-image:url(../image/bg/staff.jpg);
+    background-image:url(../image/bg/18.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     height:100vh;
@@ -676,103 +556,44 @@ hr.vd_hr{
 }
 .staff-block{
     float: left;
-    width: 21vw;
-    height: 235px;
-    margin-top: 25px;
-    margin-right: 15.5px;
-    white-space: nowrap;
+    width: 18vw;
+    height: 400px;
+    margin-top: 50px;
+    margin-right: 7vw;
 }
-.staff-photo,.staff-photo2{
-    display: inline-block;
-    width: 10vw;
-    height: 10vw;
+.staff-photo{
+    width: 14vw;
+    height: 14vw;
     border-radius: 50%;
     box-shadow: 0px 0px 4px rgba(0%, 0%, 0%, 0.4);
+    /*border: solid 1px black;*/
 }
-
-.staff-intro,.staff-intro2{
-    display: inline-block;
-    margin-left: 10px;
-}
-
-.staff-intro2{
-    text-align: right;
-}
-
-.staff-photo{
-    float: left;
-    margin-top: 10px;
-}
-
-.staff-photo2{
-    vertical-align:top;
-    margin-top: 10px;
-    margin-left: 5px;
-
-}
-
-
-/*郭淑卿*/
-.staff-kao1{
-    background-image: url(../image/Kao.png);
-    background-size:cover;
-}
-
-/*呂聖玲*/
-.staff-lu1{
-    background-image: url(../image/Lu.png);
-    background-size:cover;
-}
-
-/*呂弈凜*/
-.staff-lu2{
-    background-image: url(../image/Lu2.png);
-    background-size:cover;
-}
-
-/*吳佳文*/
 .staff-wu{
-    background-image: url(../image/wu.png);
+    background-image: url(../image/Wu.jpg);
     background-size:cover;
 }
-
-/*郭珍佑*/
-.staff-kao2{
-    background-image: url(../image/Kao2.png);
+.staff-liu{
+    background-image: url(../image/Liu.jpg);
     background-size:cover;
 }
-
-/*陳珮筠*/
-.staff-Chen{
-    background-image: url(../image/Chen.png);
+.staff-hsieh{
+    background-image: url(../image/Hsieh.jpg);
     background-size:cover;
 }
-
-/*葉連發*/
-.staff-Ye{
-    background-image: url(../image/Ye.png);
-    background-size:cover;
-}
-
 .staff-block1{
     width: 200px;
     height: 25px;
 }
-.staff-line,.staff-line2{
-    width: 9vw;
+.staff-line{
+    width: 16vw;
     margin-top: 2vh;
     margin-bottom: 2vh;
     border: solid 1px black;
 }
-
-.staff-line2{
-    float: right;
-}
-
 .staff-littleTitle{
     font-family:'Noto Sans TC', '微軟正黑體', sans-serif;
     font-weight: 350;
-    font-size: 1em;
+    font-size: 1.2em;
     line-height: 2.833em;
     color: #000000;
     line-height: 3vh;
@@ -781,62 +602,17 @@ hr.vd_hr{
 .staff-bigTitle{
     font-family:'Noto Sans TC', '微軟正黑體', sans-serif;
     font-weight: 400;
-    font-size: 2em;
+    font-size: 2.8em;
     color: #000000;
     line-height: 5.5vh;
 }
-
-
 .staff-text{
     font-family:'Noto Sans TC', '微軟正黑體', sans-serif;
     font-weight: 350;
-    font-size: 0.75em;
+    font-size: 0.8em;
     line-height: 1.833em;
     /*letter-spacing:0.05em;*/
     color: #000000;
-}
-
-.staff-intro-button{
-    display: inline-block;
-    width: 5vmin;
-    height: 5vmin;
-    margin: 1vmin;
-    margin-left: 0px;
-    cursor: pointer;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.staff-intro-prev{
-    background-image: url(../image/btn/btn_left_01.svg);
-    margin-left: 2vw;
-}
-.staff-intro-prev:hover{
-    background-image: url(../image/btn/btn_left_rv_01.svg);
-    transition: all .5s;
-}
-
-.staff-intro-next{
-    background-image: url(../image/btn/btn_right_01.svg);
-}
-.staff-intro-next:hover{
-    background-image: url(../image/btn/btn_right_rv_01.svg);
-    transition: all .5s;
-}
-
-/* adjust staff page*/
-@media screen and (max-width: 1025px){
-
-    .staff-block{
-        width: 21vw;
-    }
-    .staff-photo,.staff-photo2{
-        display: none;
-    }
-}
-
-.staff-mobile-space{
-    display: none;
 }
 
 /* history of the deans */
@@ -858,12 +634,263 @@ hr.vd_hr{
     background-repeat: no-repeat;
     
 }
-
-
-/* clear float*/
-
-.clear{
-    clear: both;
+.nextpage{
+    background-image: url(../image/bg/職員切版-07.png);
+    width: 8vh;
+    height: 8vh;
+    position: absolute;
+    left: 55vw;
+    top: 3.5vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 999em;
 }
-
-
+.nextpage:hover{
+    background-image: url(../image/bg/職員切版-08.jpg);
+    cursor:pointer;
+}
+.prepage{
+    background-image: url(../image/bg/職員切版-05.png);
+    width: 8vh;
+    height: 8vh;
+    position: absolute;
+    background-size: contain;
+    top: 9vh;
+    left: -11vw;
+    background-repeat: no-repeat;
+    border-radius: 999em;
+}
+.prepage:hover{
+    background-image: url(../image/bg/職員切版-06.jpg);
+    cursor:pointer;
+}
+.ra-circle_first{
+    position: relative;
+    top:35vh;
+    left:27vw;
+    height: 23vh;
+    width: 88vw;
+    margin-top: 0vh;
+    border: solid 0px green;
+}
+.ra-circle_first_block_1{
+    margin-top: 0vh;
+    border: solid 0px green;
+    float:left;
+    width: 25vw;
+    height:23vh;
+}
+.ra-circle_1{
+    background-image: url(../image/7_1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    float:left;
+    border-radius: 999em;
+    width:23vh;
+    height:23vh;
+    color: #FFFFFF;
+    /*background-color: black;*/
+}
+.ra-circle_first_block_2{
+    position:relative;
+    left:1vw;
+    float:left;
+    height: 25vh;
+    width:25vw;
+    margin-top: 0vh;
+    border: solid 0px green;
+}
+.ra-circle_2{
+    background-image: url(../image/7_3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    float:left;
+    border-radius: 999em;
+    width:23vh;
+    height:23vh;
+    color: #FFFFFF;
+    /*background-color: black;*/
+}
+.ra-circle_7{
+    background-image: url(../image/7_7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    float:left;
+    border-radius: 999em;
+    width:23vh;
+    height:23vh;
+    color: #FFFFFF;
+    /*background-color: black;*/
+}
+.ra-circle_first_block_3{
+    position:absolute;
+    /*left:46vw;*/
+    height: 25vh;
+    margin-top: 0vh;
+    border: solid 0px green;
+}
+.ra-circle_3{
+    background-image: url(../image/7_2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    float:left;
+    border-radius: 999em;
+    width:23vh;
+    height:23vh;
+    color: #FFFFFF;
+    left:0px;
+    /*background-color: black;*/
+}
+.ra-circle_second{
+    position: relative;
+    top:40vh;
+    left:38vw;
+    height: 25vh;
+    width: 70vw;
+    margin-top: 0vh;
+    border: solid 0px green;
+}
+.ra-circle_second_block_1{
+    clear:both;
+    float:left;
+    height: 23vh;
+    width: 25vw;
+    margin-top: 0vh;
+    border: solid 0px green;
+}
+.ra-circle_4{
+    background-image: url(../image/7_4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    float:left;
+    border-radius: 999em;
+    width:23vh;
+    height:23vh;
+    color: #FFFFFF;
+    /*left:11vw;*/
+    /*background-color: black;*/
+}
+.ra-circle_second_block_2{
+    position:relative;
+    float:left;
+    left:1vw;
+    height: 25vh;
+    width:25vw;
+    margin-top: 0vh;
+    border: solid 0px green;
+}
+.ra-circle_5{
+    background-image: url(../image/7_5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    float:left;
+    border-radius: 999em;
+    width:23vh;
+    height:23vh;
+    color: #FFFFFF;
+    /*left:11vw;*/
+    /*background-color: black;*/
+}
+.ra-circle_8{
+    background-image: url(../image/7_8.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    float:left;
+    border-radius: 999em;
+    width:23vh;
+    height:23vh;
+    color: #FFFFFF;
+    /*left:11vw;*/
+    /*background-color: black;*/
+}
+.ra-circle_second_block_3{
+    position:absolute;
+    /*left:46vw;*/
+    height: 25vh;
+    margin-top: 0vh;
+    border: solid 0px green;
+}
+.ra-circle_6{
+    background-image: url(../image/7_6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    float:left;
+    border-radius: 999em;
+    width:23vh;
+    height:23vh;
+    color: #FFFFFF;
+    /*left:11vw;*/
+    /*background-color: black;*/
+}
+.first_block_context_block{
+    /*background-image: url(../image/7_1.png);*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+    position:relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    /*border-radius: 999em;*/
+    width:10vw;
+    height:23vh;
+    left:1vw;
+    /*color: #FFFFFF;*/
+    /*left:12.5vw;*/
+    top:2.5vh;
+    /*background-color: black;*/
+}
+.second_block_context_block{
+    /*background-image: url(../image/7_1.png);*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+    position:relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    /*border-radius: 999em;*/
+    width:10vw;
+    height:23vh;
+    /*color: #FFFFFF;*/
+    left:1vw;
+    top:2.5vh;
+    /*background-color: black;*/
+}
+.first_first_line{
+    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
+    font-weight: regular;
+    font-size: 15.5px;
+    color: #000000;
+}
+.first_second_line{
+    position: absolute;
+    top:24.582px;
+    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
+    font-weight: regular;
+    font-size: 39px;
+    color: #000000;
+}
+.first_third_line{
+    position: absolute;
+    top:86.353px;
+    font-family: ‘Noto Sans TC’, ‘微軟正黑體’, sans-serif;
+    font-weight: regular;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+}
+.middle_line{
+    position: absolute;
+    top:76.405px;
+    width:100vh;
+    height:1px;
+    background:#E0E0E0;
+}
+.mobile{
+    display: none;
+}

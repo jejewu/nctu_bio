@@ -3,235 +3,98 @@
  * Template Name: en-homepage
  */
 ?>
-<?php get_header('en_header'); ?>
+<?php 
+$translate = qtranxf_getLanguage()=='en' ? false : false;
+
+$wp_query_args = array(
+    'posts_per_page' => 4,
+    's' => '[:'.qtranxf_getLanguage().']',
+    'orderby'   => 'date',
+    'order' => 'DESC'
+);
+get_header(en_header); ?>
+<!--<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/en-homepage.css" type="text/css" media="screen and (min-width: 701px)" />
+<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/mobile-css/homepage-mobile.css" type="text/css" media="screen and (max-width: 700px)" />
+-->
 <div class="hp">
     <div class="hp-nav">
         <ul>
-            <li style="background-color:#646464"></li>
+            <li style="background-color:#810C95"></li>
             <li></li>
             <li></li>
             <li></li>
-            <li></li>
-            </div>
         </ul>
     </div>
     <div class="hp-p01_next hp-p01_1" style="display:none;"></div>
     <div class="hp-p01 hp-p01_0">
+
         <div class="language-opt">
-	    <a href="http://science.nctu.edu.tw">
-            <div class="lang-left lang-normal">
-                中文
-            </div>
-	    </a>
-	    <div class="lang-right lang-choose">
+            <a href="https://cbt.nctu.edu.tw/">
+                <div class="lang-left lang-normal">
+                    中文
+                </div>
+            </a>
+            
+            <div class="lang-right lang-choose">
                 English
             </div>
+            
         </div>
+
     </div>
     <div class="hp-p02">
-	<div class="bgcontainer"></div>
+        <div class="bgcontainer"></div>
         <div class="container" style="overflow-y: hidden">
-		<div class="hp-container">
-                    <div class="hp-news hp-news0"> <!-- news1 -->
-			<div class="icon_down"><div class="right_icon"></div></div>
+            <div class="hp-container">
+                <?php foreach ($newslist as $key => $value): ?> <!-- StartNews -->
+                    <div class="hp-news hp-news<?php echo $key ?>">
+                        <div class="icon_down"><div class="right_icon_w"></div></div>
                         <div class="hp-newsheader">
-                            <div id="hp-news-icon1" class="hp-news-icon"></div>
-                            <div class="hp-newstitle">最新消息</div>
-                            <a href="<?php bloginfo('template_url')?>/news?lang=en"><div class="hp-moreinfo"></div></a>
-                            <div class="hp-nextnews"></div>
+                            <div id="hp-news-icon<?php echo $key+1 ?>" class="hp-news-icon"></div>
+                            <div class="hp-newstitle">
+                                Latest News
+                            </div>
+                            <a href="<?php echo site_url().'/news' ?>" title="More">
+                                <div class="hp-moreinfo"></div>
+                            </a>
+                            <!--<div class="hp-nextnews" title="Next"></div>-->
                         </div>
                         <div class="hp-newsbody">
                             <?php
-                            $is_multiple=False;
-                            $args = array(
-                            'category_name' => 'news',
-                            'posts_per_page' => 5
-                            );
-                            $the_query = new WP_Query($args);
+                            $wp_query_args['category_name'] = $value[2];
+                            $the_query = new WP_Query($wp_query_args);
                             if($the_query->have_posts()):
                                 while($the_query->have_posts()):
                                     $the_query->the_post();
-                                    if($is_multiple):
                             ?>
-                                <!--<hr class="news_line">-->
-                            <?php endif; ?>
-                            <div class="hp-news_item_date"><?php the_time('Y.m.j'); ?></div>
-                            <a class="hp-news_item_title" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                            <div class="hp-news_item_date">
+                                <div class="date_image">
+                                    <?php the_time('Y.m.j'); ?>
+                                </div>
+                            </div>
+                            <a class="hp-news_item_title" href="<?php the_permalink(); ?>">
+                                <?php the_title(); ?>
+                            </a>
                             <hr class="news_line">
-			    <?php
-                                    $is_multiple=True;
+                            <?php
                                 endwhile;
-                            else:?>
-                                <div class="hp-news_item_title">還沒發佈新文章喔！</div>
+                            else:
+                            ?>
+                                <div class="hp-news_item_title">
+                                    Coming soon!
+                                </div>
                             <?php
                             endif;
                             wp_reset_postdata();
                             ?>
                         </div>
-                    </div>
-                    <div class="hp-news hp-news1"> <!-- news2 -->
-                        <div class="icon_up"><div class="left_icon"></div></div>
-                        <div class="icon_down"><div class="right_icon"></div></div>
-                        <div class="hp-newsheader">
-                            <div id="hp-news-icon2" class="hp-news-icon"></div>
-                            <div class="hp-newstitle">師生榮譽</div>
-                            <a href="<?php bloginfo('template_url')?>/honor?lang=en"><div class="hp-moreinfo"></div></a>
-                            <div class="hp-nextnews"></div>
-                        </div>
-                        <div class="hp-newsbody">
-                            <?php
-                            $is_multiple=False;
-                            $args = array(
-                            'category_name' => 'honor',
-                            'posts_per_page' => 5
-                        );
-                            /*$args = array(
-                                'post_type' => 'news_events',
-                                'tax_query' => [
-                                    'taxonomy' => 'cat_news_events',
-                                    'field' => 'slug',
-                                    'terms' => 'awards_honors'
-                                ]
-                            );*/
-                            $the_query = new WP_Query($args);
-                            if($the_query->have_posts()):
-                                while($the_query->have_posts()):
-                                    $the_query->the_post();
-                                    if($is_multiple):
-                            ?>
-                                <!--<hr class="news_line">-->
-                            <?php endif; ?>
-                            <div class="hp-news_item_date"><?php the_time('Y.m.j'); ?></div>
-                            <a class="hp-news_item_title" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-                            <hr class="news_line">
-                            <?php
-                                    $is_multiple=True;
-                                endwhile;
-                            else:?>
-                                <div class="hp-news_item_title">還沒發佈新文章喔！</div>
-                            <?php
-                            endif;
-                            wp_reset_postdata();
-                            ?>
-                        </div>
-                    </div>
-                    <div class="hp-news hp-news2"> <!-- news3 -->
-                        <div class="icon_up"><div class="left_icon"></div></div>
-                        <div class="icon_down"><div class="right_icon"></div></div>
-                        <div class="hp-newsheader">
-                            <div id="hp-news-icon3" class="hp-news-icon"></div>
-                            <div class="hp-newstitle">學術活動</div>
-                            <a href="<?php bloginfo('template_url')?>/activity?lang=en"><div class="hp-moreinfo"></div></a>
-                            <div class="hp-nextnews"></div>
-                        </div>
-                        <div class="hp-newsbody">
-                            <?php
-                            $is_multiple=False;
-                            $args = array(
-                            'category_name' => 'activity',
-                            'posts_per_page' => 5
-                            );
-                            $the_query = new WP_Query($args);
-                            if($the_query->have_posts()):
-                                while($the_query->have_posts()):
-                                    $the_query->the_post();
-                                    if($is_multiple):
-                            ?>
-                                <!--<hr class="news_line">-->
-                            <?php endif; ?>
-                            <div class="hp-news_item_date"><?php the_time('Y.m.j'); ?></div>
-                            <a class="hp-news_item_title" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-                            <hr class="news_line">
-                            <?php
-                                    $is_multiple=True;
-                                endwhile;
-                            else:?>
-                                <div class="hp-news_item_title">還沒發佈新文章喔！</div>
-                            <?php
-                            endif;
-                            wp_reset_postdata();
-                            ?>
-                        </div>
-                    </div>
-                    <div class="hp-news hp-news3"> <!-- news4 -->
-                        <div class="icon_up"><div class="left_icon"></div></div>    
-                        <div class="hp-newsheader">
-                            <div id="hp-news-icon4" class="hp-news-icon"></div>
-                            <div class="hp-newstitle">人文科普</div>
-                            <a href="<?php bloginfo('template_url')?>/humanities_and_social_sciences?lang=en"><div class="hp-moreinfo"></div></a>
-			    <div class="hp-nextnews"></div>
-                        </div>
-                        <div class="hp-newsbody">
-                            <?php
-                            $is_multiple=False;
-                            $args = array(
-                            'category_name' => 'humanities_and_social_sciences',
-                            'posts_per_page' => 5
-                            );
-                            $the_query = new WP_Query($args);
-                            if($the_query->have_posts()):
-                                while($the_query->have_posts()):
-                                    $the_query->the_post();
-                                    if($is_multiple):
-                            ?>
-                                <!--<hr class="news_line">-->
-                            <?php endif; ?>
-                            <div class="hp-news_item_date"><?php the_time('Y.m.j'); ?></div>
-                            <a class="hp-news_item_title" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-                            <hr class="news_line">
-                            <?php
-                                    $is_multiple=True;
-                                endwhile;
-                            else:?>
-                                <div class="hp-news_item_title">還沒發佈新文章喔！</div>
-                            <?php
-                            endif;
-                            wp_reset_postdata();
-                            ?>
-                        </div>
-		    </div>
-            </div>
-<!--
-            <div class="mobile-foot">
-                <div class="foot-top">
-                    <p class="foot-font-top formobile">TEL│886-3-572-7077</p>
-                    <p class="foot-font-top formobile">FAX│886-3-571-9507</p>
-                    <p class="foot-font-top formobile">E-MAIL│science@cc.nctu.edu.tw</p>
-                </div>
-                <div class="foot-line"></div>
-                <div class="foot-bottom">
-		<p class="foot-font-bottom formobile">300 新竹市東區大學路1001號基礎科學教學研究大樓一樓101室</p>
-		</div>
-            </div>
--->
+                    </div>  <!-- End news -->
+                <?php endforeach; ?>  
+            </div>       
         </div>
     </div>
+    
     <div class="hp-p03">
-        <div class="container">
-        	<div id="hp-field-pic1" class="hp-field-before"></div>
-            <div id="hp-field-pic2" class="hp-field-before"></div>
-            <div id="hp-field-pic3" class="hp-field-before"></div>
-            <a href="<?php echo site_url(); ?>/research_highlights#pyhsics">
-                <div id="hp-field-link1" class="hp-field-link-before">
-                    <div id="hp-field-icon1" class="hp-field-link-before"></div>
-                    <div id="hp-field-font1" class="hp-field-link-before">Physics</div>
-                </div>
-            </a>
-            <a href="<?php echo site_url(); ?>/research_highlights#mathmetics">
-                <div id="hp-field-link2" class="hp-field-link-before">
-                    <div id="hp-field-icon2" class="hp-field-link-before"></div>
-                    <div id="hp-field-font2" class="hp-field-link-before">Mathematics & Statistics</div>
-                </div>
-            </a>
-            <a href="<?php echo site_url(); ?>/research_highlights#chemistry">
-                <div id="hp-field-link3" class="hp-field-link-before">
-                    <div id="hp-field-icon3" class="hp-field-link-before"></div>
-                    <div id="hp-field-font3" class="hp-field-link-before">Chemistry</div>
-                </div>
-            </a>
-        </div>
-    </div>
-    <div class="hp-p04">
         <div class="container">
             <div id="hp-gallery">
                 <div class="hp-img_wrapper">
@@ -261,44 +124,86 @@
                 </div>
                 <div id="hp-gallery-link" class="hp-gallery-link-before">
                     <div id="hp-gallery-icon" class="hp-gallery-link-before"></div>
-                    <div id="hp-gallery-font" class="hp-gallery-link-before">Campus Moments | Featured</div>
+                    <div id="hp-gallery-font" class="hp-gallery-link-before">
+                        Photo Gallery
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="hp-p05">
+    <div class="hp-p04">
         <div class="container">
-<!--            <div id="p5-left"></div>-->
+            <div id="p5-left"></div>
             <div id="p5-right"></div>
-<!--
             <a href="<?php echo site_url(); ?>/admissions">
-                <div id="p5-left-button">高中生專區</div>
+                <div id="p5-left-button">
+                    High School Students
+                </div>
             </a>
--->
-            <a href="<?php echo site_url(); ?>/international_admissions">
-                <div id="p5-right-button">International Students</div>
-            </a>
+            <!--<a href="<?php echo site_url(); ?>/international">-->
+                <div id="p5-right-button">
+                    International Students
+                </div>
+            <!--</a>-->
+            <div id="p5-announce-block">
+                <div id="copy-right-title">著作權聲明</div>
+                <div id="copy-right-text"> 1.交通大學生科院網站(以下簡稱本網站)上刊載之所有內容，除著作權法規定不得為著作權之標的(如法律、命令、公務員撰擬之講稿、新聞稿等--請參考著作權法第9條規定)外，其他包括文字敘述、攝影、圖片、錄音、影像及其他資訊，均受著作權法保護。<br>2.本網站所提供相關連結網站之網頁或資料，均為被連結網站所提供，相關權利為該等網站或合法權利人所有，本網站不擔保其正確性、即時性或完整性。</div>
+            </div>
+
+            <div id="map"></div>
+            
             <div id="foot">
                 <div id="foot-left">
-                    <p id="foot-font-2">NCTU</p>
-                    <p id="foot-font-3">The College of Science</p>
+                    <p id="foot-font-1">
+                        NCTU
+                    </p>
+                    <p id="foot-font-2">生科院</p>
+                    <p id="foot-font-3">College of Biological<br>Science and Technology</p>
                 </div>
                 <div id="foot-center">
-                    <div class="foot-font-4"><img class="ft-icon" src="<?php bloginfo('template_url')?>/image/icon/icon_info_01.svg"> 886-3-572-7077</div>
-                    <div class="foot-font-4"><img class="ft-icon" src="<?php bloginfo('template_url')?>/image/icon/icon_info_02.svg"> 886-3-571-9507</div>
-                    <div class="foot-font-4"><img class="ft-icon" src="<?php bloginfo('template_url')?>/image/icon/icon_info_03.svg"> science@cc.nctu.edu.tw</div>
-                    <div class="foot-font-4"><img class="ft-icon" src="<?php bloginfo('template_url')?>/image/icon/icon_info_04.svg"> Office: Rm. 101, Science Building 3, 1001 University Road, Hsinchu, Taiwan 300, ROC</div>
+                    <div class="foot-font-4"><img class="ft-icon" src="<?php bloginfo('template_url')?>/image/icon/icon_info_01.svg"> 886-3-572-9287</div>
+                    <div class="foot-font-4"><img class="ft-icon" src="<?php bloginfo('template_url')?>/image/icon/icon_info_02.svg"> 886-3-571-9288</div>
+                    <div class="foot-font-4"><img class="ft-icon" src="<?php bloginfo('template_url')?>/image/icon/icon_info_03.svg"> meiling@cc.nctu.edu.tw</div>
+                    <div class="foot-font-4"><img class="ft-icon" src="<?php bloginfo('template_url')?>/image/icon/icon_info_04.svg"> 
+                        <?php echo $translate ? 'Room 117, Lab Building 1, 75 Bo-Ai Street, Hsin-Chu, Taiwan 300, ROC' : '300 新竹市博愛街75號 賢齊館325室' ?>
+                    </div>
                     <hr class="ft-hr"/>
-                    <div class="foot-font-4" style="float:left;"> <a href="http://www.nctu.edu.tw/">NCTU</a> | Campus Map | Directory | <a href="http://cos.nctu.edu.tw/"> Old Version</a> </div>
+                    <div class="foot-font-4" style="float:left;">
+                        
+                        <a href="http://www.nctu.edu.tw/">
+                            NCTU
+                        </a>
+
+                        <a href="https://cbt.nctu.edu.tw/wp-content/uploads/%E7%94%9F%E7%A7%91%E9%99%A2%E7%B6%B2%E7%AB%99%E5%B0%8E%E8%A6%BD.pdf">
+                            | 網頁導覽
+                        </a>
+
+                        <a href="http://www.life.nctu.edu.tw">
+                            | Old Version
+                        </a>
+
+                        <a href="https://cbt.nctu.edu.tw/wp-content/uploads/網頁規範.pdf">
+                            | Web Design Guideline
+                        </a>
+
+                        <a id="hp-announce">
+                            | 著作權聲明
+                        </a> 
+                        
+                        <a id="hp-map">
+                            | Map
+                        </a> 
+
+                    </div>
                 </div>
-                <div id="foot-right">
+                <!--<div id="foot-right">
                     <div >
                         <img class="ft-link-icon" src="<?php bloginfo('template_url')?>/image/icon/FB_icon.png" alt="Facebook link">
                     </div>
                     <div  style="margin-top:1vh">
                         <img class="ft-link-icon" src="<?php bloginfo('template_url')?>/image/icon/YT_icon.png" alt="YouTube link">
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
     </div>
@@ -310,15 +215,15 @@
     
     function showNext(){
         old_bg = now_bg;
-        now_bg = (now_bg+1)%8;
-        next_bg = (now_bg+1)%8;
+        now_bg = (now_bg+1)%6; /* 輪播圖總數量 */
+        next_bg = (now_bg+1)%6;
         $(".hp-p01").addClass("hp-p01_"+now_bg).removeClass("hp-p01_"+old_bg);
         $(".hp-p01_next").addClass("hp-p01_"+next_bg).removeClass("hp-p01_"+now_bg);
         timer = setTimeout(showNext, frequency);
     }
     
     $( document ).ready(function(){
-  	$('.hp-newsbody').perfectScrollbar();
+    $('.hp-newsbody').perfectScrollbar();
         timer = setTimeout(showNext, frequency);
         $(".hp-news0").show();
     });
@@ -343,7 +248,17 @@
         $(".hp-news"+now_news).fadeIn(1500);
         console.log(screen.width + "/" + screen.height);
     });
-
+    $("#hp-announce").hover(function(){
+        $("#p5-announce-block").fadeIn(500);
+    },function(){
+        $("#p5-announce-block").fadeOut(500);
+    });
+    
+    $("#hp-map").hover(function(){
+        $("#map").fadeIn(500);
+    },function(){
+        $("#map").fadeOut(500);
+    });
 </script>
 <?php //get_sidebar(); ?>
 <?php get_footer(); ?>

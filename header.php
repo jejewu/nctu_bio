@@ -4,7 +4,7 @@
         <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/image/favicon.ico" type="image/x-icon">
-        <title><?php bloginfo('name'); ?> <?php wp_title(); ?></title>
+        <title>交通大學生物科技學院</title>
 
         <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen and (min-width: 701px)"/>
         <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style-mobile.css" type="text/css" media="screen and (max-width:700px)"/>
@@ -20,9 +20,11 @@
         <?php if(check_current_page('homepage') || is_single()) { /*首頁*/ ?>
             <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/homepage.css" type="text/css" media="screen and (min-width: 701px)" />
             <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/mobile-css/homepage-mobile.css" type="text/css" media="screen and (max-width: 700px)" />
-            <?php if (qtranxf_getLanguage() == 'en') { ?>
+            
+            <!--<?php if (qtranxf_getLanguage() == 'en') { ?>
                 <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/homepage-en.css" type="text/css" media="screen and (min-width: 701px)" />
-            <?php } ?>
+            <?php } ?>-->
+            
         <?php } else if(check_current_page('intro')) { /*學院簡介*/?>
             <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/intro.css" type="text/css" media="screen and (min-width: 701px)" />
             <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/mobile-css/intro-mobile.css" type="text/css" media="screen and (max-width: 700px)" />
