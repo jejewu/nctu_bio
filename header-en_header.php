@@ -97,7 +97,7 @@
                     </div>
                 </a>
     			<div class="sidenavlink">
-    			    <a href="<?php echo site_url(); ?>">
+    			    <a href="<?php echo site_url(); ?>/en-homepage/#1">
                         <div id="mysidetext1" class="menu_block" style="transition:0.8s;">
                             <div class="header-icon header-icon0">
                                 <div class="menutext">
