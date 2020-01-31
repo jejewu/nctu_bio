@@ -101,7 +101,7 @@
                         <div id="mysidetext1" class="menu_block" style="transition:0.8s;">
                             <div class="header-icon header-icon0">
                                 <div class="menutext">
-                                    首頁
+                                    Homepage
                                 </div>
                             </div>
                         </div>
@@ -151,6 +151,7 @@
                             </div>
                         </div>
                     </a>
+                    <!--
                     <a href="<?php echo site_url(); ?>/en-regulations_and_forms">
                         <div id="mysidetext7" class="menu_block" style="transition:3.2s;">
                             <div class="header-icon header-icon6">
@@ -160,17 +161,18 @@
                             </div>
                         </div>
                     </a>
+                    -->
 
 
                 <div class="mobile-foot"> <!--AnnieDisplayNone-->
                     <div class="foot-line"></div>
                     <div class="foot-top">
-                        <p class="foot-font-top formobile">TEL│886-3-572-7077</p>
-                        <p class="foot-font-top formobile">FAX│886-3-571-9507</p>
-                        <p class="foot-font-top formobile">E-MAIL│science@cc.nctu.edu.tw</p>
+                        <p class="foot-font-top formobile">TEL│886-3-572-9287</p>
+                        <p class="foot-font-top formobile">FAX│886-3-571-9288</p>
+                        <p class="foot-font-top formobile">E-MAIL│meiling@cc.nctu.edu.tw</p>
                     </div>
                     <div class="foot-bottom">
-                    <p class="foot-font-bottom formobile">300 新竹市東區大學路1001號<br>基礎科學教學研究大樓101室</p>
+                    <p class="foot-font-bottom formobile">300 新竹市博愛街75號 賢齊館325室</p>
                     </div>
                 </div>
 
@@ -221,7 +223,7 @@
                     </div>
 
                 </div>
-                <a href="<?php echo site_url(); ?>"><div id="header-block-link"></div></a>
+                <a href="<?php echo site_url(); ?>/en-homepage"><div id="header-block-link"></div></a>
                 <div id="header-foot"></div>
                 <div id="header-icon0">
                     <a href="<?php echo site_url(); ?>/en-intro">
@@ -259,13 +261,13 @@
                             </div>
                         </div>
                     </a>
-                    <a href="<?php echo site_url(); ?>/en-regulations_and_forms">
+                    <!--<a href="<?php echo site_url(); ?>/en-regulations_and_forms">
                         <div class="header-icon header-icon6">
                             <div class="header-text">
                                 Downloads
                             </div>
                         </div>
-                    </a>
+                    </a>-->
                 </div>
         	</div>
         </div>

@@ -47,10 +47,10 @@ get_header(en_header);
 				<div class="hexagon-block">
 					
 					<div class="first"> 
-					<div class="hexagon s-s-yellow-hexagon"><div class="bio-text">BS Degree Program<br>Master’s Degree Program<br>Ph.D. Degree Program</div></div>
+					<div class="hexagon s-s-yellow-hexagon"><div class="bio-text">BS Degree Program<br>Master's Degree Program<br>Ph.D. Degree Program</div></div>
 					
 					<?php if(get_field('blue-hexagon-left')): ?>
-						<a href="https://dbt.nctu.edu.tw/#1"><div class="hexagon yellow-hexagon"><div class="bio-text"><?php the_field('blue-hexagon-left'); ?></div></div></a>
+						<a href="https://dbt.nctu.edu.tw/#1"><div class="hexagon yellow-hexagon"><div class="bio-text">Master's Degree and Ph.D. Degree programs of the Department of Biological Science and Technology</div></div></a>
 					<?php else: ?>
 						<a target="_blank" href="#"><div class="hexagon"></div></a>
 					<?php endif; ?>
@@ -69,7 +69,7 @@ get_header(en_header);
 						<a target="_blank" href="#"><div class="hexagon"></div></a>
 					<?php endif; ?>-->
 					
-					<div class="hexagon s-blue-hexagon"><div class="bio-text">Master’s Degree Program<br>Ph.D. Degree Program</div></div>
+					<div class="hexagon s-blue-hexagon"><div class="bio-text">Master's Degree Program<br>Ph.D. Degree Program</div></div>
 
 					<?php if(get_field('blue-hexagon-center')): ?>
 						<a target="_blank" href="<?php the_field('blue-hexagon-center-link'); ?>"><div class="hexagon blue-hexagon"><div class="bio-text"><?php the_field('blue-hexagon-center'); ?></div></div></a>
@@ -115,6 +115,8 @@ get_header(en_header);
 					<?php else: ?>
 						<a target="_blank" href="#"><div class="hexagon"></div></a>
 					<?php endif; ?>-->
+
+					
 					<div class="hexagon s-yellow-hexagon"><div class="bio-text">Ph.D. Degree Program</div></div></a>
 
 					<?php if(get_field('yellow-hexagon-left')): ?>

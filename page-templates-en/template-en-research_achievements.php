@@ -30,7 +30,10 @@
                 $the_query = new WP_Query($args);
             ?>
             <div class="ra-circle_block mobilehidden">
-                <div class="ra-circle_b subtitled mobilehidden">Interdisciplinary Researches</div>
+                <div class="ra-circle_b subtitled mobilehidden">
+                    <!--<div class="div0"></div>-->
+                    Interdisciplinary
+                </div>
 
                 <?php
                     if($the_query->have_posts()):
@@ -40,7 +43,10 @@
                 ?>
 
                     <a href="<?php echo site_url(); ?>/research_highlights#<?php the_field('highlight'); ?>">
-                        <div class="ra-circle_l ra-circle_<?php echo $i;?> ra-c<?php echo $i;?> subtitled mobilehidden"><div class="vertival_center"><?php the_field('intro'); ?></div></div>
+                        <div class="ra-circle_l ra-circle_<?php echo $i;?> ra-c<?php echo $i;?> subtitled mobilehidden">
+                            <div class="vertival_center"><?php the_field('intro'); ?>
+                            </div>
+                        </div>
                     </a>
                 <?php
                         $i++;

@@ -30,7 +30,7 @@ get_header(); ?>
             <div class="lang-left lang-choose">
                 中文
             </div>
-            <a href="https://cbt.nctu.edu.tw/">
+            <a href="https://cbt.nctu.edu.tw/en-homepage/#1">
                <div class="lang-right lang-normal">
                     English
                 </div>
@@ -43,7 +43,7 @@ get_header(); ?>
                     中文
                 </div>
             </a>
-            <a herf="https://cbt.nctu.edu.tw/en/">
+            <a herf="https://cbt.nctu.edu.tw/en-homepage/#1">
             <div class="lang-right lang-choose">
                 English
             </div>

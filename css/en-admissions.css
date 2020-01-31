@@ -42,6 +42,7 @@
     margin: auto;
     cursor: pointer;
     border: solid 0px orange;
+    font-size: 0.5em;
 }
 .adm-rec_item_w{
     width: 11vw;
@@ -95,7 +96,7 @@
 
 .adm-text{
     font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
-    font-size: 0.75em;
+    font-size: 0.5em;
     font-weight: 350;
     line-height: 1.375em;
     letter-spacing: 0.03125em;

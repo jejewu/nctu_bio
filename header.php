@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="<?php language_attributes(); ?>">
+<html lang="zh">
     <head>
         <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -101,7 +101,7 @@
                         <div id="mysidetext2" class="menu_block" style="transition:1.2s;">
                             <div class="header-icon header-icon1">
                                 <div class="menutext">
-                                    <?php echo qtranxf_getLanguage()=='zh' ? '學院簡介' : 'About' ?>
+                                    <?php echo qtranxf_getLanguage()=='zh' ? '學院簡介' : 'AAbout' ?>
                                 </div>
                             </div>
                         </div>
@@ -156,12 +156,12 @@
                 <div class="mobile-foot"> <!--AnnieDisplayNone-->
                     <div class="foot-line"></div>
                     <div class="foot-top">
-                        <p class="foot-font-top formobile">TEL│886-3-572-7077</p>
-                        <p class="foot-font-top formobile">FAX│886-3-571-9507</p>
-                        <p class="foot-font-top formobile">E-MAIL│science@cc.nctu.edu.tw</p>
+                        <p class="foot-font-top formobile">TEL│886-3-572-9287</p>
+                        <p class="foot-font-top formobile">FAX│886-3-571-9288</p>
+                        <p class="foot-font-top formobile">E-MAIL│meiling@cc.nctu.edu.tw</p>
                     </div>
                     <div class="foot-bottom">
-                    <p class="foot-font-bottom formobile">300 新竹市東區大學路1001號<br>基礎科學教學研究大樓101室</p>
+                    <p class="foot-font-bottom formobile">300 新竹市博愛街75號 賢齊館325室</p>
                     </div>
                 </div>
 

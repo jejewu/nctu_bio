@@ -54,6 +54,7 @@ hr.ic{
 .ic-bigtitle{
     clear: both;
     letter-spacing: 1.6px; /*0.1em*/
+    font-size: 2em;
 }
 .ic-hide{
     display: none;
@@ -96,7 +97,7 @@ hr.ic{
 
 .ic-bar{
     position: fixed;
-    width: 35%;
+    width: 48vw;
     height: 15vh;
     right: -380px;
     bottom: 8vh;
@@ -129,7 +130,7 @@ hr.ic{
     right: 10vw;
     bottom: 8vh;
     height: 15vh;
-    width: 500px;
+    width: 40vw;
     display: none;
 }
 .ic-text1{
@@ -140,16 +141,20 @@ hr.ic{
     line-height: 10vh;
     text-align: right;
     margin-right: -4px;
+    font-size: 1em;
+    width: 30vw;
 }
 .ic-text3{
     margin-top: 2vh;
     line-height: 4vh;
+    font-size: 0.7em;
     text-align: right;
     color: white;
 }
 .ic-text4{
     margin-top: 1vh;
     line-height: 1.5vh;
+    font-size: 0.7em;
     text-align: right;
     color: white;
 }

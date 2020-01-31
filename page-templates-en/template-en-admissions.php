@@ -20,7 +20,10 @@
 
 	<div class="adm-block-container formobile">
         <div class="adm-block1"> 
-        生物科技系成立於民國八十三年，由碩士班開始，成為交通大學第一個生物科技相關的系所。</br>八十七年博士班成立後，於八十八年正式招收第一屆大學部學生。</br>九十年本系生化工程研究所開始招生，生物資訊研究所已於九十一年正式招生。</br>生物科技學院在九十二年獲教育部准許成立。
+        The Institute of Biological Science and Technology was established in 1994 as a master's degree program, which is the first biotechnology-related academic department at NCTU.</br>
+        The Ph.D. program was initiated in 1998. The first undergraduate students were officially admitted in 1999.</br>
+        The Institute of Biochemistry started recruiting in 2001 while the Institute of Bioinformatics started in 2002.</br>
+        In 2003, the College of Biological Science and Technology (CBT) was officially approved for opening by the Ministry of Education.
         </div>
 		<!--<div class="adm-block1">
                     <a class="adm-rec_item" target="_blank" href="http://www.ep.nctu.edu.tw/admissions/admission_lists_tw/admission_category1_id:2">
@@ -55,7 +58,7 @@
 <!--                    <div class="adm-link adm-link_margin text">招生訊息</div>
                     <div class="adm-link text">課程修業</div>
 -->
-			        <div class="adm-link adm-link_margin adm-text">BS, Master’s, and Ph.D.<br>Programs</div>
+			        <div class="adm-link adm-link_margin adm-text">BS, Master's, and Ph.D.<br>Programs</div>
                 </div>
                 <div class="adm-text_block1 text adm-tb1">To educate students with a solid foundation on cross-field biological science and technology academically and practically, to nurture in students the ability of team work and the communication skills with the industry, and to cultivate new generations of leaders in biotechnological research and industry</div>
                 <a href="#"><div class="read_more adm-ti1"></div></a>
@@ -63,16 +66,18 @@
             <div class="adm-block1">
                 <div class="adm-block_r adm-br2">
                     <div class="adm-rec_item" data-num="2">The Institute of Molecular Medicine and Bioengineering</div>
-                        <div class="adm-link adm-link_margin adm-text">Master’s and Ph.D. <br>Programs</div>
+                        <div class="adm-link adm-link_margin adm-text">Master's and Ph.D. <br>Programs</div>
                 </div>
-                <div class="adm-text_block1 text adm-tb2">To expend the research of molecular and cell biology to develop more theoretical bases and related applications. 
-To continue the fundamental research of and extensions of nano-material applications on the molecular medicine inspired by current bases and results of cell and microorganism research.</div>
+                <div class="adm-text_block1 text adm-tb2">
+                    To expend the research of molecular and cell biology to develop more theoretical
+                    bases and related applications. 
+                    To continue the fundamental research of and extensions of nano-material applications on the molecular medicine inspired by current bases and results of cell and microorganism research.</div>
                 <a href="http://bioce.life.nctu.edu.tw/"><div class="adm_image_disappear read_more adm-ti2"></div></a>
             </div>
             <div class="adm-block1">
                 <div class="adm-block_r adm-br3">
                     <div class="adm-rec_item" data-num="3">The Institute of Bioinformatics and Systems Biology</div>
-                        <div class="adm-link adm-link_margin adm-text">Master’s and Ph.D.<br>Programs</div>
+                        <div class="adm-link adm-link_margin adm-text">Master's and Ph.D.<br>Programs</div>
                 </div>
                 <div class="adm-text_block1 text adm-tb3">To pay equal attention to both teaching and research; to combine the fundamentals with the practice; to focus on interdisciplinary research and development; to cultivate the talents of bioinformatics and system biology with the emphasis on both theories and applications, and thus to become a top international teaching and research institute.</div>
                 <a href="http://bioinfo.nctu.edu.tw/"><div class="adm_image_disappear read_more adm-ti3"></div></a>
@@ -82,7 +87,7 @@ To continue the fundamental research of and extensions of nano-material applicat
                     <div class="adm-rec_item" data-num="4">Ph.D. Program in Biomedical Science and Engineering</div>
                         <div class="adm-link adm-link_margin adm-text">Ph.D.<br>Program</div>
                 </div>
-                <div class="adm-text_block1 text adm-tb4">Recently, the interdisciplinary research area of “Biomedical Science and Engineering” is the most important and fully developing one at NCTU. It is one of the most important development strategies for NCTU to achieve the goal as one of the top international universities. This Ph.D. program combines the rich and solid cross-college resources and the research potential of NCTU Colleges of Biological Science and Technology, Electrical and Computer Engineering, Computer Science, Science, Engineering, and Photonics. It aims to nurture clinicians with the research outcomes of modern biomedical science and engineering to help the innovation and effectiveness in their medical and diagnostic work. It also intends to lead in the world’s top biomedical science and engineering research and accelerate the development of the emerging biomedical industry. Students in this program may choose their dissertation advisor from any full-time faculty of the Colleges of Biological Science and Technology, Electrical and Computer Engineering, Computer Science, Science, Engineering, and Photonics. Students are welcome to schedule talks with faculty members prior to applying for admission.</div>
+                <div class="adm-text_block1 text adm-tb4">Recently, the interdisciplinary research area of “Biomedical Science and Engineering” is the most important and fully developing one at NCTU. It is one of the most important development strategies for NCTU to achieve the goal as one of the top international universities. This Ph.D. program combines the rich and solid cross-college resources and the research potential of NCTU Colleges of Biological Science and Technology, Electrical and Computer Engineering, Computer Science, Science, Engineering, and Photonics. It aims to nurture clinicians with the research outcomes of modern biomedical science and engineering to help the innovation and effectiveness in their medical and diagnostic work. It also intends to lead in the world's top biomedical science and engineering research and accelerate the development of the emerging biomedical industry. Students in this program may choose their dissertation advisor from any full-time faculty of the Colleges of Biological Science and Technology, Electrical and Computer Engineering, Computer Science, Science, Engineering, and Photonics. Students are welcome to schedule talks with faculty members prior to applying for admission.</div>
                 <a href="http://biose-phd.life.nctu.edu.tw/"><div class="adm_image_disappear read_more adm-ti4"></div></a>
             </div>
             <div class="adm-block1">
@@ -98,7 +103,7 @@ To continue the fundamental research of and extensions of nano-material applicat
                     <div class="adm-rec_item adm-rec_item_w" data-num="6">Ph.D. Program in Industrial Development</div>
                         <div class="adm-link adm-link_margin adm-text">Ph.D.<br>Program</div>
                 </div>
-                <div class="adm-text_block1 adm-text_block1_w text adm-tb6">This Ph.D. program is established to cultivate doctoral talents with advanced visions for the biotechnology industry, innovative technologies needed for the development of industry, and R&D capabilities on biotechnology product research. Its main development is to create a precise biomedical research and development platform and to integrate the university’s interdisciplinary research with industry. Based upon academic research, the program sets up its main direction to help to solve the problem on clinic medicine and industrial applications. It is expected to integrate the interdisciplinary technology and faculty resources of the college with the strong R&D capabilities of the university’s information and communication technology (ICT) and thus bring Taiwan’s biotechnology industry into the innovative domain. It will not only upgrade the domestic biotechnology industry but also establish a mutually beneficial model of industry-academia cooperation.
+                <div class="adm-text_block1 adm-text_block1_w text adm-tb6">This Ph.D. program is established to cultivate doctoral talents with advanced visions for the biotechnology industry, innovative technologies needed for the development of industry, and R&D capabilities on biotechnology product research. Its main development is to create a precise biomedical research and development platform and to integrate the university's interdisciplinary research with industry. Based upon academic research, the program sets up its main direction to help to solve the problem on clinic medicine and industrial applications. It is expected to integrate the interdisciplinary technology and faculty resources of the college with the strong R&D capabilities of the university's information and communication technology (ICT) and thus bring Taiwan's biotechnology industry into the innovative domain. It will not only upgrade the domestic biotechnology industry but also establish a mutually beneficial model of industry-academia cooperation.
 </div>
                 <!-- 了解更多 -->
                 <a href="https://pidcbt.nctu.edu.tw"><div class="adm_image_disappear read_more adm-ti6"></div></a>

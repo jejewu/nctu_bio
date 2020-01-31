@@ -135,7 +135,7 @@ get_header(en_header); ?>
         <div class="container">
             <div id="p5-left"></div>
             <div id="p5-right"></div>
-            <a href="<?php echo site_url(); ?>/admissions">
+            <a href="<?php echo site_url(); ?>/en-admissions">
                 <div id="p5-left-button">
                     High School Students
                 </div>

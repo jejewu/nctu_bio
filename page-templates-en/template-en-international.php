@@ -145,7 +145,7 @@
                     while($the_query->have_posts()):
                         $the_query->the_post();
                 ?>
-	<div class="ic-text_block mobilehidden"> <!--formobile-->
+	<div class="ic-text_block mobilehidden"> 
         <div class="ic-text_block1 text_<?php echo $num.$short_color; ?>">
             <div class="subtitled ic-text1 formobile"><?php the_field('college_and_locationation'); ?></div>
             <div class="subtitled ic-text1 mobilehidden" style="color:<?php echo $color_code;?>;"><?php the_field('college_and_locationation'); ?></div>

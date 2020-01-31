@@ -137,6 +137,22 @@
     margin-top: 10vh;
     border: solid 0px green;
 }
+.div0::before{
+    content:'';
+    width:0;
+    height:100%;
+    display:inline-block;
+    position:relative;
+    vertical-align:middle;
+    background:#f00;
+}
+.for-middle{
+    width:30px;
+    height:30px;
+    /*background:#c00;*/
+    text-align: center;
+    display:inline-block;
+}
 .ra-circle_b{
     position: absolute;
     left: 13.6vmin;
@@ -159,7 +175,7 @@
     border: solid 3px white;
     color: white;
     line-height: 1.5em;
-    font-size: 1em;
+    font-size: 0.5em;
     text-align: center;
     font-weight: 400;
     opacity: 0.5;
@@ -209,6 +225,11 @@
     top: 25vmin;
 }
 
+.vertival_center_for_middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
 .vertival_center {
     display: table-cell;
     vertical-align: middle;
@@ -235,7 +256,7 @@
 
 .ra-subtitle{
 	font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
-    font-size: 2em;
+    font-size: 1em;
     font-weight: 400;
     letter-spacing: 0.075em;
 }
@@ -261,7 +282,7 @@ hr.ra-hr{
     line-height: 5vh;
     color: white;
     font-weight: 300;
-    font-size: 2em;
+    font-size: 1em;
 }
 .ra-text{
     height: 4vh;
@@ -293,7 +314,7 @@ hr.ra-hr{
 }
 .mp-subtitled{
     font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
-    font-size: 18px; /*1.5em*/
+    font-size: 1em; /*1.5em*/
     font-weight: 350;
     line-height: 34px; /*2.833em*/
     letter-spacing: 1.2px; /*0.1em*/
