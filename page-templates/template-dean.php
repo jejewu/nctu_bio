@@ -34,20 +34,20 @@ get_header();
             <!--<a target="_blank" href="https://cbt.nctu.edu.tw/wp-content/uploads/CVCHiun-Hsun-Chen.doc"><div class="dean-cv_icon"></div></a>-->
             <div class="clear_both"></div>
             <hr class="dean_hr mobilehidden">
-            <div class="dean-option-wrapper dean-height1">
-                <div class="dean-option">學歷</div>
+            <!-- <div class="dean-option-wrapper dean-height1">
+                <div class="dean-option">學歷</div> -->
                 <!--<div class="dean-discript dean-width1">化學系博士 / 杜蘭大學, 美國<br>化學研究所碩士 / 成功大學, 台灣<br>化學系學士 / 清華大學, 台灣</div>-->
-                <div class="dean-discript dean-width1"><?php the_field('education'); ?></div>
-            </div>
-            <div class="dean-option-wrapper dean-height2">
+                <!-- <div class="dean-discript dean-width1"><?php the_field('education'); ?></div>
+            </div> -->
+            <div class="dean-option-wrapper dean-height1">
                 <div class="dean-option">經歷</div>
                 <!--<div class="dean-discript dean-width2">院長 / 交通大學理學院<br>訪問學者 / 德國杜賓根大學<br>學門召集人 / 國科會自然處化學門<br>訪問教授 / 瑞典林雪萍大學<br>學務長 / 國立交通大學<br>審議委員 / 國科會生物處生化學門<br>教授兼系主任 / 國立交通大學應用化學系<br>審議委員 / 國科會自然處化學門<br>教授 / 國立交通大學應用化學系所<br>訪問教授 / 加拿大英屬哥倫比亞大學<br>副教授 / 國立交通大學應用化學系<br>博士後研究員 / 美國約翰霍普金斯醫學院</div>-->
-                <div class="dean-discript dean-width2"><?php the_field('experience'); ?></div>
+                <div class="dean-discript dean-width1"><?php the_field('experience'); ?></div>
             </div>
-            <div class="dean-option-wrapper dean-height3">
+            <div class="dean-option-wrapper dean-height2">
                 <div class="dean-option">聯絡方式</div>
                 <!--<div class="dean-discript dean-width3">電子郵件 ykl@cc.nctu.edu.tw<br>連絡電話 886 - 3 - 5712121 # 31985<br>實驗室電話 886 - 3 - 5712121 # 56545</div>-->
-                <div class="dean-discript dean-width3"><?php the_field('contact'); ?></div>
+                <div class="dean-discript dean-width2"><?php the_field('contact'); ?></div>
             </div>
             <div class="dean-block">
                 <!--<div class="dean-block-text"><p>教育，</p><p>不僅止於本職學能的訓練，</p><p>更是氣質與氣度的培養。</p></div>-->
