@@ -22,7 +22,7 @@ get_header();
 
 </head> 
  
-<div class="mobile-photo"></div>
+<!--<div class="mobile-photo"></div>-->
 <div class="page-dean">
     <!--<div class="dean-photo"></div>-->
     <div class="container">
