@@ -32,8 +32,8 @@ get_header();
 			<a target="_blank" href="http://bio.life.nctu.edu.tw/?locale=zh_tw"><div class="ac-text">生物科技學系</div></a>
 			<div class="ac-text">-</div>
 			<a target="_blank" href="http://bio.life.nctu.edu.tw/?locale=zh_tw"><div class="ac-text">生物科技學系暨研究所</div></a>
-			<a target="_blank" href="http://bioinfo.nctu.edu.tw/?locale-zh_tw"><div class="ac-text">生物資訊與系統生物學研究所</div></a>
-			<a target="_blank" href="http://bioce.life.nctu.edu.tw/"><div class="ac-text">分子醫學與生物工程研究所</div></a>
+			<a target="_blank" href="https://ibs.nctu.edu.tw/#1"><div class="ac-text">生物資訊與系統生物學研究所</div></a>
+			<a target="_blank" href="https://imb.nctu.edu.tw/#1"><div class="ac-text">分子醫學與生物工程研究所</div></a>
 			<div class="ac-text">-</div>
 			<a target="_blank" href="https://ustnc.ym.edu.tw//bin/home.php"><div class="ac-text">跨領域神經科學博士學位學程</div></a>
 			<a target="_blank" href="http://biose-phd.life.nctu.edu.tw/"><div class="ac-text">生醫科學與工程博士學位學程</div></a>
