@@ -187,10 +187,6 @@ get_header(); ?>
                             <?php echo $translate ? '' : ' | 網頁導覽' ?> | 
                         </a>
 
-                        <a href="http://www.life.nctu.edu.tw">
-                             <?php echo $translate ? 'Old Version' : '舊版網頁' ?> | 
-                        </a>
-
                         <a href="https://cbt.nctu.edu.tw/wp-content/uploads/網頁規範.pdf">
                             <?php echo $translate ? 'Web Design Guideline' : '設計規範' ?>
                         </a>

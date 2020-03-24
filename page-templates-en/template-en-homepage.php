@@ -178,10 +178,6 @@ get_header(en_header); ?>
                             | 網頁導覽
                         </a>
 
-                        <a href="http://www.life.nctu.edu.tw">
-                            | Old Version
-                        </a>
-
                         <a href="https://cbt.nctu.edu.tw/wp-content/uploads/網頁規範.pdf">
                             | Web Design Guideline
                         </a>
