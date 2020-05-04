@@ -395,7 +395,7 @@
                 <div class="info-title">工友</div>
                 <div class="name">葉連發</div>
                 <div class="line"></div>
-                <div class="information">館舍維護 收發信件<br>yah@mail.nctu.edu.tw<br>03-5712121 # 53008</div>
+                <div class="information">館舍維護 收發信件<br> yah@mail.nctu.edu.tw<br>03-5712121 # 53008</div>
             </div>
             <div class="photo">
                 <div class="photo-7"></div>
