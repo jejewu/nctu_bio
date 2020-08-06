@@ -230,7 +230,7 @@
                     <div class="first_first_line">行政專員</div>
                     <div class="first_second_line">呂聖鈴</div>
                     <div class="middle_line"><hr></div>
-                    <div class="first_third_line">研究計畫及財產等事務<br>shenq@cc.nctu.edu.tw<br>03-5712121 # 56902</div>
+                    <div class="first_third_line">研究計畫及財產等事務<br>shenq@mail.nctu.edu.tw<br>03-5712121 # 56902</div>
                 </div>
             </div>
             <div class="ra-circle_first_block_2">

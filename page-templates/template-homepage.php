@@ -23,8 +23,12 @@ get_header(); ?>
             <li></li>
         </ul>
     </div>
-    <div class="hp-p01_next hp-p01_1" style="display:none;"></div>
+    <div class="hp-p01_next hp-p01_1" style="display:none;">
+    </div>
     <div class="hp-p01 hp-p01_0">
+        
+            <a href="https://2020nycus.nctu.edu.tw/"><div id="for_herf"></div></a>
+        
         <?php if (!$translate) { ?>
         <div class="language-opt">
             <div class="lang-left lang-choose">
@@ -111,6 +115,7 @@ get_header(); ?>
                         <div class="hp-img_mask"></div>
                     </div>
                 </div>
+
                 <div class="hp-img_wrapper">
                     <div class="hp-img" style="background-image:url(<?php bloginfo('template_url')?>/image/photo_02.jpg);">
                         <div class="hp-img_mask"></div>
@@ -126,6 +131,8 @@ get_header(); ?>
                         <div class="hp-img_mask"></div>
                     </div>
                 </div>
+
+
                 <div class="hp-img_wrapper_wide">
                     <div class="hp-img" style="background-image:url(<?php bloginfo('template_url')?>/image/photo_05.jpg);">
                         <div class="hp-img_mask"></div>
@@ -220,8 +227,16 @@ get_header(); ?>
     
     function showNext(){
         old_bg = now_bg;
-        now_bg = (now_bg+1)%6; /* 輪播圖總數量 */
-        next_bg = (now_bg+1)%6;
+        now_bg = (now_bg+1)%3;
+        next_bg = (now_bg+1)%3;
+        if("hp-p01_"+now_bg === "hp-p01_0"){
+            var for_herf = document.getElementById('for_herf');
+            for_herf.style.display='block';
+        }
+        else{
+            var for_herf = document.getElementById('for_herf');
+            for_herf.style.display='none';
+        }
         $(".hp-p01").addClass("hp-p01_"+now_bg).removeClass("hp-p01_"+old_bg);
         $(".hp-p01_next").addClass("hp-p01_"+next_bg).removeClass("hp-p01_"+now_bg);
         timer = setTimeout(showNext, frequency);
